@@ -1,0 +1,11 @@
+'menu': [
+  {
+    'label': 'PlatformIO'
+    'submenu': [
+      {
+        'label': 'Install Shell Commands'
+        'command': 'platformio-atom:installCommands'
+      }
+    ]
+  }
+]

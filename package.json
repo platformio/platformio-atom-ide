@@ -1,0 +1,40 @@
+{
+  "name": "platformio-atom",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Official Atom package for integration with PlatformIO an open source ecosystem for IoT development. Cross-platform code builder and library manager. Continuous and IDE integration. Arduino and MBED compatible. Ready for Cloud compiling.",
+  "keywords": [
+    "PlatformIO",
+    "IoT",
+    "embedded",
+    "arduino",
+    "mbed",
+    "build",
+    "library manager",
+    "esp8266",
+    "toolchain"
+  ],
+  "repository": "https://github.com/platformio/platformio-atom",
+  "license": "GPL-2.0",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "PlatformIO support for Atom",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-dependencies": "^1.0.3",
+    "temp": "^0.8.3",
+    "tarball-extract": "^0.0.3"
+  },
+  "package-dependencies": {
+    "build": "",
+    "autocomplete-clang": "",
+    "terminal-plus": ""
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "esnext": true,
+  "node": true,
+  "sub": true,
+  "globals": {
+    "atom": true
+  }
+}
