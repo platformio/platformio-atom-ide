@@ -35,6 +35,7 @@
   "package-dependencies": {
     "build": "",
     "autocomplete-clang": "",
-    "terminal-plus": ""
+    "terminal-plus": "",
+    "language-ini": ""
   }
 }
