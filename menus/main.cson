@@ -6,6 +6,10 @@
         'label': 'Install Shell Commands'
         'command': 'platformio-atom:installCommands'
       }
+      {
+        'label': 'Initialize new Project'
+        'command': 'platformio-atom:initializeNewProject'
+      }
     ]
   }
 ]
