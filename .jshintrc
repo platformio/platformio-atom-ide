@@ -2,7 +2,11 @@
   "esnext": true,
   "node": true,
   "sub": true,
+  "undef": true,
+  "unused": true,
   "globals": {
-    "atom": true
+    "atom": true,
+    "localStorage": true,
+    "DOMParser": true
   }
 }

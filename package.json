@@ -29,8 +29,9 @@
   },
   "dependencies": {
     "atom-package-dependencies": "^1.0.3",
-    "temp": "^0.8.3",
-    "tarball-extract": "^0.0.3"
+    "rimraf": "^2.5.0",
+    "tarball-extract": "^0.0.3",
+    "temp": "^0.8.3"
   },
   "package-dependencies": {
     "build": "",
