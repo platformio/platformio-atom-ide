@@ -3,12 +3,12 @@
     'label': 'PlatformIO'
     'submenu': [
       {
-        'label': 'Install Shell Commands'
-        'command': 'platformio-atom:installCommands'
-      }
-      {
         'label': 'Initialize new Project'
         'command': 'platformio-atom:initializeNewProject'
+      }
+      {
+        'label': 'Install Shell Commands'
+        'command': 'platformio-atom:installCommands'
       }
     ]
   }
