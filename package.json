@@ -15,7 +15,7 @@
     "esp8266",
     "toolchain"
   ],
-  "repository": "https://github.com/platformio/platformio-atom",
+  "repository": "https://github.com/platformio/platformio-atom-ide",
   "license": "GPL-2.0",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
