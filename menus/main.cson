@@ -6,9 +6,50 @@
         'label': 'Initialize new Project'
         'command': 'platformio-ide:initializeNewProject'
       }
+      {'type': 'separator'}
       {
         'label': 'Install Shell Commands'
         'command': 'platformio-ide:installCommands'
+      }
+      {'type': 'separator'}
+      {
+        'label': 'Help'
+        'submenu': [
+          {
+            'label': 'Documentation'
+            'command': 'platformio-ide:help.docs'
+          }
+          {
+            'label': 'Frequently Asked Questions'
+            'command': 'platformio-ide:help.faq'
+          }
+          {
+            'label': 'Report PlatformIO issue'
+            'command': 'platformio-ide:help.reportPlatformIOIssue'
+          }
+          {
+            'label': 'Report PlatformIO IDE issue'
+            'command': 'platformio-ide:help.reportPlatformIOIDEIssue'
+          }
+          {
+            'label': 'Tech Support Live Chat'
+            'command': 'platformio-ide:help.liveChat'
+          }
+          {'type': 'separator'}
+          {
+            'label': 'Twitter'
+            'command': 'platformio-ide:help.twitter'
+          }
+          {
+            'label': 'Facebook'
+            'command': 'platformio-ide:help.facebook'
+          }
+          {'type': 'separator'}
+          {
+            'label': 'About'
+            'command': 'platformio-ide:help.about'
+          }
+        ]
       }
     ]
   }
