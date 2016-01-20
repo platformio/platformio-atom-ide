@@ -4,11 +4,11 @@
     'submenu': [
       {
         'label': 'Initialize new Project'
-        'command': 'platformio-atom:initializeNewProject'
+        'command': 'platformio-ide:initializeNewProject'
       }
       {
         'label': 'Install Shell Commands'
-        'command': 'platformio-atom:installCommands'
+        'command': 'platformio-ide:installCommands'
       }
     ]
   }
