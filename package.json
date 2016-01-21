@@ -28,6 +28,13 @@
       }
     }
   },
+  "consumedServices": {
+    "runInTerminal": {
+      "versions": {
+        "^0.14.5": "consumeRunInTerminal"
+      }
+    }
+  },
   "dependencies": {
     "atom-package-dependencies": "^1.0.3",
     "rimraf": "^2.5.0",

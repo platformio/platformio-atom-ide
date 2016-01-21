@@ -30,7 +30,15 @@
       {'type': 'separator'}
       {
         'label': 'Install Shell Commands'
-        'command': 'platformio-ide:installCommands'
+        'command': 'platformio-ide:maintenance.installCommands'
+      }
+      {
+        'label': 'Serial Monitor'
+        'command': 'platformio-ide:miantenance.serialMonitor'
+      }
+      {
+        'label': 'Terminal'
+        'command': 'platformio-ide:miantenance.openTerminal'
       }
       {'type': 'separator'}
       {
