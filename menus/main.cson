@@ -9,7 +9,15 @@
       {'type': 'separator'}
       {
         'label': 'Build'
-        'command': 'build:trigger'
+        'command': 'build:trigger:PlatformIO: Build'
+      }
+      {
+        'label': 'Upload'
+        'command': 'build:trigger:PlatformIO: Upload'
+      }
+      {
+        'label': 'Clean'
+        'command': 'build:trigger:PlatformIO: Clean'
       }
       {
         'label': 'Toggles the build panel'
