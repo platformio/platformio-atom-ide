@@ -41,7 +41,7 @@ More details [Atom Build package](https://atom.io/packages/build).
 
 PlatformIO IDE uses [clang](http://clang.llvm.org) for the code autocompletion
 and linting. To check if `clang` is available in your system, please open
-Terminal and run `> clang -v`. If `clang` is not installed, then install it:
+Terminal and run `clang -v`. If `clang` is not installed, then install it:
 
 - **Mac OS X**: Install the latest Xcode along with the latest Command Line Tools
   (they are installed automatically when you run `clang` in Terminal for the
