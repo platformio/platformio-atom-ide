@@ -3,7 +3,7 @@
     'label': 'PlatformIO'
     'submenu': [
       {
-        'label': 'Initialize new Project'
+        'label': 'Initialize new Project (or update exiting)'
         'command': 'platformio-ide:initializeNewProject'
       }
       {'type': 'separator'}
