@@ -37,8 +37,10 @@
   "package-dependencies": {
     "build": "",
     "autocomplete-clang": "",
+    "linter": "",
+    "linter-clang": "",
     "terminal-plus": "",
     "language-ini": "",
-    "language-ino": ""
+    "language-arduino": ""
   }
 }
