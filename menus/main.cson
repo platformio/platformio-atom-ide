@@ -8,6 +8,10 @@
       }
       {'type': 'separator'}
       {
+        'label': 'Serial Monitor'
+        'command': 'platformio-ide:miantenance.serialMonitor'
+      }
+      {
         'label': 'Install Shell Commands'
         'command': 'platformio-ide:installCommands'
       }
