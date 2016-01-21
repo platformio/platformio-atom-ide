@@ -41,12 +41,23 @@
   width: 100%;
   margin-bottom: 1em;
 }
+
+@pio-version-space: .5em;
+
 .pio-about {
   text-align: center;
 
   &.about {
     padding-top: 2em ;
     padding-bottom: 2em;
+  }
+
+  .version {
+    margin: auto @pio-version-space;
+
+    .version-string {
+      margin-left: @pio-version-space;
+    }
   }
 }
 
