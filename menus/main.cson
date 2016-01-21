@@ -46,6 +46,10 @@
           }
           {'type': 'separator'}
           {
+            'label': 'Website'
+            'command': 'platformio-ide:help.website'
+          }
+          {
             'label': 'About'
             'command': 'platformio-ide:help.about'
           }
