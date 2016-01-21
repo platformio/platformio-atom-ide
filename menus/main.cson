@@ -12,6 +12,10 @@
         'command': 'platformio-ide:miantenance.serialMonitor'
       }
       {
+        'label': 'Terminal'
+        'command': 'platformio-ide:miantenance.openTerminal'
+      }
+      {
         'label': 'Install Shell Commands'
         'command': 'platformio-ide:installCommands'
       }
