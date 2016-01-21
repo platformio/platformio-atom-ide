@@ -24,7 +24,7 @@
         'command': 'build:select-active-target'
       }
       {
-        'label': 'Toggles the build panel'
+        'label': 'Toggle the build panel'
         'command': 'build:toggle-panel'
       }
       {'type': 'separator'}
@@ -36,14 +36,22 @@
         'label': 'Serial Ports'
         'command': 'platformio-ide:maintenance.serialPorts'
       }
-      {'type': 'separator'}
       {
         'label': 'Terminal'
         'command': 'platformio-ide:maintenance.openTerminal'
       }
+      {'type': 'separator'}
       {
         'label': 'Install Shell Commands'
         'command': 'platformio-ide:maintenance.installCommands'
+      }
+      {
+        'label': 'Update platforms and libraries'
+        'command': 'platformio-ide:maintenance.updatePlatformIO'
+      }
+      {
+        'label': 'Upgrade PlatformIO'
+        'command': 'platformio-ide:maintenance.upgradePlatformIO'
       }
       {'type': 'separator'}
       {
@@ -57,6 +65,7 @@
             'label': 'Frequently Asked Questions'
             'command': 'platformio-ide:help.faq'
           }
+          {'type': 'separator'}
           {
             'label': 'Report PlatformIO issue'
             'command': 'platformio-ide:help.reportPlatformIOIssue'

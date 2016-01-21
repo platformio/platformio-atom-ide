@@ -1,0 +1,8 @@
+{
+  ".platform-darwin atom-workspace, .platform-darwin atom-text-editor": {
+    "cmd-shift-t": "platformio-ide:maintenance.openTerminal"
+  },
+  ".platform-linux atom-workspace, .platform-linux atom-text-editor, .platform-win32 atom-workspace, .platform-win32 atom-text-editor": {
+    "alt-shift-t": "platformio-ide:maintenance.openTerminal"
+  }
+}
