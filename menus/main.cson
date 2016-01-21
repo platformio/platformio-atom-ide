@@ -29,16 +29,21 @@
       }
       {'type': 'separator'}
       {
-        'label': 'Install Shell Commands'
-        'command': 'platformio-ide:maintenance.installCommands'
+        'label': 'Serial Monitor'
+        'command': 'platformio-ide:maintenance.serialMonitor'
       }
       {
-        'label': 'Serial Monitor'
-        'command': 'platformio-ide:miantenance.serialMonitor'
+        'label': 'Serial Ports'
+        'command': 'platformio-ide:maintenance.serialPorts'
       }
+      {'type': 'separator'}
       {
         'label': 'Terminal'
-        'command': 'platformio-ide:miantenance.openTerminal'
+        'command': 'platformio-ide:maintenance.openTerminal'
+      }
+      {
+        'label': 'Install Shell Commands'
+        'command': 'platformio-ide:maintenance.installCommands'
       }
       {'type': 'separator'}
       {
