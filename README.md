@@ -27,11 +27,12 @@ libOpenCM3, ESP8266, etc.*
 
 ### Building / Programming / Uploading
 
-* `cmd-alt-b` / `ctrl-alt-b` / `f9` builds project.
+* `cmd-alt-t` / `ctrl-alt-t` / `f7` Displays the available targets (build, upload, program, uploadfs, clean, etc).
+* `cmd-alt-b` / `ctrl-alt-b` / `f9` build project without auto-uploading.
+* `ctrl-alt-u` / build and upload (if no errors).
 * `cmd-alt-g` / `ctrl-alt-g` / `f4` cycles through causes of build error.
 * `cmd-alt-h` / `ctrl-alt-h` / `shift-f4` goes to the first build error.
 * `cmd-alt-v` / `ctrl-alt-v` / `f8` Toggles the build panel.
-* `cmd-alt-t` / `ctrl-alt-t` / `f7` Displays the available build targets.
 * `escape` terminates build / closes the build window.
 
 ### Code autocompletion and Linting

@@ -8,6 +8,19 @@
       }
       {'type': 'separator'}
       {
+        'label': 'Build'
+        'command': 'build:trigger'
+      }
+      {
+        'label': 'Show availalbe targets'
+        'command': 'build:select-active-target'
+      }
+      {
+        'label': 'Toggles the build panel'
+        'command': 'build:toggle-panel'
+      }
+      {'type': 'separator'}
+      {
         'label': 'Install Shell Commands'
         'command': 'platformio-ide:installCommands'
       }
