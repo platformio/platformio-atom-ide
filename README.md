@@ -27,12 +27,11 @@ libOpenCM3, ESP8266, etc.*
 
 ### Building / Programming / Uploading
 
-* `cmd-alt-t` / `ctrl-alt-t` / `f7` Displays the available targets (build, upload, program, uploadfs, clean, etc).
-* `cmd-alt-b` / `ctrl-alt-b` / `f9` build project without auto-uploading.
-* `ctrl-alt-u` / build and upload (if no errors).
+* `cmd-alt-t` / `ctrl-alt-t` / `f7` displays the available targets (build, upload, program, uploadfs, clean, etc).
+* `cmd-alt-b` / `ctrl-alt-b` / `f9` builds project without auto-uploading.
 * `cmd-alt-g` / `ctrl-alt-g` / `f4` cycles through causes of build error.
 * `cmd-alt-h` / `ctrl-alt-h` / `shift-f4` goes to the first build error.
-* `cmd-alt-v` / `ctrl-alt-v` / `f8` Toggles the build panel.
+* `cmd-alt-v` / `ctrl-alt-v` / `f8` toggles the build panel.
 * `escape` terminates build / closes the build window.
 
 More details [Atom Build package](https://atom.io/packages/build).
@@ -49,7 +48,7 @@ Terminal and run `clang -v`. If `clang` is not installed, then install it:
 - **Windows**: Download the latest [Clang for Windows](http://llvm.org/releases/download.html).
   Please select "Add to PATH" option on the installation step.
 - **Linux**: Using package managers: `apt-get install clang` or `yum install clang`.
-- **Other**: Download the latest [Clang for the other systems](http://llvm.org/releases/download.html).
+- **Other Systems**: Download the latest [Clang for the other systems](http://llvm.org/releases/download.html).
 
 **Warning**: If you have previously generated PlatformIO project you need to
 reinitialize it using `Menu: PlatformIO > Initialize new Project (or update exiting)`
