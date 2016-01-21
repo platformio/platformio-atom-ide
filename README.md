@@ -18,17 +18,19 @@ libOpenCM3, ESP8266, etc.*
 ## Requirements
 
 * **Python Interpreter**: Python 2.6 or 2.7 (*Windows OS*: Please [Download the latest Python 2.7.x](https://www.python.org/downloads/)
-  and install it. DON’T FORGET to select `Add python.exe to PATH` feature on
+  and install it. DON'T FORGET to select `Add python.exe to PATH` feature on
   the "Customize" stage, otherwise `python` command will not be available).
 * **Git**: Please [install the latest version](https://git-scm.com/downloads).
   Check that `git --version` command works in Terminal.
 
 ## Using
 
-### Building / Programming / Uploading
+### Building / Uploading / etc.
 
-* `cmd-alt-t` / `ctrl-alt-t` / `f7` displays the available targets (build, upload, program, uploadfs, clean, etc).
 * `cmd-alt-b` / `ctrl-alt-b` / `f9` builds project without auto-uploading.
+* `cmd-alt-u` / `ctrl-alt-u` builds and uploads (if no errors).
+* `cmd-alt-c` / `ctrl-alt-c` cleans compiled objects.
+* `cmd-alt-t` / `ctrl-alt-t` / `f7` run other targets (Upload using Programmer, Upload SPIFFS image, Update platforms and libraries).
 * `cmd-alt-g` / `ctrl-alt-g` / `f4` cycles through causes of build error.
 * `cmd-alt-h` / `ctrl-alt-h` / `shift-f4` goes to the first build error.
 * `cmd-alt-v` / `ctrl-alt-v` / `f8` toggles the build panel.
