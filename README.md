@@ -51,7 +51,7 @@ Terminal and run `clang -v`. If `clang` is not installed, then install it:
 - **Other Systems**: Download the latest [Clang for the other systems](http://llvm.org/releases/download.html).
 
 **Warning**: If you have previously generated PlatformIO project you need to
-reinitialize it using `Menu: PlatformIO > Initialize new Project (or update exiting)`
+reinitialize it using `Menu: PlatformIO > Initialize new Project (or update existing)`
 and specify for the which board should be generated Code autocompletion and Linting data.
 
 ## Licence

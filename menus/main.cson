@@ -3,7 +3,7 @@
     'label': 'PlatformIO'
     'submenu': [
       {
-        'label': 'Initialize new Project (or update exiting)'
+        'label': 'Initialize new Project (or update existing)'
         'command': 'platformio-ide:initializeNewProject'
       }
       {'type': 'separator'}
@@ -20,12 +20,12 @@
         'command': 'build:trigger:PlatformIO: Clean'
       }
       {
-        'label': 'Toggles the build panel'
-        'command': 'build:toggle-panel'
+        'label': 'Run other target...'
+        'command': 'build:select-active-target'
       }
       {
-        'label': 'Run target...'
-        'command': 'build:select-active-target'
+        'label': 'Toggles the build panel'
+        'command': 'build:toggle-panel'
       }
       {'type': 'separator'}
       {
