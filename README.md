@@ -35,6 +35,8 @@ libOpenCM3, ESP8266, etc.*
 * `cmd-alt-v` / `ctrl-alt-v` / `f8` Toggles the build panel.
 * `escape` terminates build / closes the build window.
 
+More details [Atom Build package](https://atom.io/packages/build).
+
 ### Code autocompletion and Linting
 
 PlatformIO IDE uses [clang](http://clang.llvm.org) for the code autocompletion
