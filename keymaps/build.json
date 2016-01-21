@@ -15,7 +15,7 @@
     "ctrl-alt-h": "build:error-match-first",
     "ctrl-alt-t": "build:select-active-target",
     "ctrl-alt-c": "build:trigger:PlatformIO: Clean",
-    "ctrl-alt-u": "build:trigger:PlatformIO: Upload"     
+    "ctrl-alt-u": "build:trigger:PlatformIO: Upload"
   },
   "atom-workspace, atom-text-editor": {
     "f9": "build:trigger",
