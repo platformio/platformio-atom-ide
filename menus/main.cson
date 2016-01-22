@@ -29,10 +29,6 @@
       }
       {'type': 'separator'}
       {
-        'label': 'Serial Monitor'
-        'command': 'platformio-ide:maintenance.serialMonitor'
-      }
-      {
         'label': 'Serial Ports'
         'command': 'platformio-ide:maintenance.serialPorts'
       }

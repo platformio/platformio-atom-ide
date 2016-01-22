@@ -28,13 +28,6 @@
       }
     }
   },
-  "consumedServices": {
-    "runInTerminal": {
-      "versions": {
-        "^0.15.0": "consumeRunInTerminal"
-      }
-    }
-  },
   "dependencies": {
     "atom-package-dependencies": "^1.0.3",
     "rimraf": "^2.5.0",
@@ -46,7 +39,7 @@
     "autocomplete-clang": "",
     "linter": "",
     "linter-clang": "",
-    "platformio-ide-terminal-plus": "",
+    "ult-terminal": "",
     "language-ini": "",
     "language-arduino": ""
   }
