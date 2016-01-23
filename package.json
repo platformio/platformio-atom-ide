@@ -1,7 +1,7 @@
 {
   "name": "platformio-ide",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Official PlatformIO IDE for Atom. PlatformIO is an open source ecosystem for IoT development. Cross-platform code builder and library manager. Continuous and IDE integration. Arduino and MBED compatible. Ready for Cloud compiling.",
   "keywords": [
     "PlatformIO",
