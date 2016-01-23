@@ -17,11 +17,11 @@ libOpenCM3, ESP8266, etc.*
 
 ## Requirements
 
-* **Python Interpreter**: Python 2.6 or 2.7 (*Windows OS*: Please [Download the latest Python 2.7.x](https://www.python.org/downloads/)
-  and install it. DON'T FORGET to select `Add python.exe to PATH` feature on
-  the "Customize" stage, otherwise `python` command will not be available).
-* **Git**: Please [install the latest version](https://git-scm.com/downloads).
-  Check that `git --version` command works in Terminal.
+The only one requirement is [Python Interpreter](https://www.python.org). PlatformIO is written in Python and works on Mac OS X, Linux, Windows OS and ARM-based credit-card sized computers (Raspberry Pi, BeagleBone, CubieBoard).
+
+*Windows OS*: Please [Download the latest Python 2.7.x](https://www.python.org/downloads/)
+and install it. DON'T FORGET to select `Add python.exe to PATH` feature on
+the "Customize" stage, otherwise `python` command will not be available).
 
 ## Using
 
@@ -54,7 +54,7 @@ Terminal and run `clang -v`. If `clang` is not installed, then install it:
 
 **Warning**: If you have previously generated PlatformIO project you need to
 reinitialize it using `Menu: PlatformIO > Initialize new Project (or update existing)`
-and specify for the which board should be generated Code autocompletion and Linting data.
+and specify for the which board should be activated Code autocompletion and Linter.
 
 ## Licence
 
