@@ -11,9 +11,7 @@
     "arduino",
     "mbed",
     "build",
-    "library manager",
-    "esp8266",
-    "toolchain"
+    "library manager"
   ],
   "repository": "https://github.com/platformio/platformio-atom-ide",
   "license": "GPL-2.0",

@@ -11,9 +11,17 @@ libOpenCM3, ESP8266, etc.*
 
 ## Features
 
-* Cross-platform Project builder without external dependencies to the system software (200+ embedded boards, 15+ development platforms and 10+ frameworks).
-* C/C++ Intellisense (smart code autocompletion)
-* Linter for C/C++ code
+* Cross-platform builder without external dependencies to the system
+  software:
+
+    - 200+ embedded boards
+    - 15+ development platforms
+    - 10+ frameworks
+
+* C/C++ Intelligent code completion
+* C/C++ Code Linter
+* Library Manager
+* Built-in Terminal  
 
 ## Requirements
 
@@ -23,38 +31,11 @@ The only one requirement is [Python Interpreter](https://www.python.org). Platfo
 and install it. DON'T FORGET to select `Add python.exe to PATH` feature on
 the "Customize" stage, otherwise `python` command will not be available).
 
-## Using
+## Documentation
 
-### Building / Uploading / etc.
+Please follow to the official documentation [PlatformIO IDE for Atom](http://docs.platformio.org/en/latest/ide/atom.html).
 
-* `cmd-alt-b` / `ctrl-alt-b` / `f9` builds project without auto-uploading.
-* `cmd-alt-u` / `ctrl-alt-u` builds and uploads (if no errors).
-* `cmd-alt-c` / `ctrl-alt-c` cleans compiled objects.
-* `cmd-alt-t` / `ctrl-alt-t` / `f7` run other targets (Upload using Programmer, Upload SPIFFS image, Update platforms and libraries).
-* `cmd-alt-g` / `ctrl-alt-g` / `f4` cycles through causes of build error.
-* `cmd-alt-h` / `ctrl-alt-h` / `shift-f4` goes to the first build error.
-* `cmd-alt-v` / `ctrl-alt-v` / `f8` toggles the build panel.
-* `escape` terminates build / closes the build window.
-
-More details [Atom Build package](https://atom.io/packages/build).
-
-### Code autocompletion and Linting
-
-PlatformIO IDE uses [clang](http://clang.llvm.org) for the code autocompletion
-and linting. To check if `clang` is available in your system, please open
-Terminal and run `clang -v`. If `clang` is not installed, then install it:
-
-- **Mac OS X**: Install the latest Xcode along with the latest Command Line Tools
-  (they are installed automatically when you run `clang` in Terminal for the
-  first time, or manually by running `xcode-select --install`
-- **Windows**: Download the latest [Clang for Windows](http://llvm.org/releases/download.html).
-  Please select "Add to PATH" option on the installation step.
-- **Linux**: Using package managers: `apt-get install clang` or `yum install clang`.
-- **Other Systems**: Download the latest [Clang for the other systems](http://llvm.org/releases/download.html).
-
-**Warning**: If you have previously generated PlatformIO project you need to
-reinitialize it using `Menu: PlatformIO > Initialize new Project (or update existing)`
-and specify for the which board should be activated Code autocompletion and Linter.
+![PlatformIO IDE for Atom](http://docs.platformio.org/en/latest/_images/ide-atom-platformio.png "PlatformIO IDE for Atom")
 
 ## Licence
 
