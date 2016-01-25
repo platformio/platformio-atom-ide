@@ -38,6 +38,15 @@
       }
       {'type': 'separator'}
       {
+        'label': 'Library Manager CLI'
+        'command': 'platformio-ide:maintenance.libmanager-cli'
+      }
+      {
+        'label': 'Library Manager GUI (soon)'
+        'command': 'platformio-ide:maintenance.libmanager-gui'
+      }
+      {'type': 'separator'}
+      {
         'label': 'Terminal'
         'command': 'platformio-ide:maintenance.openTerminal'
       }
