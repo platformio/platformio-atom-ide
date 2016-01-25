@@ -19,9 +19,9 @@ libOpenCM3, ESP8266, etc.*
     - 10+ frameworks
 
 * C/C++ Intelligent code completion
-* C/C++ Linting using PlatformIO’s platform dependent GCC toolchains
+* C/C++ Smart code linter
 * Library Manager for the hundreds popular libraries
-* Built-in Terminal for PlatformIO CLI (`pio`, `platformio`)
+* Built-in Terminal which allows to run PlatformIO CLI (`pio`, `platformio`)
 
 ## Requirements
 
