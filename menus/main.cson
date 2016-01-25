@@ -33,6 +33,10 @@
         'command': 'platformio-ide:maintenance.serialPorts'
       }
       {
+        'label': 'Serial Monitor'
+        'command': 'platformio-ide:maintenance.serialMonitor'
+      }
+      {
         'label': 'Terminal'
         'command': 'platformio-ide:maintenance.openTerminal'
       }
