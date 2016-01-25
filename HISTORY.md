@@ -2,6 +2,7 @@
 
 ## 0.2.1 (2016-01-25)
 
+* Temporary disabled Terminal (`kill` doesn't work)
 * Fixed missed link for error line in the build output
 
 ## 0.2.0 (2016-01-25)
