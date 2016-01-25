@@ -4,7 +4,7 @@
     'submenu': [
       {
         'label': 'Initialize new Project (or update existing)'
-        'command': 'platformio-ide:initializeNewProject'
+        'command': 'platformio-ide:initialize-new-project'
       }
       {'type': 'separator'}
       {
@@ -30,11 +30,11 @@
       {'type': 'separator'}
       {
         'label': 'Serial Monitor'
-        'command': 'platformio-ide:maintenance.serialMonitor'
+        'command': 'platformio-ide:maintenance.serial-monitor'
       }
       {
         'label': 'Serial Ports'
-        'command': 'platformio-ide:maintenance.serialPorts'
+        'command': 'platformio-ide:maintenance.serial-ports'
       }
       {'type': 'separator'}
       {
@@ -48,7 +48,7 @@
       {'type': 'separator'}
       {
         'label': 'Terminal'
-        'command': 'platformio-ide:maintenance.openTerminal'
+        'command': 'platformio-ide:maintenance.open-terminal'
       }
       {
         'label': 'Toggle Terminal'
@@ -57,15 +57,15 @@
       {'type': 'separator'}
       {
         'label': 'Install Shell Commands'
-        'command': 'platformio-ide:maintenance.installCommands'
+        'command': 'platformio-ide:maintenance.install-commands'
       }
       {
         'label': 'Update platforms and libraries'
-        'command': 'platformio-ide:maintenance.updatePlatformIO'
+        'command': 'platformio-ide:maintenance.update-platformio'
       }
       {
         'label': 'Upgrade PlatformIO'
-        'command': 'platformio-ide:maintenance.upgradePlatformIO'
+        'command': 'platformio-ide:maintenance.upgrade-platformio'
       }
       {'type': 'separator'}
       {
@@ -82,15 +82,15 @@
           {'type': 'separator'}
           {
             'label': 'Report PlatformIO issue'
-            'command': 'platformio-ide:help.reportPlatformIOIssue'
+            'command': 'platformio-ide:help.report-platformio-issue'
           }
           {
             'label': 'Report PlatformIO IDE issue'
-            'command': 'platformio-ide:help.reportPlatformIOIDEIssue'
+            'command': 'platformio-ide:help.report-platformio-ide-issue'
           }
           {
             'label': 'Tech Support Live Chat'
-            'command': 'platformio-ide:help.liveChat'
+            'command': 'platformio-ide:help.live-chat'
           }
           {'type': 'separator'}
           {
