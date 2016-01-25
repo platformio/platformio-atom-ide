@@ -29,16 +29,21 @@
       }
       {'type': 'separator'}
       {
-        'label': 'Serial Ports'
-        'command': 'platformio-ide:maintenance.serialPorts'
-      }
-      {
         'label': 'Serial Monitor'
         'command': 'platformio-ide:maintenance.serialMonitor'
       }
       {
+        'label': 'Serial Ports'
+        'command': 'platformio-ide:maintenance.serialPorts'
+      }
+      {'type': 'separator'}
+      {
         'label': 'Terminal'
         'command': 'platformio-ide:maintenance.openTerminal'
+      }
+      {
+        'label': 'Toggle Terminal'
+        'command': 'terminal-panel-uoa:toggle'
       }
       {'type': 'separator'}
       {
