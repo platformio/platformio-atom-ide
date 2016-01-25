@@ -19,9 +19,9 @@ libOpenCM3, ESP8266, etc.*
     - 10+ frameworks
 
 * C/C++ Intelligent code completion
-* C/C++ Code Linter
-* Library Manager
-* Built-in Terminal  
+* C/C++ Linting using PlatformIO’s platform dependent GCC toolchains
+* Library Manager for the hundreds popular libraries
+* Built-in Terminal for PlatformIO CLI (`pio`, `platformio`)
 
 ## Requirements
 
@@ -31,7 +31,7 @@ The only one requirement is [Python Interpreter](https://www.python.org). Platfo
 and install it. DON'T FORGET to select `Add python.exe to PATH` feature on
 the "Customize" stage, otherwise `python` command will not be available).
 
-## Documentation
+## How to use it?
 
 Please follow to the official documentation [PlatformIO IDE for Atom](http://docs.platformio.org/en/latest/ide/atom.html).
 
