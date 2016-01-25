@@ -37,7 +37,7 @@
     "autocomplete-clang": "",
     "linter": "",
     "linter-clang": "",
-    "ult-terminal": "",
+    "terminal-panel": "",
     "language-ini": ""
   }
 }
