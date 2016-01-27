@@ -24,6 +24,10 @@
         'command': 'build:select-active-target'
       }
       {
+        'label': 'Update targets'
+        'command': 'build:refresh-targets'
+      }
+      {
         'label': 'Toggle the build panel'
         'command': 'build:toggle-panel'
       }
