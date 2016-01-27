@@ -1,5 +1,9 @@
 # Release History
 
+## 0.3.0 (2016-??-??)
+
+* Generate env-specific build targets, [issue #10](https://github.com/platformio/platformio-atom-ide/issues/10)
+
 ## 0.2.1 (2016-01-25)
 
 * Temporary disabled Serial Monitor (`kill` doesn't work)
