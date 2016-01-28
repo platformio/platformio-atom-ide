@@ -36,6 +36,10 @@
         'label': 'Serial Ports'
         'command': 'platformio-ide:maintenance.serial-ports'
       }
+      {
+        'label': 'Serial Monitor'
+        'command': 'platformio-ide:maintenance.serial-monitor'
+      }
       {'type': 'separator'}
       {
         'label': 'Library Manager CLI'
