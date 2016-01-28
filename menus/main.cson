@@ -51,12 +51,13 @@
       }
       {'type': 'separator'}
       {
-        'label': 'Terminal'
-        'command': 'platformio-ide:maintenance.open-terminal'
-      }
-      {
-        'label': 'Toggle Terminal'
-        'command': 'platformio-ide-terminal:toggle'
+        'label': 'Terminal Panel'
+        'submenu': [
+          { 'label': 'New', 'command': 'platformio-ide:maintenance.open-terminal' }
+          { 'label': 'Toggle', 'command': 'platformio-ide-terminal:toggle' }
+          { 'label': 'Prev', 'command': 'platformio-ide-terminal:prev' }
+          { 'label': 'Next', 'command': 'platformio-ide-terminal:next' }
+        ]
       }
       {'type': 'separator'}
       {
