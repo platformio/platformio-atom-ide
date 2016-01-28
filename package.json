@@ -44,7 +44,7 @@
     "autocomplete-clang": "",
     "linter": "",
     "linter-gcc": "",
-    "terminal-panel-uoa": "",
+    "platformio-ide-terminal": "",
     "language-ini": "",
     "tool-bar": ""
   }

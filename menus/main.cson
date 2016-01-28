@@ -52,7 +52,7 @@
       }
       {
         'label': 'Toggle Terminal'
-        'command': 'terminal-panel-uoa:toggle'
+        'command': 'platformio-ide-terminal:toggle'
       }
       {'type': 'separator'}
       {
