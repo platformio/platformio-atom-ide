@@ -61,6 +61,10 @@
       }
       {'type': 'separator'}
       {
+        'label': 'C/C++ Rebuild Index (Autocomplete, Linter)'
+        'command': 'platformio-ide:maintenance.rebuild-index'
+      }
+      {
         'label': 'Install Shell Commands'
         'command': 'platformio-ide:maintenance.install-commands'
       }
