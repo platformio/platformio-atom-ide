@@ -6,6 +6,8 @@
 * Generate env-specific build targets, [issue #10](https://github.com/platformio/platformio-atom-ide/issues/10)
 * Reverted back "Serial Terminal"
 * Allowed to rebuild C/C++ Project Index (Autocomplete, Linter), [issue #20](https://github.com/platformio/platformio-atom-ide/issues/20)
+* Multiple projects workflow within single window using `File > Add Project Folder...`.
+* Allowed to use development version of PlatformIO (package settings)
 
 ## 0.2.1 (2016-01-25)
 
