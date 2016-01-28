@@ -69,15 +69,50 @@
       }
       {'type': 'separator'}
       {
+        'label': 'Tool Bar'
+        'submenu': [
+          {
+            'label': 'Toggle'
+            'command': 'tool-bar:toggle'
+          }
+          {
+            'label': 'Position'
+            'submenu': [
+              {
+                'label': 'Top'
+                'command': 'tool-bar:position-top'
+                'type': 'radio'
+              }
+              {
+                'label': 'Right'
+                'command': 'tool-bar:position-right'
+                'type': 'radio'
+              }
+              {
+                'label': 'Bottom'
+                'command': 'tool-bar:position-bottom'
+                'type': 'radio'
+              }
+              {
+                'label': 'Left'
+                'command': 'tool-bar:position-left'
+                'type': 'radio'
+              }
+            ]
+          }
+        ]
+      }
+      {'type': 'separator'}
+      {
         'label': 'Help'
         'submenu': [
           {
             'label': 'Documentation'
-            'command': 'platformio-ide:help.docs'
+            'command': 'platformio-ide:help-docs'
           }
           {
             'label': 'Frequently Asked Questions'
-            'command': 'platformio-ide:help.faq'
+            'command': 'platformio-ide:help-faq'
           }
           {'type': 'separator'}
           {
@@ -95,20 +130,20 @@
           {'type': 'separator'}
           {
             'label': 'Twitter'
-            'command': 'platformio-ide:help.twitter'
+            'command': 'platformio-ide:help-twitter'
           }
           {
             'label': 'Facebook'
-            'command': 'platformio-ide:help.facebook'
+            'command': 'platformio-ide:help-facebook'
           }
           {'type': 'separator'}
           {
             'label': 'Website'
-            'command': 'platformio-ide:help.website'
+            'command': 'platformio-ide:help-website'
           }
           {
             'label': 'About'
-            'command': 'platformio-ide:help.about'
+            'command': 'platformio-ide:help-about'
           }
         ]
       }

@@ -25,6 +25,13 @@
       }
     }
   },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0.1.0": "consumeToolBar"
+      }
+    }
+  },
   "dependencies": {
     "atom-package-dependencies": "^1.0.3",
     "ini": "^1.3.4",
@@ -38,6 +45,7 @@
     "linter": "",
     "linter-gcc": "",
     "terminal-panel-uoa": "",
-    "language-ini": ""
+    "language-ini": "",
+    "tool-bar": ""
   }
 }
