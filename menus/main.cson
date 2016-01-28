@@ -28,7 +28,7 @@
         'command': 'build:refresh-targets'
       }
       {
-        'label': 'Toggle the build panel'
+        'label': 'Toggle build panel'
         'command': 'build:toggle-panel'
       }
       {'type': 'separator'}
@@ -50,24 +50,25 @@
         'command': 'platformio-ide:maintenance.libmanager-gui'
       }
       {'type': 'separator'}
+
       {
-        'label': 'Terminal Panel'
-        'submenu': [
-          { 'label': 'New', 'command': 'platformio-ide:maintenance.open-terminal' }
-          { 'label': 'Toggle', 'command': 'platformio-ide-terminal:toggle' }
-          { 'label': 'Prev', 'command': 'platformio-ide-terminal:prev' }
-          { 'label': 'Next', 'command': 'platformio-ide-terminal:next' }
-        ]
+        'label': 'Terminal',
+        'command': 'platformio-ide:maintenance.open-terminal'
+      }
+      {
+        'label': 'Toggle Terminal',
+        'command': 'platformio-ide-terminal:toggle'
       }
       {'type': 'separator'}
       {
-        'label': 'C/C++ Rebuild Index (Autocomplete, Linter)'
+        'label': 'Rebuild C/C++ Project Index (Autocomplete, Linter)'
         'command': 'platformio-ide:maintenance.rebuild-index'
       }
       {
         'label': 'Install Shell Commands'
         'command': 'platformio-ide:maintenance.install-commands'
       }
+      {'type': 'separator'}
       {
         'label': 'Update platforms and libraries'
         'command': 'platformio-ide:maintenance.update-platformio'
@@ -78,34 +79,39 @@
       }
       {'type': 'separator'}
       {
-        'label': 'Tool Bar'
+        'label': 'Settings'
         'submenu': [
           {
-            'label': 'Toggle'
-            'command': 'tool-bar:toggle'
-          }
-          {
-            'label': 'Position'
+            'label': 'Tool Bar'
             'submenu': [
               {
-                'label': 'Top'
-                'command': 'tool-bar:position-top'
-                'type': 'radio'
+                'label': 'Toggle'
+                'command': 'tool-bar:toggle'
               }
               {
-                'label': 'Right'
-                'command': 'tool-bar:position-right'
-                'type': 'radio'
-              }
-              {
-                'label': 'Bottom'
-                'command': 'tool-bar:position-bottom'
-                'type': 'radio'
-              }
-              {
-                'label': 'Left'
-                'command': 'tool-bar:position-left'
-                'type': 'radio'
+                'label': 'Position'
+                'submenu': [
+                  {
+                    'label': 'Top'
+                    'command': 'tool-bar:position-top'
+                    'type': 'radio'
+                  }
+                  {
+                    'label': 'Right'
+                    'command': 'tool-bar:position-right'
+                    'type': 'radio'
+                  }
+                  {
+                    'label': 'Bottom'
+                    'command': 'tool-bar:position-bottom'
+                    'type': 'radio'
+                  }
+                  {
+                    'label': 'Left'
+                    'command': 'tool-bar:position-left'
+                    'type': 'radio'
+                  }
+                ]
               }
             ]
           }
