@@ -23,14 +23,6 @@ libOpenCM3, ESP8266, etc.*
 * Library Manager for the hundreds popular libraries
 * Built-in Terminal with [PlatformIO CLI](http://docs.platformio.org/en/latest/userguide/index.html) (`pio`, `platformio`)
 
-## Requirements
-
-The only one requirement is [Python Interpreter](https://www.python.org). PlatformIO is written in Python and works on Mac OS X, Linux, Windows OS and ARM-based credit-card sized computers (Raspberry Pi, BeagleBone, CubieBoard).
-
-*Windows OS*: Please [Download the latest Python 2.7.x](https://www.python.org/downloads/)
-and install it. DON'T FORGET to select `Add python.exe to PATH` feature on
-the "Customize" stage, otherwise `python` command will not be available).
-
 ## How to use it?
 
 Please follow to the official documentation [PlatformIO IDE for Atom](http://docs.platformio.org/en/latest/ide/atom.html).

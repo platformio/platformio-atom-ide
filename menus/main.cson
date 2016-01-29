@@ -82,7 +82,7 @@
         'label': 'Settings'
         'submenu': [
           {
-            'label': 'Tool Bar'
+            'label': 'Toolbar'
             'submenu': [
               {
                 'label': 'Toggle'

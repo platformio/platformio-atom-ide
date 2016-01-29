@@ -2,7 +2,7 @@
 
 ## 0.3.0 (2016-01-29)
 
-* Added Tool Bar with buttons for the most useful commands
+* Added Toolbar with buttons for the most useful commands
 * Generate env-specific build targets, [issue #10](https://github.com/platformio/platformio-atom-ide/issues/10)
 * Reverted back "Serial Terminal"
 * Allowed to rebuild C/C++ Project Index (Autocomplete, Linter), [issue #20](https://github.com/platformio/platformio-atom-ide/issues/20)
