@@ -1,6 +1,6 @@
 # Release History
 
-## 0.3.0 (2016-??-??)
+## 0.3.0 (2016-01-29)
 
 * Added Tool Bar with buttons for the most useful commands
 * Generate env-specific build targets, [issue #10](https://github.com/platformio/platformio-atom-ide/issues/10)
