@@ -1,5 +1,9 @@
 # Release History
 
+## 0.3.2 (2016-01-??)
+
+* Fixed issue with ignoring position of Toolbar specified by user
+
 ## 0.3.1 (2016-01-29)
 
 * Added `Find in Project...` button to Toolbar
