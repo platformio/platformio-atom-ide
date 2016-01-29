@@ -19,8 +19,9 @@ libOpenCM3, ESP8266, etc.*
     - 10+ frameworks
 
 * C/C++ Intelligent code completion
-* C/C++ Smart code linter
-* Library Manager for the hundreds popular libraries
+* C/C++ Smart code linter and super-fast coding
+* Multi-projects workflow, multiple panes and themes support with dark and light colors
+* Serial Port Monitor
 * Built-in Terminal with [PlatformIO CLI](http://docs.platformio.org/en/latest/userguide/index.html) (`pio`, `platformio`)
 
 ## How to use it?
