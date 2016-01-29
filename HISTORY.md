@@ -1,5 +1,10 @@
 # Release History
 
+## 0.3.1 (2016-01-29)
+
+* Added `Find in Project...` button to Toolbar
+* Set Toolbar to the left position by default
+
 ## 0.3.0 (2016-01-29)
 
 * Added Toolbar with buttons for the most useful commands

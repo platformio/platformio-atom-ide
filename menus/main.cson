@@ -27,10 +27,6 @@
         'label': 'Update targets'
         'command': 'build:refresh-targets'
       }
-      {
-        'label': 'Toggle build panel'
-        'command': 'build:toggle-panel'
-      }
       {'type': 'separator'}
       {
         'label': 'Serial Ports'
@@ -82,6 +78,36 @@
         'label': 'Settings'
         'submenu': [
           {
+            'label': 'Build Panel'
+            'submenu': [
+              {
+                'label': 'Toggle'
+                'command': 'build:toggle-panel'
+              }
+              {
+                'label': 'Visibility'
+                'submenu': [
+                  {
+                    'label': 'Toggle'
+                    'command': 'platformio-ide:maintenance.bpv-toggle'
+                  }
+                  {
+                    'label': 'Keep Visible'
+                    'command': 'platformio-ide:maintenance.bpv-keep-visible'
+                  }
+                  {
+                    'label': 'Show on Error'
+                    'command': 'platformio-ide:maintenance.bpv-show-on-error'
+                  }
+                  {
+                    'label': 'Hidden'
+                    'command': 'platformio-ide:maintenance.bpv-hidden'
+                  }
+                ]
+              }
+            ]
+          }
+          {
             'label': 'Toolbar'
             'submenu': [
               {
@@ -94,22 +120,18 @@
                   {
                     'label': 'Top'
                     'command': 'tool-bar:position-top'
-                    'type': 'radio'
                   }
                   {
                     'label': 'Right'
                     'command': 'tool-bar:position-right'
-                    'type': 'radio'
                   }
                   {
                     'label': 'Bottom'
                     'command': 'tool-bar:position-bottom'
-                    'type': 'radio'
                   }
                   {
                     'label': 'Left'
                     'command': 'tool-bar:position-left'
-                    'type': 'radio'
                   }
                 ]
               }
