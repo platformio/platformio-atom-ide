@@ -1,5 +1,22 @@
 # PlatformIO IDE for Atom
 
+PlatformIO IDE is the next generation integrated development environment for IoT:
+
+* Cross-platform code builder without external dependencies to the system
+  software:
+
+    - 200+ embedded boards
+    - 15+ development platforms
+    - 10+ frameworks
+
+* C/C++ Intelligent code completion
+* C/C++ Smart code linter for super-fast coding
+* Library Manager for the hundreds popular libraries
+* Multi-projects workflow with multiple panes
+* Themes support with dark and light colors
+* Serial Port Monitor
+* Built-in Terminal with [PlatformIO CLI](http://docs.platformio.org/en/latest/userguide/index.html) tool (``pio``, ``platformio``)    
+
 [PlatformIO](http://platformio.org/) is an open source ecosystem
 for IoT development. Cross-platform code builder and library manager.
 Continuous and IDE integration. Arduino and MBED compatible.
@@ -8,21 +25,6 @@ Ready for Cloud compiling.
 *Atmel AVR & SAM, Espressif, Freescale Kinetis, Nordic nRF51, NXP LPC,
 Silicon Labs EFM32, ST STM32, TI MSP430 & Tiva, Teensy, Arduino, mbed,
 libOpenCM3, ESP8266, etc.*
-
-## Features
-
-* Cross-platform builder without external dependencies to the system
-  software:
-
-    - 200+ embedded boards
-    - 15+ development platforms
-    - 10+ frameworks
-
-* C/C++ Intelligent code completion
-* C/C++ Smart code linter and super-fast coding
-* Multi-projects workflow, multiple panes and themes support with dark and light colors
-* Serial Port Monitor
-* Built-in Terminal with [PlatformIO CLI](http://docs.platformio.org/en/latest/userguide/index.html) (`pio`, `platformio`)
 
 ## How to use it?
 

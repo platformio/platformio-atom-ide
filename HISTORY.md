@@ -1,7 +1,9 @@
 # Release History
 
-## 0.3.2 (2016-01-??)
+## 0.3.2 (2016-01-31)
 
+* Note: Switched to PlatformIO development version
+* Improved PlatformIO installer
 * Fixed issue with ignoring position of Toolbar specified by user
 
 ## 0.3.1 (2016-01-29)
