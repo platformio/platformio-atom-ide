@@ -1,5 +1,9 @@
 # Release History
 
+## 0.3.3 (2016-01-31)
+
+* Temporary switched to `virtualenv` 14.0.1 because ([virtualenv bug #856](https://github.com/pypa/virtualenv/issues/856))
+
 ## 0.3.2 (2016-01-31)
 
 * Note: Switched to PlatformIO development version
