@@ -1,5 +1,10 @@
 # Release History
 
+## 0.3.4 (2016-02-??)
+
+* Place the link to the error line from build panel
+* Fixed issue with multi-projects building, [issue #31](https://github.com/platformio/platformio-atom-ide/issues/31)
+
 ## 0.3.3 (2016-01-31)
 
 * Temporary switched to `virtualenv` 14.0.1 because ([virtualenv bug #856](https://github.com/pypa/virtualenv/issues/856))
