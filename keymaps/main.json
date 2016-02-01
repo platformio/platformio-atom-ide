@@ -1,14 +1,14 @@
 {
   ".platform-darwin atom-workspace, .platform-darwin atom-text-editor": {
-    "cmd-alt-b": "platformio-ide:build",
-    "cmd-alt-c": "platformio-ide:clean",
-    "cmd-alt-u": "platformio-ide:upload",
+    "cmd-alt-b": "platformio-ide:trigger:build",
+    "cmd-alt-c": "platformio-ide:trigger:clean",
+    "cmd-alt-u": "platformio-ide:trigger:upload",
     "cmd-shift-t": "platformio-ide:maintenance.open-terminal"
   },
   ".platform-linux atom-workspace, .platform-linux atom-text-editor, .platform-win32 atom-workspace, .platform-win32 atom-text-editor": {
-    "ctrl-alt-b": "platformio-ide:build",
-    "ctrl-alt-c": "platformio-ide:clean",
-    "ctrl-alt-u": "platformio-ide:upload",
+    "ctrl-alt-b": "platformio-ide:trigger:build",
+    "ctrl-alt-c": "platformio-ide:trigger:clean",
+    "ctrl-alt-u": "platformio-ide:trigger:upload",
     "alt-shift-t": "platformio-ide:maintenance.open-terminal"
   }
 }
