@@ -9,15 +9,15 @@
       {'type': 'separator'}
       {
         'label': 'Build'
-        'command': 'build:trigger'
+        'command': 'platformio-ide:build'
       }
       {
         'label': 'Upload'
-        'command': 'build:trigger:PlatformIO: Upload'
+        'command': 'platformio-ide:upload'
       }
       {
         'label': 'Clean'
-        'command': 'build:trigger:PlatformIO: Clean'
+        'command': 'platformio-ide:clean'
       }
       {
         'label': 'Run other target...'
