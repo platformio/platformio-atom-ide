@@ -26,7 +26,7 @@ Ready for Cloud compiling.
 Silicon Labs EFM32, ST STM32, TI MSP430 & Tiva, Teensy, Arduino, mbed,
 libOpenCM3, ESP8266, etc.*
 
-## How to use it?
+## How it works
 
 Please follow to the official documentation [PlatformIO IDE for Atom](http://docs.platformio.org/en/latest/ide/atom.html).
 

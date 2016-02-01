@@ -9,7 +9,7 @@
       {'type': 'separator'}
       {
         'label': 'Build'
-        'command': 'build:trigger:PlatformIO: Build'
+        'command': 'build:trigger'
       }
       {
         'label': 'Upload'
