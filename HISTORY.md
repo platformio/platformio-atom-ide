@@ -2,7 +2,6 @@
 
 ## 0.3.4 (2016-02-??)
 
-* Reverted back to the stable PlatformIO CLI
 * Remember serial port and speed when selecting Serial Monitor, [issue #31](https://github.com/platformio/platformio-atom-ide/issues/32)
 * Fixed issue with multi-projects building, [issue #31](https://github.com/platformio/platformio-atom-ide/issues/31)
 
