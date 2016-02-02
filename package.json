@@ -33,9 +33,9 @@
     }
   },
   "dependencies": {
-    "atom-package-deps": "^3.0.7",
     "ini": "^1.3.4",
     "rimraf": "^2.5.0",
+    "semver": "^5.1.0",
     "tarball-extract": "^0.0.3",
     "temp": "^0.8.3",
     "xregexp": "^3.0.0"
