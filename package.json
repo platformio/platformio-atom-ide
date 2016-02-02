@@ -37,16 +37,6 @@
     "rimraf": "^2.5.0",
     "semver": "^5.1.0",
     "tarball-extract": "^0.0.3",
-    "temp": "^0.8.3",
-    "xregexp": "^3.0.0"
-  },
-  "package-deps": [
-    "build",
-    "autocomplete-clang",
-    "linter",
-    "linter-gcc",
-    "platformio-ide-terminal",
-    "language-ini",
-    "tool-bar"
-  ]
+    "temp": "^0.8.3"
+  }
 }
