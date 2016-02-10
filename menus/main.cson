@@ -6,6 +6,10 @@
         'label': 'Initialize new Project (or update existing)'
         'command': 'platformio-ide:initialize-new-project'
       }
+      {
+        'label': 'Import an Arduino IDE based Project'
+        'command': 'platformio-ide:import-arduino-ide-project'
+      }
       {'type': 'separator'}
       {
         'label': 'Build'

@@ -1,0 +1,41 @@
+<div class="pio pio-template-root pio-import-arduino-ide-project">
+  <h1>PlatformIO: Import an Arduino IDE based Project</h1>
+
+  <p>
+    Make a project initially created by Arduino IDE suitable to use within the
+    PlatformIO IDE.
+  </p>
+
+  <section>
+    <label>Choose a directory to be imported</label>
+    <input class="directory-input form-control" type="text" disabled="disabled">
+    <div class="pick-directory-wrapper">
+      <button class="pick-directory btn btn-default">Browse</button>
+    </div>
+  </section>
+
+  <section>
+    <label>
+      <input class="keep-compatible" type="checkbox"> Keep project compatible between PlatformIO IDE and Arduino IDE
+    </label>
+  </section>
+
+  <section>
+    <div class="boards-select-wrapper">
+      <p class="boards-loading-placeholder">Loading boards...</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="directory-select-wrapper">
+      <p class="dir-select-part">Choose the directory</p>
+      <div class="settings-view">
+        <select class="directory-select dir-select-part form-control"></select>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="do-import btn btn-lg btn-primary" disabled="disabled">Import</button>
+      <button class="cancel btn btn-lg btn-link">Cancel</button>
+    </div>
+  </section>
+</div>
