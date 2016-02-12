@@ -3,11 +3,11 @@
     'label': 'PlatformIO'
     'submenu': [
       {
-        'label': 'Initialize new Project (or update existing)'
+        'label': 'Initialize PlatformIO based Project or update existing...'
         'command': 'platformio-ide:initialize-new-project'
       }
       {
-        'label': 'Import an Arduino IDE based Project'
+        'label': 'Import Arduino IDE based Project...'
         'command': 'platformio-ide:import-arduino-ide-project'
       }
       {'type': 'separator'}
@@ -178,6 +178,10 @@
             'command': 'platformio-ide:help-facebook'
           }
           {'type': 'separator'}
+          {
+            'label': 'Donate'
+            'command': 'platformio-ide:donate'
+          }
           {
             'label': 'Website'
             'command': 'platformio-ide:help-website'

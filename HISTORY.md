@@ -2,7 +2,7 @@
 
 ## 0.4.0 (2016-02-??)
 
-* Added Donate modal dialog
+* Added "Donate" modal dialog
 * Remember serial port and speed when selecting Serial Monitor, [issue #31](https://github.com/platformio/platformio-atom-ide/issues/32)
 * Fixed issue with multi-projects building, [issue #31](https://github.com/platformio/platformio-atom-ide/issues/31)
 
