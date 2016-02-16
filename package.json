@@ -30,6 +30,11 @@
       "versions": {
         "^0.1.0": "consumeToolBar"
       }
+    },
+    "runInTerminal": {
+      "versions": {
+        "^0.14.5": "consumeRunInTerminal"
+      }
     }
   },
   "dependencies": {
