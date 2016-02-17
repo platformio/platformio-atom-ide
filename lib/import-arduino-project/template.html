@@ -8,8 +8,8 @@
 
   <section>
     <label>Choose a directory to be imported</label>
-    <input class="directory-input form-control" type="text" disabled="disabled">
-    <div class="pick-directory-wrapper">
+    <div class="settings-view">
+      <input class="directory-input form-control" type="text" disabled="disabled">
       <button class="pick-directory btn btn-default">Browse</button>
     </div>
   </section>
@@ -18,6 +18,20 @@
     <label>
       <input class="keep-compatible" type="checkbox"> Keep project compatible between PlatformIO IDE and Arduino IDE
     </label>
+  </section>
+
+  <section>
+    <label>
+      <input class="use-arduino-lib-manager" type="checkbox"> Use Arduino IDE Library Manager
+    </label>
+
+    <div class="lib-manager-input-wrapper form-group">
+      <label>Library Manager directory</label>
+      <div class="settings-view">
+        <input class="lib-manager-dir form-control" type="text" disabled="disabled">
+        <button class="other btn btn-default">Other</button>
+      </div>
+    </div>
   </section>
 
   <section>
