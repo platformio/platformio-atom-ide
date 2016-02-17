@@ -35,6 +35,17 @@
   .unselect {
     margin-left: 1em;
   }
+
+  select.form-control, input.form-control {
+    color: @text-color;
+    border-color: @button-border-color;
+    background-color: @button-background-color;
+    &:hover,
+    &:focus {
+      box-shadow: none;
+      background-color: @button-background-color-hover;
+    }
+  }
 }
 
 .install-progress {
@@ -99,6 +110,12 @@
   }
 
   .lib-manager-input-wrapper {
+    display: none;
+  }
+}
+
+.pio-serial-monitor {
+  .advanced-settings {
     display: none;
   }
 }

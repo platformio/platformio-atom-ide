@@ -1,30 +1,55 @@
 <div class="pio pio-template-root pio-serial-monitor">
   <h1>PlatformIO: Serial Monitor</h1>
 
-  <form class="form-inline">
-    <div class="form-group settings-view">
-      <select class="port-select form-control"></select>
+  <form class="">
+    <div class="form-group">
+      <label>Port</label>
+      <select class="port-select form-control monitor-option" data-monitor-option="port"></select>
     </div>
-    <div class="form-group settings-view">
-      <label> @ </label>
-      <select class="baudrate-select form-control">
-        <option value="300">300</option>
-        <option value="600">600</option>
-        <option value="1200">1200</option>
-        <option value="1800">1800</option>
-        <option value="2400">2400</option>
-        <option value="3600">3600</option>
-        <option value="4800">4800</option>
-        <option value="7200">7200</option>
-        <option value="9600" selected>9600</option>
-        <option value="14400">14400</option>
-        <option value="19200">19200</option>
-        <option value="28800">28800</option>
-        <option value="38400">38400</option>
-        <option value="57600">57600</option>
-        <option value="115200">115200</option>
-        <option value="230400">230400</option>
-      </select>
+    <div class="form-group">
+      <label>Baudrate</label>
+      <input type="number" class="form-control baudrate-input monitor-option" data-monitor-option="baud">
+    </div>
+
+    <a class="toggle-advanced-settings pull-right" href="#">Toggle advanced settings</a>
+    <div class="advanced-settings">
+      <div class="form-group">
+        <label>Parity</label>
+        <select class="form-control monitor-option" data-monitor-option="parity">
+          <option value="N" selected>N</option>
+          <option value="E">E</option>
+          <option value="O">O</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Encoding</label>
+        <select class="form-control monitor-option" data-monitor-option="encoding">
+          <option value="UTF-8" selected>UTF-8</option>
+          <option value="hexlify">hexlify</option>
+          <option value="Latin1">Latin1</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Filter</label>
+        <select class="form-control monitor-option" data-monitor-option="filter">
+          <option value="colorize">colorize - Apply different colors for received and echo</option>
+          <option value="debug">debug - Print what is sent and received</option>
+          <option value="default" selected>default - Remove typical terminal control codes from input</option>
+          <option value="direct">direct - Do-nothing: forward all data unchanged</option>
+          <option value="nocontrol">nocontrol - Remove all control codes, incl. CR+LF</option>
+          <option value="printable">printable - Show decimal code for all non-ASCII characters and replace most control codes</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>EOL Mode</label>
+        <select class="form-control monitor-option" data-monitor-option="eol">
+          <option value="CRLF" selected>CRLF</option>
+          <option value="CR">CR</option>
+          <option value="LF">LF</option>
+        </select>
+      </div>
     </div>
     <div class="controls">
       <button class="open btn btn-lg btn-primary">Start</button>
