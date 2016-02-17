@@ -1,8 +1,11 @@
 # Release History
 
-## 0.4.0 (2016-02-??)
+## 1.0.0 (2016-02-??)
 
-* Added "Donate" modal dialog
+* New Terminal with PTY support
+* Built-in Serial Monitor
+* Implemented "Import Arduino IDE Project..."
+* Added "Donate" form
 * Remember serial port and speed when selecting Serial Monitor, [issue #31](https://github.com/platformio/platformio-atom-ide/issues/32)
 * Fixed issue with multi-projects building, [issue #31](https://github.com/platformio/platformio-atom-ide/issues/31)
 

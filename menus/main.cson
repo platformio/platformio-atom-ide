@@ -3,12 +3,16 @@
     'label': 'PlatformIO'
     'submenu': [
       {
-        'label': 'Initialize PlatformIO based Project or update existing...'
+        'label': 'Initialize new PlatformIO Project or update existing...'
         'command': 'platformio-ide:initialize-new-project'
       }
       {
-        'label': 'Import Arduino IDE based Project...'
+        'label': 'Import Arduino IDE Project...'
         'command': 'platformio-ide:import-arduino-ide-project'
+      }
+      {
+        'label': 'Open Project folder...'
+        'command': 'application:add-project-folder'
       }
       {'type': 'separator'}
       {
@@ -50,14 +54,34 @@
         'command': 'platformio-ide:maintenance.libmanager-gui'
       }
       {'type': 'separator'}
-
       {
-        'label': 'Terminal',
-        'command': 'platformio-ide:maintenance.open-terminal'
-      }
-      {
-        'label': 'Toggle Terminal',
-        'command': 'platformio-ide-terminal:toggle'
+        'label': 'Terminal'
+        'submenu': [
+          {
+            'label': 'Toggle'
+            'command': 'platformio-ide-terminal:toggle'
+          },
+          {
+            'label': 'New Terminal'
+            'command': 'platformio-ide-terminal:new'
+          },
+          {
+            'label': 'Previous Terminal'
+            'command': 'platformio-ide-terminal:prev'
+          },
+          {
+            'label': 'Next Terminal'
+            'command': 'platformio-ide-terminal:next'
+          },
+          {
+            'label': 'Close Terminal'
+            'command': 'platformio-ide-terminal:close'
+          },
+          {
+            'label': 'Close All Terminals'
+            'command': 'platformio-ide-terminal:close-all'
+          }
+        ]
       }
       {'type': 'separator'}
       {
