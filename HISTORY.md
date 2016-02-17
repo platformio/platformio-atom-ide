@@ -1,6 +1,6 @@
 # Release History
 
-## 1.0.0 (2016-02-??)
+## 1.0.0 (2016-02-18)
 
 * New Terminal with PTY support
 * Built-in Serial Monitor
