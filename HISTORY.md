@@ -2,6 +2,7 @@
 
 ## 1.0.1 (2016-02-19)
 
+* Automatically rebuild C/C++ Project Index (Autocomplete, Linter) for non IDE projects
 * Improved layout for Init/Import Project panels
 * Disable "Initialize" button while initializing new project (it may take for a while)
 
