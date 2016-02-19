@@ -1,4 +1,4 @@
-# Release History
+# Release Notes
 
 ## 1.0.1 (2016-02-19)
 
