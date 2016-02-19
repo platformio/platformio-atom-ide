@@ -169,12 +169,12 @@
       }
       {'type': 'separator'}
       {
+        'label': 'Documentation'
+        'command': 'platformio-ide:help-docs'
+      }
+      {
         'label': 'Help'
         'submenu': [
-          {
-            'label': 'Documentation'
-            'command': 'platformio-ide:help-docs'
-          }
           {
             'label': 'Frequently Asked Questions'
             'command': 'platformio-ide:help-faq'

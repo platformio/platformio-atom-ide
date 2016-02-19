@@ -5,6 +5,7 @@
 * Automatically rebuild C/C++ Project Index (Autocomplete, Linter) for non IDE projects
 * Improved layout for Init/Import Project panels
 * Disable "Initialize" button while initializing new project (it may take for a while)
+* Notify that Smart Code Linter is disabled by default for Arduino files (`*.ino` and `*.pde`)
 
 ## 1.0.0 (2016-02-18)
 
