@@ -1,5 +1,10 @@
 # Release History
 
+## 1.0.1 (2016-02-19)
+
+* Improved layout for Init/Import Project panels
+* Disable "Initialize" button while initializing new project (it may take for a while)
+
 ## 1.0.0 (2016-02-18)
 
 * New Terminal with PTY support
