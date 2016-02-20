@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.0.5 (2016-02-??)
+
+* Redirect for donation to main site http://platformio.org/#!/donate
+
 ## 1.0.4 (2016-02-20)
 
 * Fixed IDE keep showing "Reload Now" popup at launch
