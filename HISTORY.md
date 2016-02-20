@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.0.4 (2016-02-20)
+
+* Fixed IDE keep showing "Reload Now" popup at launch
+
 ## 1.0.3 (2016-02-20)
 
 * Fixed installer for dependencies
