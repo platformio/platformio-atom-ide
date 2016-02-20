@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.0.3 (2016-02-20)
+
+* Fixed installer for dependencies
+
 ## 1.0.2 (2016-02-20)
 
 * Use PlatformIO DL infrastructure to download dependencies instead SourceForge
