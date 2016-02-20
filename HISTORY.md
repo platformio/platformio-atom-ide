@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.0.2 (2016-02-20)
+
+* Use PlatformIO DL infrastructure to download dependencies instead SourceForge
+
 ## 1.0.1 (2016-02-19)
 
 * Automatically rebuild C/C++ Project Index (Autocomplete, Linter) for non IDE projects
