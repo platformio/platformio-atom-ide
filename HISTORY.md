@@ -3,6 +3,8 @@
 ## 1.0.5 (2016-02-??)
 
 * Redirect for donation to main site http://platformio.org/#!/donate
+* Removed "Serial Ports List" from PlatformIO Toolbar
+* Updated icons for Serial Monitor and Library Manager
 
 ## 1.0.4 (2016-02-20)
 
