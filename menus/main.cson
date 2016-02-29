@@ -133,6 +133,10 @@
                   }
                 ]
               }
+              {
+                'label': 'All settings'
+                'command': 'platformio-ide:settings:build'
+              }
             ]
           }
           {
