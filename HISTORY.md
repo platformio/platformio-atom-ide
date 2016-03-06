@@ -3,6 +3,7 @@
 ## 1.0.5 (2016-03-??)
 
 * Show progress information while initializing new project ([#49](https://github.com/platformio/platformio-atom-ide/issues/49))
+* Added settings for dependent packages to `Menu: PlatformIO > Settings` ([#57](https://github.com/platformio/platformio-atom-ide/issues/57))
 * Redirect for donation to main site http://platformio.org/#!/donate
 * Removed "Serial Ports List" from PlatformIO Toolbar
 * Updated icons for Serial Monitor and Library Manager

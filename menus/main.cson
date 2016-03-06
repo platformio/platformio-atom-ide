@@ -35,6 +35,10 @@
         'label': 'Update targets'
         'command': 'build:refresh-targets'
       }
+      {
+        'label': 'Toggle Build Panel'
+        'command': 'build:toggle-panel'
+      }
       {'type': 'separator'}
       {
         'label': 'Serial Ports'
@@ -106,68 +110,24 @@
         'label': 'Settings'
         'submenu': [
           {
-            'label': 'Build Panel'
-            'submenu': [
-              {
-                'label': 'Toggle'
-                'command': 'build:toggle-panel'
-              }
-              {
-                'label': 'Visibility'
-                'submenu': [
-                  {
-                    'label': 'Toggle'
-                    'command': 'platformio-ide:maintenance.bpv-toggle'
-                  }
-                  {
-                    'label': 'Keep Visible'
-                    'command': 'platformio-ide:maintenance.bpv-keep-visible'
-                  }
-                  {
-                    'label': 'Show on Error'
-                    'command': 'platformio-ide:maintenance.bpv-show-on-error'
-                  }
-                  {
-                    'label': 'Hidden'
-                    'command': 'platformio-ide:maintenance.bpv-hidden'
-                  }
-                ]
-              }
-              {
-                'label': 'All settings'
-                'command': 'platformio-ide:settings:build'
-              }
-            ]
+            'label': 'PlatformIO IDE'
+            'command': 'platformio-ide:settings:pkg-platformio-ide'
           }
           {
-            'label': 'Toolbar'
-            'submenu': [
-              {
-                'label': 'Toggle'
-                'command': 'tool-bar:toggle'
-              }
-              {
-                'label': 'Position'
-                'submenu': [
-                  {
-                    'label': 'Top'
-                    'command': 'tool-bar:position-top'
-                  }
-                  {
-                    'label': 'Right'
-                    'command': 'tool-bar:position-right'
-                  }
-                  {
-                    'label': 'Bottom'
-                    'command': 'tool-bar:position-bottom'
-                  }
-                  {
-                    'label': 'Left'
-                    'command': 'tool-bar:position-left'
-                  }
-                ]
-              }
-            ]
+            'label': 'PlatformIO IDE Terminal'
+            'command': 'platformio-ide:settings:pkg-platformio-ide-terminal'
+          }
+          {
+            'label': 'Build'
+            'command': 'platformio-ide:settings:pkg-build'
+          }
+          {
+            'label': 'Linter'
+            'command': 'platformio-ide:settings:pkg-linter'
+          }
+          {
+            'label': 'Tool Bar'
+            'command': 'platformio-ide:settings:pkg-tool-bar'
           }
         ]
       }
