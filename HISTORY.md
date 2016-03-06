@@ -1,10 +1,14 @@
 # Release Notes
 
-## 1.0.5 (2016-02-??)
+## 1.0.5 (2016-03-??)
 
+* Show progress information while initializing new project ([#49](https://github.com/platformio/platformio-atom-ide/issues/49))
 * Redirect for donation to main site http://platformio.org/#!/donate
 * Removed "Serial Ports List" from PlatformIO Toolbar
 * Updated icons for Serial Monitor and Library Manager
+* Fixed auto installer behind proxy ([#48](https://github.com/platformio/platformio-atom-ide/issues/48))
+* Fixed loop in updater ([#55](https://github.com/platformio/platformio-atom-ide/issues/55), [#63](https://github.com/platformio/platformio-atom-ide/issues/63))
+* Fixed issue with Serial Monitor when port contains spaces ([#62](https://github.com/platformio/platformio-atom-ide/issues/62))
 
 ## 1.0.4 (2016-02-20)
 
@@ -31,8 +35,8 @@
 * Built-in Serial Monitor
 * Implemented "Import Arduino IDE Project..."
 * Added "Donate" form
-* Remember serial port and speed when selecting Serial Monitor, [issue #31](https://github.com/platformio/platformio-atom-ide/issues/32)
-* Fixed issue with multi-projects building, [issue #31](https://github.com/platformio/platformio-atom-ide/issues/31)
+* Remember serial port and speed when selecting Serial Monitor ([#31](https://github.com/platformio/platformio-atom-ide/issues/32))
+* Fixed with multi-projects building ([#31](https://github.com/platformio/platformio-atom-ide/issues/31))
 
 ## 0.3.3 (2016-01-31)
 
@@ -42,7 +46,7 @@
 
 * Note: Switched to PlatformIO development version
 * Improved PlatformIO installer
-* Fixed issue with ignoring position of Toolbar specified by user
+* Fixed with ignoring position of Toolbar specified by user
 
 ## 0.3.1 (2016-01-29)
 
@@ -52,9 +56,9 @@
 ## 0.3.0 (2016-01-29)
 
 * Added Toolbar with buttons for the most useful commands
-* Generate env-specific build targets, [issue #10](https://github.com/platformio/platformio-atom-ide/issues/10)
+* Generate env-specific build targets ([#10](https://github.com/platformio/platformio-atom-ide/issues/10))
 * Reverted back "Serial Terminal"
-* Allowed to rebuild C/C++ Project Index (Autocomplete, Linter), [issue #20](https://github.com/platformio/platformio-atom-ide/issues/20)
+* Allowed to rebuild C/C++ Project Index (Autocomplete, Linter) ([#20](https://github.com/platformio/platformio-atom-ide/issues/20))
 * Multiple projects workflow within single window using `File > Add Project Folder...`.
 * Allowed to use development version of PlatformIO (package settings)
 
@@ -65,7 +69,7 @@
 
 ## 0.2.0 (2016-01-25)
 
-* Implemented Serial Monitor using [platformio serialports monitor](http://docs.platformio.org/en/latest/userguide/cmd_serialports.html#platformio-serialports-monitor), [issue #13](https://github.com/platformio/platformio-atom-ide/issues/13)
+* Implemented Serial Monitor using [platformio serialports monitor](http://docs.platformio.org/en/latest/userguide/cmd_serialports.html#platformio-serialports-monitor) ([#13](https://github.com/platformio/platformio-atom-ide/issues/13))
 * New improved Terminal for PlatformIO CLI (`pio`, `platformio`)
 * Improved C/C++ code linting using PlatformIO’s platform dependent GCC toolchains
 * Added `Library Manager` to menu
