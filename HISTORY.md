@@ -1,6 +1,6 @@
 # Release Notes
 
-## 1.0.5 (2016-03-??)
+## 1.0.5 (2016-03-07)
 
 * Show progress information while initializing new project ([#49](https://github.com/platformio/platformio-atom-ide/issues/49))
 * Highlight active project when more than one is opened (can be disabled
