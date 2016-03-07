@@ -10,6 +10,7 @@
 * Fixed auto installer behind proxy ([#48](https://github.com/platformio/platformio-atom-ide/issues/48))
 * Fixed loop in updater ([#55](https://github.com/platformio/platformio-atom-ide/issues/55), [#63](https://github.com/platformio/platformio-atom-ide/issues/63))
 * Fixed issue with Serial Monitor when port contains spaces ([#62](https://github.com/platformio/platformio-atom-ide/issues/62))
+* Fixed bug with incorrect determining of active project ([#58](https://github.com/platformio/platformio-atom-ide/issues/58))
 
 ## 1.0.4 (2016-02-20)
 
