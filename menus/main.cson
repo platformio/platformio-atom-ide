@@ -41,24 +41,6 @@
       }
       {'type': 'separator'}
       {
-        'label': 'Serial Ports'
-        'command': 'platformio-ide:maintenance.serial-ports'
-      }
-      {
-        'label': 'Serial Monitor'
-        'command': 'platformio-ide:maintenance.serial-monitor'
-      }
-      {'type': 'separator'}
-      {
-        'label': 'Library Manager CLI'
-        'command': 'platformio-ide:maintenance.libmanager-cli'
-      }
-      {
-        'label': 'Library Manager GUI (soon)'
-        'command': 'platformio-ide:maintenance.libmanager-gui'
-      }
-      {'type': 'separator'}
-      {
         'label': 'Terminal'
         'submenu': [
           {
@@ -86,6 +68,18 @@
             'command': 'platformio-ide-terminal:close-all'
           }
         ]
+      }
+      {
+        'label': 'Library Manager CLI (GUI soon)'
+        'command': 'platformio-ide:maintenance.libmanager-cli'
+      }
+      {
+        'label': 'Serial Monitor'
+        'command': 'platformio-ide:maintenance.serial-monitor'
+      }
+      {
+        'label': 'List Serial Ports'
+        'command': 'platformio-ide:maintenance.serial-ports'
       }
       {'type': 'separator'}
       {
