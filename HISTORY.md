@@ -3,6 +3,8 @@
 ## 1.0.5 (2016-03-??)
 
 * Show progress information while initializing new project ([#49](https://github.com/platformio/platformio-atom-ide/issues/49))
+* Highlight active project when more than one is opened (can be disabled
+  in PlatformIO IDE Settings)
 * Added settings for dependent packages to `Menu: PlatformIO > Settings` ([#57](https://github.com/platformio/platformio-atom-ide/issues/57))
 * Added hotkey `cmd-shift-m / alt-shift-m` for Serial Monitor  ([#59](https://github.com/platformio/platformio-atom-ide/issues/59))
 * Redirect for donation to main site http://platformio.org/#!/donate
