@@ -1,5 +1,7 @@
 # Release Notes
 
+## 1.0.6 (2016-03-??)
+
 ## 1.0.5 (2016-03-07)
 
 * Show progress information while initializing new project ([#49](https://github.com/platformio/platformio-atom-ide/issues/49))
