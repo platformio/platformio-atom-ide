@@ -1,6 +1,6 @@
 # PlatformIO IDE for Atom
 
-[PlatformIO IDE](http://platformio.org/#!/platformio-ide) is the next generation integrated development environment for IoT:
+[PlatformIO IDE](http://platformio.org/platformio-ide) is the next generation integrated development environment for IoT:
 
 * Cross-platform code builder without external dependencies to the system
   software:

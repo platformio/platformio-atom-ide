@@ -11,7 +11,7 @@
   in PlatformIO IDE Settings)
 * Added settings for dependent packages to `Menu: PlatformIO > Settings` ([#57](https://github.com/platformio/platformio-atom-ide/issues/57))
 * Added hotkey `cmd-shift-m / alt-shift-m` for Serial Monitor  ([#59](https://github.com/platformio/platformio-atom-ide/issues/59))
-* Redirect for donation to main site http://platformio.org/#!/donate
+* Redirect for donation to main site http://platformio.org/donate
 * Removed "Serial Ports List" from PlatformIO Toolbar
 * Updated icons for Serial Monitor and Library Manager
 * Fixed auto installer behind proxy ([#48](https://github.com/platformio/platformio-atom-ide/issues/48))
