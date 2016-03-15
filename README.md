@@ -1,4 +1,4 @@
-# PlatformIO IDE for Atom
+# PlatformIO IDE for Atom [![Donate for PlatformIO.Org](https://img.shields.io/donate/PlatformIO.png)](http://platformio.org/donate)
 
 [PlatformIO IDE](http://platformio.org/platformio-ide) is the next generation integrated development environment for IoT:
 
