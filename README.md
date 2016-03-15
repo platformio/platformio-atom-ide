@@ -32,7 +32,7 @@ Please follow to the official documentation [PlatformIO IDE for Atom](http://doc
 
 ![PlatformIO IDE for Atom](http://docs.platformio.org/en/latest/_images/ide-atom-platformio.png "PlatformIO IDE for Atom")
 
-## Licence
+## License
 
 Copyright (C) 2016 Ivan Kravets. All rights reserved.
 

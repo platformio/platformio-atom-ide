@@ -1,8 +1,13 @@
 # Release Notes
 
-## 1.0.6 (2016-03-??)
+## 1.1.0 (2016-03-??)
 
-* Better handle an active project
+* Pause serial monitor during (serial) upload ([#45](https://github.com/platformio/platformio-atom-ide/issues/45))
+* Better handle of an active project
+* Prevented unnecessary displaying of "PlatformIO IDE installation suspended"
+* Fixed "'platformio' could not be spawned" ([#66](https://github.com/platformio/platformio-atom-ide/issues/66))
+* Fixed error matcher for build results. Use `cmd-alt-g` / `ctrl-alt-g` /
+  `f4` to cycle through causes of build error
 
 ## 1.0.5 (2016-03-07)
 
