@@ -13,33 +13,33 @@ module.exports = {
   },
   "rules": {
     "comma-dangle": [
-      "error",
+      2,
       "only-multiline"
     ],
     "curly": [
-      "warn",
+      1,
       "all"
     ],
     "indent": [
-      "warn",
+      1,
       2
     ],
     "linebreak-style": [
-      "error",
+      2,
       "unix"
     ],
     "no-console": [
-      "error",
+      2,
       {"allow": ["warn", "error"]},
     ],
-    "prefer-const": "error",
+    "prefer-const": 2,
     "quotes": [
-      "error",
+      2,
       "single",
       "avoid-escape"
     ],
     "semi": [
-      "error",
+      2,
       "always"
     ],
   },
