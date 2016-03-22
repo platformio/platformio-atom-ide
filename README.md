@@ -15,7 +15,7 @@
 * Multi-projects workflow with multiple panes
 * Themes support with dark and light colors
 * Serial Port Monitor
-* Built-in Terminal with [PlatformIO CLI](http://docs.platformio.org/en/latest/userguide/index.html) tool (``pio``, ``platformio``)    
+* Built-in Terminal with PlatformIO CLI tool (``pio``, ``platformio``)    
 
 [PlatformIO](http://platformio.org/) is an open source ecosystem
 for IoT development. Cross-platform code builder and library manager.

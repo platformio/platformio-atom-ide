@@ -2,8 +2,10 @@
 
 ## 1.1.0 (2016-03-??)
 
+* Automatically rebuild C/C++ Project Index (Autocomplete, Linter) when new
+  libraries are added or "platformio.ini" is modified
 * Pause serial monitor during (serial) upload ([#45](https://github.com/platformio/platformio-atom-ide/issues/45))
-* Better handle of an active project
+* Better handling of an active project
 * Prevented unnecessary displaying of "PlatformIO IDE installation suspended"
 * Fixed "'platformio' could not be spawned" ([#66](https://github.com/platformio/platformio-atom-ide/issues/66))
 * Fixed error matcher for build results. Use `cmd-alt-g` / `ctrl-alt-g` /
