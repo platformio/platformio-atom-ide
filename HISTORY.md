@@ -1,6 +1,6 @@
 # Release Notes
 
-## 1.1.0 (2016-03-??)
+## 1.1.0 (2016-03-22)
 
 * Automatically rebuild C/C++ Project Index (Autocomplete, Linter) when new
   libraries are added or "platformio.ini" is modified
