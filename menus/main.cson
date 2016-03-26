@@ -92,12 +92,16 @@
       }
       {'type': 'separator'}
       {
-        'label': 'Update platforms and libraries'
+        'label': 'Update Platforms and Libraries'
         'command': 'platformio-ide:maintenance.update-platformio'
       }
       {
-        'label': 'Upgrade PlatformIO'
+        'label': 'Upgrade PlatformIO CLI'
         'command': 'platformio-ide:maintenance.upgrade-platformio'
+      }
+      {
+        'label': 'Update Atom packages'
+        'command': 'settings-view:check-for-package-updates'
       }
       {'type': 'separator'}
       {

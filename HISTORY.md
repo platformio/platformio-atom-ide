@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.1.1 (2016-??-??)
+
+* Added `Menu: PlatformIO > Update Atom packages` item
+
 ## 1.1.0 (2016-03-22)
 
 * Automatically rebuild C/C++ Project Index (Autocomplete, Linter) when new
