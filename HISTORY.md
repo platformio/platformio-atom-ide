@@ -1,9 +1,9 @@
 # Release Notes
 
-## 1.1.1 (2016-03-??)
+## 1.1.1 (2016-03-28)
 
 * Added `Menu: PlatformIO > Update Atom packages` item
-* Fixed issue with "Uncaught Error: ENOENT: no such file or directory, scandir
+* Fixed "Uncaught Error: ENOENT: no such file or directory, scandir
   'atom://config'" ([#80](https://github.com/platformio/platformio-atom-ide/issues/80))
 
 ## 1.1.0 (2016-03-22)
