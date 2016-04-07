@@ -2,8 +2,6 @@
 
 ## 1.1.2 (2016-??-??)
 
-* Show build errors in the Linter panel
-
 ## 1.1.1 (2016-03-28)
 
 * Added `Menu: PlatformIO > Update Atom packages` item
