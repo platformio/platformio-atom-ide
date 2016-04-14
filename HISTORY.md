@@ -1,9 +1,11 @@
 # Release Notes
 
-## 1.1.2 (2016-??-??)
+## 1.1.2 (2016-04-15)
 
 * Hotfix for Atom's bug with `process.env.PATH` ([#94](https://github.com/platformio/platformio-atom-ide/issues/94))
 * Updated PlatformIO IDE Terminal for Atom 1.7
+* Use confirmation instead notification when can't activate Smart Code Linter
+  or Intelligent Code Completion
 
 ## 1.1.1 (2016-03-28)
 
