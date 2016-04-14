@@ -2,6 +2,8 @@
 
 ## 1.1.2 (2016-??-??)
 
+* Hotfix for Atom's bug with `process.env.PATH` ([#94](https://github.com/platformio/platformio-atom-ide/issues/94))
+
 ## 1.1.1 (2016-03-28)
 
 * Added `Menu: PlatformIO > Update Atom packages` item
