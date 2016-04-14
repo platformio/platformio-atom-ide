@@ -141,6 +141,10 @@
             'label': 'Frequently Asked Questions'
             'command': 'platformio-ide:help-faq'
           }
+          {
+            'label': 'Ask Community'
+            'command': 'platformio-ide:help.community'
+          }
           {'type': 'separator'}
           {
             'label': 'Report PlatformIO CLI issue'
@@ -149,10 +153,6 @@
           {
             'label': 'Report PlatformIO IDE issue'
             'command': 'platformio-ide:help.report-platformio-ide-issue'
-          }
-          {
-            'label': 'Tech Support Live Chat'
-            'command': 'platformio-ide:help.live-chat'
           }
           {'type': 'separator'}
           {
