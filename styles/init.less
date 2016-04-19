@@ -17,6 +17,8 @@
 
 @import "ui-variables";
 
+@pio-version-space: .5em;
+
 .pio {
 
   .controls {
@@ -53,6 +55,71 @@
     color: @text-color-info;
     font-size: 1.5 * @font-size;
   }
+
+  .recent-projects-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .recent-project-item {
+      border-radius: @component-border-radius;
+      border: 1px solid @base-border-color;
+      padding: @component-padding;
+      margin-bottom: @component-padding;
+
+      .recent-project-title {
+        display: block;
+      }
+
+      .recent-project-path {
+        color: @text-color-subtle;
+        word-wrap: break-word;
+
+        /* Using non-breaking space so that it won't break righ after brace
+           when path is too long and it does not fit into single line. */
+        &::before {content: '[\00A0';}
+        &::after  {content:  '\00A0]';}
+      }
+    }
+
+    .recent-project-item:hover {
+      background-color: @background-color-highlight;
+      cursor: pointer;
+    }
+  }
+
+  .pio-home-container {
+    display: flex;
+    flex-direction: row;
+
+    .pio-home-item {
+      padding: @component-padding;
+
+      .pio-home-quick-access {
+        display: flex;
+        flex-direction: column;
+
+        & > * {
+          margin-bottom: @component-padding;
+        }
+      }
+    }
+  }
+
+  .version-wrapper {
+    .version {
+      margin: auto @pio-version-space;
+      white-space: nowrap;
+
+      .version-string {
+        margin-left: @pio-version-space;
+      }
+    }
+
+    .version-copy:hover {
+      color: lighten(@text-color, 15%);
+      cursor: pointer;
+    }
+  }
 }
 
 .install-progress {
@@ -60,27 +127,12 @@
   margin-bottom: 1em;
 }
 
-@pio-version-space: .5em;
-
 .pio-about {
   text-align: center;
 
   &.about {
     padding-top: 2em ;
     padding-bottom: 2em;
-  }
-
-  .version {
-    margin: auto @pio-version-space;
-
-    .version-string {
-      margin-left: @pio-version-space;
-    }
-  }
-
-  .version-copy:hover {
-    color: lighten(@text-color, 15%);
-    cursor: pointer;
   }
 }
 
