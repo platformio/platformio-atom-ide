@@ -120,6 +120,20 @@
       cursor: pointer;
     }
   }
+
+  .pio-versions {
+    .upgrade-wrapper {
+      display: none;
+
+      & > span {
+        padding: @component-padding;
+      }
+
+      .do-upgrade:hover {
+        cursor: pointer;
+      }
+    }
+  }
 }
 
 .install-progress {
