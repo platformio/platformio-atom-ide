@@ -3,6 +3,10 @@
     'label': 'PlatformIO'
     'submenu': [
       {
+        'label': 'Home Screen'
+        'command': 'platformio-ide:home-screen'
+      }
+      {
         'label': 'Initialize new PlatformIO Project or update existing...'
         'command': 'platformio-ide:initialize-new-project'
       }
