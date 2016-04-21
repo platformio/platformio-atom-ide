@@ -1,22 +1,34 @@
 <div class="pio pio-template-root pio-home-screen about">
+  <div class="">
+    <img class="pio-home-screen-logo" src="atom://platformio-ide/resources/logo.png">
+    <div class="versions"></div>
+  </div>
+  <hr class="pio-home-screen-hr" />
   <div class="pio-home-container">
-      <div class="pio-home-item">
-        <h2>Versions</h2>
-        <div class="versions"></div>
+    <div class="pio-home-item">
+      <h2>Recent projects</h2>
+      <div class="recent-projects"></div>
+    </div>
+    <div class="pio-home-item">
+      <h2>Quick access</h2>
+      <div class="quick-links">
       </div>
-      <div class="pio-home-item">
-        <h2>Recent projects</h2>
-        <div class="recent-projects"></div>
-      </div>
-      <div class="pio-home-item">
-        <h2>Quick access</h2>
-        <div class="quick-links">
-        </div>
-      </div>
+    </div>
   </div>
   <div class="checkbox">
     <label>
       <input class="show-home-screen-checkbox" type="checkbox"> Show this screen upon IDE initialization
     </label>
   </div>
+  <div class="btn-group">
+    <a class="btn" href="https://github.com/platformio/platformio-atom-ide/blob/develop/HISTORY.md">IDE Release Notes</a>
+    <a class="btn" href="http://docs.platformio.org/en/latest/history.html">CLI Release Notes</a>
+    <a class="btn" href="https://github.com/platformio/platformio-atom-ide/blob/develop/LICENSE">License</a>
+  </div>
+  <p class="with-love">
+    Made with
+    <span class="icon icon-heart"></span>
+    in
+    <a href="http://platformio.org/contact">Ukraine</a>
+  </p>
 </div>
