@@ -8,6 +8,7 @@ module.exports = {
   "globals": {
     "atom": true,
   },
+  "parser": "babel-eslint",
   "parserOptions": {
     "sourceType": "module",
   },
