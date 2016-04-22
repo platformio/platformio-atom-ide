@@ -6,8 +6,9 @@
         'label': 'Home Screen'
         'command': 'platformio-ide:home-screen'
       }
+      {'type': 'separator'}
       {
-        'label': 'Initialize new PlatformIO Project or update existing...'
+        'label': 'Initialize new PlatformIO Project or modify existing...'
         'command': 'platformio-ide:initialize-new-project'
       }
       {
