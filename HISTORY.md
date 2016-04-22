@@ -1,5 +1,13 @@
 # Release Notes
 
+## 1.2.0 (2016-04-??)
+
+* **PlatformIO Home**: recent projects, quick access buttons, version information  
+* Jump to C/C++ Declaration via hotkey `f3`
+* Added `DTR` and `RTS` options to Serial Monitor
+* Added `Raw` (do not apply any encodings/transformations) option to Serial Monitor
+* Remember all Serial Monitor options (including advanced settings)
+
 ## 1.1.2 (2016-04-15)
 
 * Hotfix for Atom's bug with `process.env.PATH` ([#94](https://github.com/platformio/platformio-atom-ide/issues/94))
