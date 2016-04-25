@@ -1,5 +1,5 @@
 node_modules
 penv
 .cache
-project-examples
+/project-examples
 *.pyc
