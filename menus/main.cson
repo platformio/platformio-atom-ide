@@ -6,6 +6,10 @@
         'label': 'Home Screen'
         'command': 'platformio-ide:home-screen'
       }
+      {
+        'label': 'Project Examples'
+        'command': 'platformio-ide:project-examples'
+      }
       {'type': 'separator'}
       {
         'label': 'Initialize new PlatformIO Project or modify existing...'
