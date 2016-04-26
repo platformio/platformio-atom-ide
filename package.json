@@ -43,6 +43,7 @@
     "fs-extra": "^0.26.5",
     "ini": "^1.3.4",
     "lockfile": "^1.0.1",
+    "promisify-node": "^0.4.0",
     "request": "^2.69.0",
     "semver": "^5.1.0",
     "tar": "^2.2.1",
