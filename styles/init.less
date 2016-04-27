@@ -98,8 +98,14 @@
         display: flex;
         flex-direction: column;
 
-        & > * {
+        & > a {
           margin-bottom: @component-padding;
+          text-align: left;
+        }
+
+        & > a:before {
+          margin-right: @component-padding;
+          min-width: 14px;
         }
       }
     }
@@ -222,4 +228,25 @@
   width: 100%;
   margin-bottom: 1em;
   margin-top: 1em;
+}
+
+.pio-welcome-links {
+  & > li {
+    padding-left: @component-padding;
+    padding-right: 0px;
+
+    &:after {
+      content: '·';
+      padding-left: @component-padding;
+    }
+
+    &:last-of-type:after {
+      content: '';
+    }
+  }
+}
+
+.pio-quick-access-wrapper {
+  max-width: 300px;
+  margin: 0 auto;
 }
