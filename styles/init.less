@@ -90,6 +90,7 @@
   .pio-home-container {
     display: flex;
     flex-direction: row;
+    min-width: 350px;
 
     .pio-home-item {
       padding: @component-padding;
@@ -100,7 +101,7 @@
 
         & > a {
           margin-bottom: @component-padding;
-          padding: @component-padding 2*@component-padding;
+          padding: 0.5*@component-padding 2*@component-padding;
           text-align: left;
         }
 
@@ -232,18 +233,10 @@
 }
 
 .pio-welcome-links {
+  list-style-type: none;
+
   & > li {
-    padding-left: @component-padding;
-    padding-right: 0px;
-
-    &:after {
-      content: '·';
-      padding-left: @component-padding;
-    }
-
-    &:last-of-type:after {
-      content: '';
-    }
+    padding-bottom: @component-padding;
   }
 }
 
