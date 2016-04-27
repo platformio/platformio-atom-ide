@@ -87,32 +87,6 @@
     }
   }
 
-  .pio-home-container {
-    display: flex;
-    flex-direction: row;
-    min-width: 350px;
-
-    .pio-home-item {
-      padding: @component-padding;
-
-      .pio-home-quick-access {
-        display: flex;
-        flex-direction: column;
-
-        & > a {
-          margin-bottom: @component-padding;
-          padding: 0.5*@component-padding 2*@component-padding;
-          text-align: left;
-        }
-
-        & > a:before {
-          margin-right: @component-padding;
-          min-width: 14px;
-        }
-      }
-    }
-  }
-
   .version-wrapper {
     .version {
       margin: auto @pio-version-space;
@@ -232,15 +206,27 @@
   margin-top: 1em;
 }
 
-.pio-welcome-links {
-  list-style-type: none;
-
-  & > li {
-    padding-bottom: @component-padding;
-  }
-}
-
 .pio-quick-access-wrapper {
   max-width: 300px;
   margin: 0 auto;
+}
+
+.pio-home-quick-access {
+  display: flex;
+  flex-direction: column;
+
+  & > a {
+    margin-bottom: @component-padding;
+    padding: 0.5*@component-padding 2*@component-padding;
+    text-align: left;
+  }
+
+  & > a:before {
+    margin-right: @component-padding;
+    min-width: 14px;
+  }
+}
+
+.pio-web-links {
+  margin: 2*@component-padding 0px;
 }

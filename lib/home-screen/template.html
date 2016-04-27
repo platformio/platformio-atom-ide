@@ -1,32 +1,41 @@
 <div class="pio pio-template-root pio-home-screen about">
-  <div class="pio-home-container">
-    <div class="pio-home-item">
-      <a href="http://platformio.org"><img src="atom://platformio-ide/resources/logo.png"></a>
-      <h2>Welcome to <a href="http://platformio.org">PlatformIO</a></h2>
-      <div class="versions"></div>
-      <ul class="pio-welcome-links text-left">
-        <li class="pio-welcome-link"><span class="icon icon-home"></span> <a href="http://platformio.org">Home</a></li>
-        <li class="pio-welcome-link"><span class="icon icon-rocket"></span> <a href="http://docs.platformio.org/en/latest/ide/atom.html#quick-start">Get Started</a></li>
-        <li class="pio-welcome-link"><span class="icon icon-question"></span> <a href="http://docs.platformio.org/">Documentation</a></li>
-        <li class="pio-welcome-link"><span class="icon icon-comment-discussion"></span> <a href="https://community.platformio.org/">Community</a></li>
-        <li class="pio-welcome-link"><span class="icon icon-bug"></span> <a href="https://github.com/platformio/platformio/issues">Report Issue</a></li>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <a href="http://platformio.org"><img src="atom://platformio-ide/resources/logo.png"></a>
+        <h2>Welcome to <a href="http://platformio.org">PlatformIO</a></h2>
+        <div class="versions"></div>
+      </div>
+      <div class="col-md-6">
+        <div class="pio-quick-access-wrapper">
+          <h2>Quick access</h2>
+          <div class="quick-links"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <ul class="list-inline pio-web-links">
+        <li><span class="icon icon-rocket"></span> <a href="http://docs.platformio.org/en/latest/ide/atom.html#quick-start">Get Started</a></li>
+        <li>·</li>
+        <li><span class="icon icon-question"></span> <a href="http://docs.platformio.org/">Documentation</a></li>
+        <li>·</li>
+        <li><span class="icon icon-comment-discussion"></span> <a href="https://community.platformio.org/">Community</a></li>
+        <li>·</li>
+        <li><span class="icon icon-bug"></span> <a href="https://github.com/platformio/platformio/issues">Report Issue</a></li>
       </ul>
     </div>
-    <div class="pio-home-item">
-      <div class="pio-quick-access-wrapper">
-        <h2>Quick access</h2>
-        <div class="quick-links"></div>
-      </div>
-      <hr class="pio-home-screen-hr" />
-      <div>
-        <h2>Recent projects</h2>
-        <div class="recent-projects"></div>
+    <hr class="pio-home-screen-hr" />
+    <div class="row">
+      <h2>Recent projects</h2>
+      <div class="recent-projects"></div>
+    </div>
+    <hr class="pio-home-screen-hr" />
+    <div class="row">
+      <div class="checkbox">
+        <label>
+          <input class="show-home-screen-checkbox" type="checkbox"> Show PlatformIO Home screen on sturtup
+        </label>
       </div>
     </div>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input class="show-home-screen-checkbox" type="checkbox"> Show PlatformIO Home screen on sturtup
-    </label>
   </div>
 </div>
