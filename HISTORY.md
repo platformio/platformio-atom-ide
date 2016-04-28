@@ -1,6 +1,6 @@
 # Release Notes
 
-## 1.2.0 (2016-04-??)
+## 1.2.0 (2016-04-28)
 
 * **Home Screen**: Recent projects, quick access panel, IDE/CLI version information
 * **Project Examples**: Learn PlatformIO with pre-configured Project Examples
