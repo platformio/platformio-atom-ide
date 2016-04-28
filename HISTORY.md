@@ -2,7 +2,8 @@
 
 ## 1.2.0 (2016-04-??)
 
-* **PlatformIO Home**: recent projects, quick access panel, IDE/CLI version information  
+* **Home Screen**: Recent projects, quick access panel, IDE/CLI version information
+* **Project Examples**: Learn PlatformIO with pre-configured Project Examples
 * Jump to C/C++ Declaration via hotkey `f3`
 * Added `DTR` and `RTS` options to Serial Monitor
 * Added `Raw` (do not apply any encodings/transformations) option to Serial Monitor
