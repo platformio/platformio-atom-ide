@@ -5,7 +5,7 @@
 * Cross-platform code builder without external dependencies to the system
   software:
 
-    - 200+ embedded boards
+    - 250+ embedded boards
     - 15+ development platforms
     - 10+ frameworks
 
@@ -22,9 +22,9 @@ for IoT development. Cross-platform code builder and library manager.
 Continuous and IDE integration. Arduino and MBED compatible.
 Ready for Cloud compiling.
 
-*Atmel AVR & SAM, Espressif, Freescale Kinetis, Nordic nRF51, NXP LPC,
-Silicon Labs EFM32, ST STM32, TI MSP430 & Tiva, Teensy, Arduino, mbed,
-libOpenCM3, ESP8266, etc.*
+*Atmel AVR & SAM, Espressif, Freescale Kinetis, Intel ARC32, Lattice iCE40,
+Microchip PIC32, Nordic nRF51, NXP LPC, Silicon Labs EFM32, ST STM32,
+TI MSP430 & Tiva, Teensy, Arduino, ARM mbed, libOpenCM3, ESP8266, etc.*
 
 ## How it works
 

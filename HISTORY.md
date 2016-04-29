@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.2.1 (2016-04-29)
+
+* Fixed issue with Project Examples under Windows OS
+
 ## 1.2.0 (2016-04-28)
 
 * **Home Screen**: Recent projects, quick access panel, IDE/CLI version information
