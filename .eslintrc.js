@@ -43,5 +43,13 @@ module.exports = {
       2,
       "always"
     ],
+    "sort-imports": [
+      1,
+      {
+        "ignoreCase": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["none", "all", "single", "multiple"]
+      }
+    ],
   },
 };
