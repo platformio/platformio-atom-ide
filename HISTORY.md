@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.2.2 (2016-05-13)
+
+* Fixed typo in the "Home Screen"
+
 ## 1.2.1 (2016-04-29)
 
 * Fixed issue with Project Examples under Windows OS
