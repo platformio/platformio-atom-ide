@@ -1,8 +1,9 @@
 # Release Notes
 
-## 1.2.3 (2016-??-??)
+## 1.3.0 (2016-??-??)
 
 * Initial support for PlatformIO 3.0
+* Added advanced "Encoding" option for the Serial Monitor ([#118](https://github.com/platformio/platformio-atom-ide/issues/118))
 * Fixed issue with Python and system locale ([#112](https://github.com/platformio/platformio-atom-ide/issues/112))
 
 ## 1.2.2 (2016-05-13)
