@@ -3,7 +3,7 @@
 ## 1.3.0 (2016-06-28)
 
 * Initial support of PlatformIO 3.0 CLI
-* Added advanced "Encoding" option for the Serial Monitor ([#118](https://github.com/platformio/platformio-atom-ide/issues/118))
+* Added advanced "Encoding" option (`hexlify`) for the Serial Monitor ([#118](https://github.com/platformio/platformio-atom-ide/issues/118))
 * Automatically select active project directory for "Initialize Project..." ([#131](https://github.com/platformio/platformio-atom-ide/issues/131))
 * Export IDE's process `PATH` to the PlatformIO Terminal ([#47](https://github.com/platformio/platformio-atom-ide/issues/47))
 * Cleanup dead installation lock file ([#113](https://github.com/platformio/platformio-atom-ide/issues/113))
