@@ -28,7 +28,7 @@
   "consumedServices": {
     "tool-bar": {
       "versions": {
-        "^0.1.0": "consumeToolBar"
+        "<2.0.0": "consumeToolBar"
       }
     },
     "runInTerminal": {
