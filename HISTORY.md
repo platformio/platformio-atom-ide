@@ -1,5 +1,10 @@
 # Release Notes
 
+## 1.3.1 (2016-07-??)
+
+* Handle `Path` and `PATH` environment variables for Windows OS
+* Fixed issue with upgrading PlatformIO IDE from Atom Registry
+
 ## 1.3.0 (2016-06-28)
 
 * Initial support of PlatformIO 3.0 CLI
