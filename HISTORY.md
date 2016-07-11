@@ -2,7 +2,8 @@
 
 ## 1.3.1 (2016-07-??)
 
-* Handle `Path` and `PATH` environment variables for Windows OS
+* Handle `Path` and `PATH` environment variables for Windows OS ([#134](https://github.com/platformio/platformio-atom-ide/issues/134))
+* Better handling of opened projects with soft links ([#136](https://github.com/platformio/platformio-atom-ide/issues/136))
 * Fixed issue with upgrading PlatformIO IDE from Atom Registry
 
 ## 1.3.0 (2016-06-28)
