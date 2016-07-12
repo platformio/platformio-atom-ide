@@ -1,6 +1,6 @@
 # Release Notes
 
-## 1.3.1 (2016-07-??)
+## 1.3.1 (2016-07-12)
 
 * Handle `Path` and `PATH` environment variables for Windows OS ([#134](https://github.com/platformio/platformio-atom-ide/issues/134))
 * Better handling of opened projects with soft links ([#136](https://github.com/platformio/platformio-atom-ide/issues/136))
