@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.3.2 (2016-07-13)
+
+* Hotfix for "Uncaught Error" issue when "Settings" or "About" tabs are opened ([#137](https://github.com/platformio/platformio-atom-ide/issues/137))
+
 ## 1.3.1 (2016-07-12)
 
 * Handle `Path` and `PATH` environment variables for Windows OS ([#134](https://github.com/platformio/platformio-atom-ide/issues/134))
