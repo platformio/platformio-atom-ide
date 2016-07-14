@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.3.3 (2016-07-14)
+
+* Fixed issue with "Import Arduino IDE Project..." when compatibility is enabled
+
 ## 1.3.2 (2016-07-13)
 
 * Hotfix for "Uncaught Error" issue when "Settings" or "About" tabs are opened ([#137](https://github.com/platformio/platformio-atom-ide/issues/137))
