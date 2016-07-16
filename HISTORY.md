@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.3.4 (2016-07-??)
+
+* Improved cache system of PlatformIO IDE Installer
+
 ## 1.3.3 (2016-07-14)
 
 * Fixed issue with "Import Arduino IDE Project..." when compatibility is enabled
