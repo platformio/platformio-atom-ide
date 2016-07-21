@@ -3,6 +3,7 @@
 ## 1.3.4 (2016-07-??)
 
 * Improved cache system of PlatformIO IDE Installer
+* Fixed issue "‘platformio’ is not recognized as an internal or external command" for Windows OS ([#138](https://github.com/platformio/platformio-atom-ide/issues/138))
 
 ## 1.3.3 (2016-07-14)
 
