@@ -1,8 +1,9 @@
 # Release Notes
 
-## 1.3.4 (2016-07-??)
+## 1.3.4 (2016-07-21)
 
 * Improved cache system of PlatformIO IDE Installer
+* Force open Tree View when new project is added/opened
 * Fixed issue "‘platformio’ is not recognized as an internal or external command" for Windows OS ([#138](https://github.com/platformio/platformio-atom-ide/issues/138))
 
 ## 1.3.3 (2016-07-14)
