@@ -1,6 +1,6 @@
 # Release Notes
 
-## 1.3.5 (2016-07-21)
+## 1.3.5 (2016-07-22)
 
 * Fixed broken download URL for Python's `virtualenv` package
 
