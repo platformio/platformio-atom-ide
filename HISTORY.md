@@ -1,5 +1,10 @@
 # Release Notes
 
+## 1.3.6 (2016-07-25)
+
+* Reverted back to Python's `virtualenv` 15.0.1. Previous
+  version doesn't work on Windows ([virtualenv #929](https://github.com/pypa/virtualenv/issues/929))
+
 ## 1.3.5 (2016-07-22)
 
 * Fixed broken download URL for Python's `virtualenv` package
