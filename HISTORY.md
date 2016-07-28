@@ -1,7 +1,8 @@
 # Release Notes
 
-## 1.3.7 (2016-07-??)
+## 1.4.0 (2016-??-??)
 
+* Added "Local echo" to advanced settings for Serial Port Monitor ([#144](https://github.com/platformio/platformio-atom-ide/issues/144))
 * Improved PlatformIO IDE Installer ([#146](https://github.com/platformio/platformio-atom-ide/issues/146))
 
 ## 1.3.6 (2016-07-25)
