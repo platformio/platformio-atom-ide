@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.3.7 (2016-07-??)
+
+* Improved PlatformIO IDE Installer ([#146](https://github.com/platformio/platformio-atom-ide/issues/146))
+
 ## 1.3.6 (2016-07-25)
 
 * Reverted back to Python's `virtualenv` 15.0.1. Previous
