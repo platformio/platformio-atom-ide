@@ -28,9 +28,9 @@ TI MSP430 & Tiva, Teensy, Arduino, ARM mbed, libOpenCM3, ESP8266, etc.*
 
 ## How it works
 
-Please follow to the official documentation [PlatformIO IDE for Atom](http://docs.platformio.org/en/latest/ide/atom.html).
+Please follow to the official documentation [PlatformIO IDE for Atom](http://docs.platformio.org/en/stable/ide/atom.html).
 
-![PlatformIO IDE for Atom](http://docs.platformio.org/en/latest/_images/ide-atom-platformio.png "PlatformIO IDE for Atom")
+![PlatformIO IDE for Atom](http://docs.platformio.org/en/stable/_images/ide-atom-platformio.png "PlatformIO IDE for Atom")
 
 ## License
 
