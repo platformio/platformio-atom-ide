@@ -1,6 +1,6 @@
 # Release Notes
 
-## 1.4.0 (2016-??-??)
+## 1.4.0 (2016-08-02)
 
 * Added "Local echo" to advanced settings for Serial Port Monitor ([#144](https://github.com/platformio/platformio-atom-ide/issues/144))
 * Improved PlatformIO IDE Installer for Linux Arch and macOS ([#146](https://github.com/platformio/platformio-atom-ide/issues/146))
