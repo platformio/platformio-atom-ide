@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.5.0 (2016-09-??)
+
+* Added new baudrates (74880 and 250000) to Serial Port Monitor
+
 ## 1.4.0 (2016-08-02)
 
 * Added "Local echo" to advanced settings for Serial Port Monitor ([#144](https://github.com/platformio/platformio-atom-ide/issues/144))
