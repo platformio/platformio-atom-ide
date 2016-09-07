@@ -2,6 +2,7 @@
 
 ## 1.5.0 (2016-09-??)
 
+* Improved support for PlatformIO CLI 3.0
 * Added new baudrates (74880 and 250000) to Serial Port Monitor
 
 ## 1.4.0 (2016-08-02)
