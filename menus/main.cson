@@ -140,6 +140,10 @@
       }
       {'type': 'separator'}
       {
+        'label': 'PlatformIO Plus'
+        'command': 'platformio-ide:piolpus-site'
+      }
+      {
         'label': 'Documentation'
         'command': 'platformio-ide:help-docs'
       }
