@@ -1,12 +1,29 @@
 <div class="pio pio-template-root pio-init">
-  <h1>PlatformIO: Initialize new Project or modify existing</h1>
+  <h1>PlatformIO: Initialize or Update PlatformIO Project</h1>
 
   <p>
-    Only the first selected board will be used to generate data for Intelligent Code Completion
-    and Smart Code Linter.
-    <br>
-    Note! The first initialization may take a while. Please be patient and let the initialization complete.
+    This wizard allows you to create new build environments (<code>[env:...]</code>) for the specified boards. It means that you can build simultaneously the same code with multiple embedded platforms/boards.<br>
+    The all changes will be written to project configuration file <a href="http://docs.platformio.org/en/stable/projectconf.html">platformio.ini</a>
+    that will be created in root folder of a project.<br>
+    Next time you can edit <a href="http://docs.platformio.org/en/stable/projectconf.html">platformio.ini</a> manually without this wizard.
   </p>
+
+  <p>
+    <a href="http://docs.platformio.org/en/stable/projectconf.html">PlatformIO Project Configuration File "platformio.ini"</a> allows to set:
+    <ul>
+      <li><a href="http://docs.platformio.org/en/stable/projectconf.html#build-options">Build options</a>: build flags, source filter, extra scripting</li>
+      <li><a href="http://docs.platformio.org/en/stable/projectconf.html#upload-options">Upload options</a>: custom upload port, speed and extra flags</li>
+      <li><a href="http://docs.platformio.org/en/stable/projectconf.html#library-options">Library options</a>: dependencies, extra library storages</li>
+    </ul>
+    Please visit documentation for the other options and examples
+    <a href="http://docs.platformio.org/en/stable/projectconf.html">http://docs.platformio.org/en/stable/projectconf.html</a>
+  </p>
+
+  <p>
+    The only first selected board (build environment <code>[env:...]</code>) will be used to generate data for Intelligent Code Completion
+    and Smart Code Linter.
+  </p>
+  <p class="alert">Note! The first initialization requires Internet connection and may take a while (need to install specific toolchains, frameworks, SDKs). Please be patient and let the initialization complete.</p>
 
   <section>
     <div class="boards-select-wrapper">
