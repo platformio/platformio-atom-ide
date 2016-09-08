@@ -3,6 +3,7 @@
     "cmd-alt-b": "platformio-ide:target:build",
     "cmd-alt-c": "platformio-ide:target:clean",
     "cmd-alt-u": "platformio-ide:target:upload",
+    "cmd-alt-shift-t": "platformio-ide:target:test",
     "cmd-shift-t": "platformio-ide:maintenance.open-terminal",
     "cmd-shift-m": "platformio-ide:maintenance.serial-monitor"
   },
@@ -10,6 +11,7 @@
     "ctrl-alt-b": "platformio-ide:target:build",
     "ctrl-alt-c": "platformio-ide:target:clean",
     "ctrl-alt-u": "platformio-ide:target:upload",
+    "ctrl-alt-shift-T": "platformio-ide:target:test",
     "alt-shift-t": "platformio-ide:maintenance.open-terminal",
     "alt-shift-m": "platformio-ide:maintenance.serial-monitor"
   }

@@ -2,8 +2,9 @@
 
 ## 1.5.0 (2016-09-??)
 
-* Improved support for PlatformIO CLI 3.0
+* Integrated Local and Hardware [PlatformIO Unit Testing](http://docs.platformio.org/en/stable/plus/unit-testing.html)
 * Added new baudrates (74880 and 250000) to Serial Port Monitor
+* Improved support for PlatformIO CLI 3.0
 
 ## 1.4.0 (2016-08-02)
 

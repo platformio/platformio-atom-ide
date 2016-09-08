@@ -37,6 +37,10 @@
         'command': 'platformio-ide:target:clean'
       }
       {
+        'label': 'Test (Unit Testing)'
+        'command': 'platformio-ide:target:test'
+      }
+      {
         'label': 'Run other target...'
         'command': 'build:select-active-target'
       }
