@@ -2,7 +2,7 @@
   "name": "platformio-ide",
   "main": "./lib/main",
   "version": "1.4.0",
-  "description": "Official PlatformIO IDE for Atom. PlatformIO is an open source ecosystem for IoT development. Cross-platform build system and library manager. Continuous and IDE integration. Arduino and MBED compatible. Ready for Cloud compiling.",
+  "description": "Official PlatformIO IDE for Atom. PlatformIO is an open source ecosystem for IoT development. Cross-platform build system and library manager. Continuous and IDE integration. Arduino and ARM mbed compatible.",
   "keywords": [
     "PlatformIO",
     "IoT",
@@ -12,7 +12,13 @@
     "build",
     "library manager"
   ],
-  "repository": "https://github.com/platformio/platformio-atom-ide",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/platformio/platformio-atom-ide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/platformio/platformio-atom-ide/issues"
+  },
   "license": "GPL-2.0",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

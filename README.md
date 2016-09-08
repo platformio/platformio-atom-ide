@@ -1,4 +1,4 @@
-# PlatformIO IDE for Atom [![Donate for PlatformIO.Org](https://img.shields.io/donate/PlatformIO.png)](http://platformio.org/donate)
+# PlatformIO IDE for Atom [![PlatformIO Plus: Professional solutions for an awesome open source PlatformIO ecosystem](https://img.shields.io/PlatformIO/Plus.png)](https://pioplus.com)
 
 [PlatformIO IDE](http://platformio.org/platformio-ide) is the next generation integrated development environment for IoT:
 
@@ -19,8 +19,7 @@
 
 [PlatformIO](http://platformio.org/) is an open source ecosystem
 for IoT development. Cross-platform code builder and library manager.
-Continuous and IDE integration. Arduino and MBED compatible.
-Ready for Cloud compiling.
+Continuous and IDE integration. Arduino and ARM mbed compatible.
 
 *Atmel AVR & SAM, Espressif, Freescale Kinetis, Intel ARC32, Lattice iCE40,
 Microchip PIC32, Nordic nRF51, NXP LPC, Silicon Labs EFM32, ST STM32,
@@ -34,7 +33,7 @@ Please follow to the official documentation [PlatformIO IDE for Atom](http://doc
 
 ## License
 
-Copyright (C) 2016 Ivan Kravets. All rights reserved.
+Copyright (C) 2016 PlatformIO. All rights reserved.
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License version 2
