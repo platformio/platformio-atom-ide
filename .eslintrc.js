@@ -31,7 +31,7 @@ module.exports = {
     ],
     "no-console": [
       2,
-      {"allow": ["warn", "error"]},
+      {"allow": ["warn", "error", "debug"]},
     ],
     "prefer-const": 2,
     "quotes": [
@@ -48,7 +48,7 @@ module.exports = {
       {
         "ignoreCase": false,
         "ignoreMemberSort": false,
-        "memberSyntaxSortOrder": ["none", "all", "single", "multiple"]
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
       }
     ],
   },
