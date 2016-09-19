@@ -3,6 +3,7 @@
 ## 1.6.0 (2016-09-??)
 
 * Library Manager page with advanced explanations how to use it
+* Asynchronous C/C++ project index rebuilding (Autocomplete, Linter)
 * Added new setting `Show PlatformIO service files` in Tree View that is turned off by default
 * Added new baudrates (460800 and 921600) to Serial Port Monitor
 
