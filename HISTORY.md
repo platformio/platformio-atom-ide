@@ -1,6 +1,6 @@
 # Release Notes
 
-## 1.6.0 (2016-09-??)
+## 1.6.0 (2016-09-19)
 
 * Library Manager page with advanced explanations how to use it
 * Asynchronous C/C++ project index rebuilding (Autocomplete, Linter)
