@@ -2,7 +2,8 @@
 
 ## 1.6.0 (2016-09-??)
 
-* Added to new setting `Show PlatformIO service files`in Tree View that is turned off by default
+* Library Manager page with advanced explanations how to use it
+* Added new setting `Show PlatformIO service files` in Tree View that is turned off by default
 
 ## 1.5.0 (2016-09-08)
 

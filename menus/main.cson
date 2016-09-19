@@ -79,8 +79,8 @@
         ]
       }
       {
-        'label': 'Library Manager CLI (GUI soon)'
-        'command': 'platformio-ide:maintenance.libmanager-cli'
+        'label': 'Library Manager'
+        'command': 'platformio-ide:maintenance.libraries'
       }
       {
         'label': 'Serial Monitor'
