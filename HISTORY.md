@@ -4,11 +4,12 @@
 
 * Library Manager page with advanced explanations how to use it
 * Added new setting `Show PlatformIO service files` in Tree View that is turned off by default
+* Added new baudrates (460800 and 921600) to Serial Port Monitor
 
 ## 1.5.0 (2016-09-08)
 
-* Full support for PlatformIO CLI 3.0
-* Integrated Local and Hardware [PlatformIO Unit Testing](http://docs.platformio.org/en/stable/plus/unit-testing.html)
+* Full support of PlatformIO CLI 3.0
+* Integrated Local and Embedded [PlatformIO Unit Testing](http://docs.platformio.org/en/stable/plus/unit-testing.html)
 * Added new baudrates (74880 and 250000) to Serial Port Monitor
 * Updated "Initialize or Update PlatformIO Project" wizard with explanations
 
