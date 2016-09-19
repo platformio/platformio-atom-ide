@@ -41,7 +41,12 @@
       "versions": {
         "^0.14.5": "consumeRunInTerminal"
       }
-    }
+    },
+    "busy": {
+      "versions": {
+        "^1.0.0": "consumeBusy"
+      }
+    }    
   },
   "dependencies": {
     "command-join": "^1.0.1",
