@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.6.1 (2016-??-??)
+
+* Fixed "Menu: PlatformIO > Install Shell Commands" for Windows
+
 ## 1.6.0 (2016-09-19)
 
 * Library Manager page with advanced explanations how to use it
