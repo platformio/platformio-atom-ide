@@ -2,7 +2,8 @@
 
 ## 1.6.1 (2016-??-??)
 
-* Added new Toolbar button to run other targets (next to "Clean" button)
+* Added new Toolbar button to run other targets
+* Added new Toolbar button to toggle Build Panel
 * Fixed "Menu: PlatformIO > Install Shell Commands" for Windows
 
 ## 1.6.0 (2016-09-19)
