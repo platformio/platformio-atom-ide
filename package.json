@@ -23,6 +23,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "activationHooks": ["core:loaded-shell-environment"],
   "providedServices": {
     "builder": {
       "description": "PlatformIO IDE for Atom",
