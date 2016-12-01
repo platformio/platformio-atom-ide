@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.7.1 (2016-12-02)
+
+* Fixed Atom issue with initial installation
+
 ## 1.7.0 (2016-12-01)
 
 * Added new Toolbar button to run other targets
