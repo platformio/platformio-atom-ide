@@ -1,10 +1,13 @@
 # Release Notes
 
-## 1.6.1 (2016-??-??)
+## 1.7.0 (2016-12-01)
 
 * Added new Toolbar button to run other targets
 * Added new Toolbar button to toggle Build Panel
+* Added file specific icons to TreeView
+* Added Minimap with preview of the full source code
 * Fixed "Menu: PlatformIO > Install Shell Commands" for Windows
+* Fixed issue with "Uncought Error: Failed to get boards"
 
 ## 1.6.0 (2016-09-19)
 

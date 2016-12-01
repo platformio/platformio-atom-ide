@@ -5,8 +5,8 @@
 * Cross-platform code builder without external dependencies to the system
   software:
 
-    - 250+ embedded boards
-    - 15+ development platforms
+    - 350+ embedded boards
+    - 20+ development platforms
     - 10+ frameworks
 
 * C/C++ Intelligent Code Completion
@@ -15,13 +15,13 @@
 * Multi-projects workflow with multiple panes
 * Themes support with dark and light colors
 * Serial Port Monitor
-* Built-in Terminal with PlatformIO CLI tool (``pio``, ``platformio``)    
+* Built-in Terminal with PlatformIO Core tool (``pio``, ``platformio``)    
 
 [PlatformIO](http://platformio.org/) is an open source ecosystem
 for IoT development. Cross-platform code builder and library manager.
 Continuous and IDE integration. Arduino and ARM mbed compatible.
 
-*Atmel AVR & SAM, Espressif, Freescale Kinetis, Intel ARC32, Lattice iCE40,
+*Atmel AVR & SAM, Espressif 8266 & 32, Freescale Kinetis, Intel ARC32, Lattice iCE40,
 Microchip PIC32, Nordic nRF51, NXP LPC, Silicon Labs EFM32, ST STM32,
 TI MSP430 & Tiva, Teensy, Arduino, ARM mbed, libOpenCM3, ESP8266, etc.*
 

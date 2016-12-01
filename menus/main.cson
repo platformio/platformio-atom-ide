@@ -101,11 +101,11 @@
       }
       {'type': 'separator'}
       {
-        'label': 'Update Platforms and Libraries'
+        'label': 'Update platforms, packages and libraries'
         'command': 'platformio-ide:maintenance.update-platformio'
       }
       {
-        'label': 'Upgrade PlatformIO CLI'
+        'label': 'Upgrade PlatformIO Core'
         'command': 'platformio-ide:maintenance.upgrade-platformio'
       }
       {
@@ -129,8 +129,16 @@
             'command': 'platformio-ide:settings:pkg-build'
           }
           {
+            'label': 'File Icons'
+            'command': 'platformio-ide:settings:pkg-file-icons'
+          }
+          {
             'label': 'Linter'
             'command': 'platformio-ide:settings:pkg-linter'
+          }
+          {
+            'label': 'Minimap'
+            'command': 'platformio-ide:settings:pkg-minimap'
           }
           {
             'label': 'Tool Bar'
