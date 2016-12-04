@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.7.2 (2016-12-??)
+
+* Fixed issue with installation on Windows (disable Python's `pip` cache directory)
+
 ## 1.7.1 (2016-12-02)
 
 * Fixed Atom issue with initial installation
