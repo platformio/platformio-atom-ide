@@ -55,90 +55,11 @@
     color: @text-color-info;
     font-size: 1.5 * @font-size;
   }
-
-  .recent-projects-wrapper {
-    display: flex;
-    flex-direction: column;
-
-    .recent-project-item {
-      border-radius: @component-border-radius;
-      border: 1px solid @base-border-color;
-      padding: @component-padding;
-      margin-bottom: @component-padding;
-
-      .recent-project-title {
-        display: block;
-      }
-
-      .recent-project-path {
-        color: @text-color-subtle;
-        word-wrap: break-word;
-
-        /* Using non-breaking space so that it won't break righ after brace
-           when path is too long and it does not fit into single line. */
-        &::before {content: '[\00A0';}
-        &::after  {content:  '\00A0]';}
-      }
-    }
-
-    .recent-project-item:hover {
-      background-color: @background-color-highlight;
-      cursor: pointer;
-    }
-  }
-
-  .version-wrapper {
-    .version {
-      margin: auto @pio-version-space;
-      white-space: nowrap;
-
-      .version-string {
-        margin-left: @pio-version-space;
-      }
-    }
-
-    .version-copy:hover {
-      color: lighten(@text-color, 15%);
-      cursor: pointer;
-    }
-  }
-
-  .pio-versions {
-    .upgrade-wrapper {
-      display: none;
-
-      & > span {
-        padding: @component-padding;
-      }
-
-      .do-upgrade:hover {
-        cursor: pointer;
-      }
-    }
-  }
 }
 
 .install-progress {
   width: 100%;
   margin-bottom: 1em;
-}
-
-.pio-about {
-  text-align: center;
-
-  &.about {
-    padding-top: 2em ;
-    padding-bottom: 2em;
-  }
-}
-
-.pio-about-item {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-.with-love .icon-heart {
-  color: @text-color-error;
 }
 
 .directory-select-wrapper {
@@ -196,41 +117,11 @@
   }
 }
 
-.pio-home-screen-hr {
-  border-top: 1px solid @button-background-color-hover;
-  width: 100%;
-}
-
 .pio-project-examples-progress {
   display: none;
   width: 100%;
   margin-bottom: 1em;
   margin-top: 1em;
-}
-
-.pio-quick-access-wrapper {
-  max-width: 300px;
-  margin: 0 auto;
-}
-
-.pio-home-quick-access {
-  display: flex;
-  flex-direction: column;
-
-  & > a {
-    margin-bottom: @component-padding;
-    padding: 0.5*@component-padding 2*@component-padding;
-    text-align: left;
-  }
-
-  & > a:before {
-    margin-right: @component-padding;
-    min-width: 14px;
-  }
-}
-
-.pio-web-links {
-  margin: 2*@component-padding 0px;
 }
 
 .pio-libraries{
