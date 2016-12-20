@@ -3,8 +3,8 @@
     'label': 'PlatformIO'
     'submenu': [
       {
-        'label': 'Home Screen'
-        'command': 'platformio-ide:home-screen'
+        'label': 'PlatformIO Home'
+        'command': 'platformio-ide:home'
       }
       {
         'label': 'Project Examples'

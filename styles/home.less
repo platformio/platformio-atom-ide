@@ -1,0 +1,231 @@
+@import "ui-variables";
+
+.home-view {
+  display: flex;
+  overflow: auto;
+
+  .menu {
+    flex: 1.6;
+    min-width: 180px;
+    max-width: 240px;
+    -webkit-user-select: none;
+    user-select: none;
+    border-right: 1px solid @base-border-color;
+    overflow-x: auto;
+
+    .icon:before {
+      text-align: center;
+    }
+
+    .no-icon {
+      margin-left: @component-icon-size+@component-icon-padding;
+    }
+
+    .nav > li {
+      margin-top: 0;
+      > a {
+        border-radius: 0;
+        white-space: nowrap;
+        color: @text-color;
+        padding: @component-padding*1.5 @component-padding*2;
+
+        &:hover {
+          color: @text-color-highlight;
+          background-color: @background-color-highlight;
+        }
+      }
+    }
+
+    .nav > li.selected > a {
+      color: @text-color-selected;
+      background-color: @background-color-selected;
+    }
+  }
+
+  .section {
+    padding: @component-padding * 4;
+    border-top: 1px solid @base-border-color;
+    &:first-child,
+    &:last-child {
+      padding: @component-padding * 4;
+    }
+    &.section:empty {
+      padding: 0;
+      border-top: none;
+    }
+  }
+
+  .section-container {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .panels {
+    flex: 8.4;
+    flex-flow: column;
+    display: flex;
+    position: relative;
+    min-width: 0;
+
+   .panels-item {
+      flex: 1;
+      min-width: 372px;
+      overflow: auto;
+    }
+  }
+
+  section .section-heading,
+  .section .section-heading {
+    margin-bottom: @component-padding*2;
+    color: @text-color-highlight;
+    line-height: 1;
+    -webkit-user-select: none;
+    cursor: default;
+  }
+
+  .section-heading.icon:before {
+    margin-right: @component-padding*.8;
+    color: @text-color-subtle;
+  }
+
+  /* Select List */
+  .select-list ol.list-group,
+  &.select-list ol.list-group {
+    border: 1px solid @overlay-border-color;
+    background-color: lighten(@overlay-background-color, 2%);
+    margin-top: 0;
+
+    &:empty {
+      border: none;
+    }
+
+    li {
+      padding: @ui-padding/2 @ui-padding/1.5;
+      line-height: @ui-line-height/1.5;
+      border-bottom: 1px solid @overlay-border-color;
+
+      &:last-of-type {
+        border-bottom: none;
+      }
+
+      .icon::before {
+        margin-left: 1px;
+      }
+
+      .icon.status {
+        float: right;
+        margin-left: @ui-padding-icon;
+        &:before {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+
+      &.selected {
+        .status.icon {
+          color: @text-color-selected;
+        }
+      }
+
+      &:hover,
+      &:focus {
+        background-color: @background-color-selected;
+      }
+    }
+  }
+
+  /* Home > Welcome */
+  .home-welcome-view {
+    .head {
+      display: flex;
+
+      .title {
+        flex: 4;
+        white-space: nowrap;
+      }
+      .toggle {
+        flex: 1;
+        white-space: nowrap;
+        text-align: right;
+        padding-top: @component-padding/2;
+      }
+    }
+
+    .logo-and-links {
+      display: flex;
+
+      .pio-logo-versions {
+        flex: 5;
+        text-align: center;
+      }
+      .quick-links {
+        flex: 5;
+      }
+    }
+
+    .pio-logo-versions {
+      .versions {
+        padding-top: @ui-padding/2;
+      }
+    }
+
+    .quick-links {
+      h2 {
+        margin-top: 0;
+      }
+
+      .btn {
+        min-width: 300px;
+        margin-bottom: 6px;
+        text-align: left;
+        font-size: @font-size*1.3;
+        padding-top: @component-padding/2;
+        padding-bottom: @component-padding/2;
+      }
+    }
+
+    .web-links {
+      text-align: center;
+
+      hr {
+        border-top: 1px solid lighten(@base-background-color, 2%);
+        width: 100%;
+      }
+    }
+
+    .select-list li {
+      cursor: pointer;
+    }
+  }
+
+  /* Home > About */
+  .home-about-view {
+    text-align: center;
+
+    h1 {
+      color: @text-color-highlight;
+    }
+
+    .logo {
+      padding: @component-padding*1.5;
+      svg {
+        width: 220px;
+        height: 220px;
+      }
+    }
+
+    .sponsored {
+      font-size: @font-size*1.3;
+      padding: @component-padding*2.5 0;
+
+      .icon-heart {
+        color: @text-color-error;
+      }
+    }
+
+    .btn {
+      margin-top: @component-padding;
+    }
+  }
+
+}
