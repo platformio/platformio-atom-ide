@@ -13,7 +13,12 @@ module.exports = {
   "parserOptions": {
     "sourceType": "module",
   },
+  "plugins": ["jsx"],
   "rules": {
+    "jsx/uses-factory": [1, {"pragma": "etchDom"}],
+    "jsx/factory-in-scope": [1, {"pragma": "etchDom"}],
+    "jsx/mark-used-vars": 1,
+
     "comma-dangle": [
       2,
       "only-multiline"
