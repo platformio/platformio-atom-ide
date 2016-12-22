@@ -1,4 +1,4 @@
-# Copyright (C) 2016 Ivan Kravets. All rights reserved.
+# Copyright 2016-present Ivan Kravets <me@ikravets.com>
 #
 # This source file is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License version 2
