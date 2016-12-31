@@ -11,46 +11,51 @@ module.exports = {
   },
   "parser": "babel-eslint",
   "parserOptions": {
+    "ecmaVersion": 6,
     "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "plugins": ["jsx"],
   "rules": {
-    "jsx/uses-factory": [1, {"pragma": "etchDom"}],
-    "jsx/factory-in-scope": [1, {"pragma": "etchDom"}],
-    "jsx/mark-used-vars": 1,
+    "jsx/uses-factory": ["warn", {"pragma": "etchDom"}],
+    "jsx/factory-in-scope": ["warn", {"pragma": "etchDom"}],
+    "jsx/mark-used-vars": "warn",
 
     "comma-dangle": [
-      2,
+      "error",
       "only-multiline"
     ],
     "curly": [
-      1,
+      "warn",
       "all"
     ],
     "indent": [
-      1,
-      2
+      "warn",
+      2,
+      { "SwitchCase": 1 }
     ],
     "linebreak-style": [
-      2,
+      "error",
       "unix"
     ],
     "no-console": [
-      2,
+      "error",
       {"allow": ["warn", "error", "debug"]},
     ],
-    "prefer-const": 2,
+    "prefer-const": "error",
     "quotes": [
-      2,
+      "error",
       "single",
       "avoid-escape"
     ],
     "semi": [
-      2,
+      "error",
       "always"
     ],
     "sort-imports": [
-      1,
+      "warn",
       {
         "ignoreCase": false,
         "ignoreMemberSort": false,

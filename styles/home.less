@@ -1,3 +1,22 @@
+/**
+ * Copyright 2016-present Ivan Kravets <me@ikravets.com>
+ *
+ * This source file is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License version 2
+ * as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+@ui-line-height: @component-line-height;
+
 @import "ui-variables";
 
 .home-view {
@@ -88,6 +107,28 @@
     color: @text-color-subtle;
   }
 
+  /* Breadcrumbs */
+  .breadcrumb {
+    padding: @component-padding @component-padding;
+    margin-bottom: @component-padding*2;
+    list-style: none;
+    border-bottom: 1px solid @base-border-color;
+
+    > li {
+      display: inline-block;
+
+      + li:before {
+        content: "/\00a0"; // Unicode space added since inline-block means non-collapsing white-space
+        padding: 0 5px;
+        color: @text-color-subtle;
+      }
+    }
+
+    > .active {
+      color: @text-color;
+    }
+  }
+
   /* Select List */
   .select-list ol.list-group,
   &.select-list ol.list-group {
@@ -100,8 +141,8 @@
     }
 
     li {
-      padding: @ui-padding/2 @ui-padding/1.5;
-      line-height: @ui-line-height/1.5;
+      padding: @component-padding;
+      line-height: normal;
       border-bottom: 1px solid @overlay-border-color;
 
       &:last-of-type {
@@ -114,7 +155,8 @@
 
       .icon.status {
         float: right;
-        margin-left: @ui-padding-icon;
+        margin-left: @component-icon-padding;
+        margin-top: @component-icon-padding*1.3;
         &:before {
           margin-left: 0;
           margin-right: 0;
@@ -134,38 +176,22 @@
     }
   }
 
+  hr {
+    border-top: 1px solid lighten(@base-background-color, 2%);
+    width: 100%;
+  }
+
   /* Home > Welcome */
   .home-welcome-view {
-    .head {
-      display: flex;
-
-      .title {
-        flex: 4;
-        white-space: nowrap;
-      }
-      .toggle {
-        flex: 1;
-        white-space: nowrap;
-        text-align: right;
-        padding-top: @component-padding/2;
-      }
-    }
-
-    .logo-and-links {
-      display: flex;
-
-      .pio-logo-versions {
-        flex: 5;
-        text-align: center;
-      }
-      .quick-links {
-        flex: 5;
-      }
+    .piohome-toggle {
+      padding-top: @component-padding/2;
     }
 
     .pio-logo-versions {
+      text-align: center;
+
       .versions {
-        padding-top: @ui-padding/2;
+        padding-top: @component-padding;
       }
     }
 
@@ -179,17 +205,6 @@
         margin-bottom: 6px;
         text-align: left;
         font-size: @font-size*1.3;
-        padding-top: @component-padding/2;
-        padding-bottom: @component-padding/2;
-      }
-    }
-
-    .web-links {
-      text-align: center;
-
-      hr {
-        border-top: 1px solid lighten(@base-background-color, 2%);
-        width: 100%;
       }
     }
 

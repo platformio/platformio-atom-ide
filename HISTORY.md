@@ -1,6 +1,12 @@
 # Release Notes
 
-## 1.7.2 (2016-12-??)
+## 2.0.0 (2017-??-??)
+
+* PlatformIO Home
+
+  - Library Manager
+    ([#8](https://github.com/platformio/platformio-atom-ide/issues/8),
+     [#85](https://github.com/platformio/platformio-atom-ide/issues/85))
 
 * Fixed issue with installation on Windows (disable Python's `pip` cache directory)
 
