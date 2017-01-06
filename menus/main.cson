@@ -79,10 +79,6 @@
         ]
       }
       {
-        'label': 'Library Manager'
-        'command': 'platformio-ide:maintenance.libraries'
-      }
-      {
         'label': 'Serial Monitor'
         'command': 'platformio-ide:maintenance.serial-monitor'
       }
