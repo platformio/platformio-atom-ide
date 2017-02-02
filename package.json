@@ -14,7 +14,10 @@
     "esp8266",
     "esp32",
     "avr",
-    "arm"
+    "arm",
+    "fpga",
+    "verilog",
+    "hardware"
   ],
   "repository": {
     "type": "git",
