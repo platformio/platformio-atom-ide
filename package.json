@@ -63,7 +63,6 @@
   "dependencies": {
     "atom-select-list": "0.0.14",
     "command-join": "1.0.1",
-    "dexie": "1.5.1",
     "etch": "0.8.0",
     "flexboxgrid": "6.3.1",
     "fs-extra": "2.0.0",
