@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/platformio/platformio-atom-ide/issues"
   },
-  "license": "GPL-2.0",
+  "license": "https://pioplus.com/license.html",
   "engines": {
     "atom": ">=1.12.2 <2.0.0"
   },
