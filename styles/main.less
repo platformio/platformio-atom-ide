@@ -10,6 +10,10 @@
 
 @import "ui-variables";
 
+@-webkit-keyframes button-is-in-progress {
+  100% { background-position: -10px 0px; }
+}
+
 .btn-inprogress {
   opacity: 1; // override disabled style
   background-image: linear-gradient(to right, transparent 50%, hsla(0,0%,0%,.15) 50%) !important;
@@ -17,8 +21,29 @@
   -webkit-animation: button-is-in-progress .5s linear infinite !important;
 }
 
-@-webkit-keyframes button-is-in-progress {
-  100% { background-position: -10px 0px; }
+@-webkit-keyframes flash {
+  0%, 100%, 50% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0%, 100%, 50% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.icon-inprogress::before {
+  -webkit-animation: flash 3s ease infinite;
+  animation: flash 3s ease infinite;
 }
 
 .tree-view .pio-active-directory {
