@@ -57,11 +57,6 @@
   }
 }
 
-.install-progress {
-  width: 100%;
-  margin-bottom: 1em;
-}
-
 .directory-select-wrapper {
   margin-top: 1em;
 }
@@ -98,43 +93,9 @@
   }
 }
 
-.tree-view .pio-active-directory {
-  @active-directory-border-size: 2px;
-  &.project-root {
-    border-left: @active-directory-border-size solid @background-color-info;
-  }
-
-  /* Matches all selected items (those having lighen background). Note the space between "&" and "." */
-  & .selected::before {
-    margin-left: @component-icon-padding + @active-directory-border-size;
-  }
-
-  /* Matches the root directory only. Note that there are no space between "&" and "." */
-  &.selected::before {
-    border-right: 2 * @active-directory-border-size solid @background-color-info;
-    border-top-right-radius: 2 * @active-directory-border-size;
-    border-bottom-right-radius: 2 * @active-directory-border-size;
-  }
-}
-
 .pio-project-examples-progress {
   display: none;
   width: 100%;
   margin-bottom: 1em;
   margin-top: 1em;
-}
-
-.pio-libraries{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  -webkit-user-select: none;
-  cursor: default;
-  overflow: auto;
-  font-size: 1.1 * @font-size;
-  line-height: 1.4;
-  padding: 2 * @component-padding;
-  color: @text-color;
-  background-color: @base-background-color;
 }

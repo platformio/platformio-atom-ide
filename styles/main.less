@@ -15,6 +15,8 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+@import "ui-variables";
+
 .btn-inprogress {
   opacity: 1; // override disabled style
   background-image: linear-gradient(to right, transparent 50%, hsla(0,0%,0%,.15) 50%) !important;
@@ -24,4 +26,23 @@
 
 @-webkit-keyframes button-is-in-progress {
   100% { background-position: -10px 0px; }
+}
+
+.tree-view .pio-active-directory {
+  @active-directory-border-size: 2px;
+  &.project-root {
+    border-left: @active-directory-border-size solid @background-color-info;
+  }
+
+  /* Matches all selected items (those having lighen background). Note the space between "&" and "." */
+  & .selected::before {
+    margin-left: @component-icon-padding + @active-directory-border-size;
+  }
+
+  /* Matches the root directory only. Note that there are no space between "&" and "." */
+  &.selected::before {
+    border-right: 2 * @active-directory-border-size solid @background-color-info;
+    border-top-right-radius: 2 * @active-directory-border-size;
+    border-bottom-right-radius: 2 * @active-directory-border-size;
+  }
 }
