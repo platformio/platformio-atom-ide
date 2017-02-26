@@ -64,3 +64,30 @@
     border-bottom-right-radius: 2 * @active-directory-border-size;
   }
 }
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+
+  th,
+  td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid @input-border-color;
+  }
+
+  thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid @input-border-color;
+  }
+
+  tbody + tbody {
+    border-top: 2px solid @input-border-color;
+  }
+
+}
+
+.table-hover tr:hover {
+  background-color: @background-color-highlight;
+}
