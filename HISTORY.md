@@ -5,7 +5,8 @@
 * PlatformIO Home
   - Library Manager
     ([#8](https://github.com/platformio/platformio-atom-ide/issues/8),
-     [#85](https://github.com/platformio/platformio-atom-ide/issues/85))     
+     [#85](https://github.com/platformio/platformio-atom-ide/issues/85))    
+  - Board Explorer 
 * New PlatformIO IDE Installer
   - Asynchronous tasks
   - Compatible with Anaconda
