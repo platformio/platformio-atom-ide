@@ -19,8 +19,8 @@ module.exports = {
   },
   "plugins": ["jsx"],
   "rules": {
-    "jsx/uses-factory": ["warn", {"pragma": "etch"}],
-    "jsx/factory-in-scope": ["warn", {"pragma": "etch"}],
+    "jsx/uses-factory": ["warn", {"pragma": "jsxDOM"}],
+    "jsx/factory-in-scope": ["warn", {"pragma": "jsxDOM"}],
     "jsx/mark-used-vars": "warn",
 
     "comma-dangle": [
