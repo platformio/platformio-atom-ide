@@ -68,32 +68,52 @@
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: @component-padding;
 
-  th,
-  td {
-    padding: 0.75rem;
+  & > thead > tr > th,
+  & > tbody > tr > th,
+  & > tfoot > tr > th,
+  & > thead > tr > td,
+  & > tbody > tr > td,
+  & > tfoot > tr > td {
+    padding: @component-padding;
     vertical-align: top;
     border-top: 1px solid @input-border-color;
   }
-
-  thead th {
+  & > thead > tr > th {
     vertical-align: bottom;
     border-bottom: 2px solid @input-border-color;
   }
-
-  tbody + tbody {
+  & > caption + thead > tr:first-child > th,
+  & > colgroup + thead > tr:first-child > th,
+  & > thead:first-child > tr:first-child > th,
+  & > caption + thead > tr:first-child > td,
+  & > colgroup + thead > tr:first-child > td,
+  & > thead:first-child > tr:first-child > td {
+    border-top: 0;
+  }
+  & > tbody + tbody {
     border-top: 2px solid @input-border-color;
   }
 
-}
-
-.table-hover tr:hover {
-  background-color: @background-color-highlight;
+  &.table-hover tbody > tr:hover {
+    background-color: @background-color-highlight;
+  }
 }
 
 .panel-submenu {
   margin-bottom: @component-padding*2;
+}
+
+.inline-anchors a {
+  margin-bottom: @component-padding;
+
+  &:after {
+    content: ",\0020";
+  }
+  &:last-child:after {
+    content: "";
+  }
 }
 
 /* Items: library, platform, framework */
