@@ -3,14 +3,18 @@
 ## 2.0.0 (2017-??-??)
 
 * PlatformIO Home
-  - Library Manager
-    ([#8](https://github.com/platformio/platformio-atom-ide/issues/8),
-     [#85](https://github.com/platformio/platformio-atom-ide/issues/85))    
-  - Board Explorer 
+* Library Manager ([#8](https://github.com/platformio/platformio-atom-ide/issues/8), [#85](https://github.com/platformio/platformio-atom-ide/issues/85))    
+* Board Explorer
+* Platform Manager
 * New PlatformIO IDE Installer
   - Asynchronous tasks
   - Compatible with Anaconda
   - Allowed to disable non-required Atom's dependencies
+
+## 1.7.3 (2017-03-04)
+
+* Notify about outdated Atom
+* Revert to the previous version of `request` package and fixed ([#249](https://github.com/platformio/platformio-atom-ide/issues/249))
 
 ## 1.7.2 (2017-02-01)
 
