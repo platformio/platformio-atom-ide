@@ -166,7 +166,7 @@
   }
 
   hr {
-    border-top: 1px solid lighten(@inset-panel-background-color, 2%);
+    border-top: 1px solid lighten(@base-background-color, 3%);
     width: 100%;
   }
 
@@ -222,21 +222,14 @@
   .home-welcome-view {
 
     .pio-logo-versions {
-      text-align: center;
-
       .versions {
         padding-top: @component-padding;
       }
-
     }
 
     .quick-links {
-      h2 {
-        margin-top: 0;
-      }
-
       .btn {
-        min-width: 300px;
+        width: 250px;
         margin-bottom: 6px;
         text-align: left;
         font-size: @font-size*1.3;
