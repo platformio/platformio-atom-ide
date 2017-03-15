@@ -49,9 +49,9 @@
         "<2.0.0": "consumeToolBar"
       }
     },
-    "runInTerminal": {
+    "platformioIDETerminal": {
       "versions": {
-        "^0.14.5": "consumeRunInTerminal"
+        "^1.0.0": "consumePlatformioIDETerminal"
       }
     },
     "busy": {
