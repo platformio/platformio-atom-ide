@@ -1,21 +1,23 @@
 /**
- * Copyright 2016-present PlatformIO Plus <contact@pioplus.com>
+ * Copyright (c) 2016-present, PlatformIO Plus <contact@pioplus.com>
+ * All rights reserved.
  *
- * License: https://pioplus.com/license.html
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * This source code is licensed under the license found in the LICENSE file in
+ * the root directory of this source tree.
  */
-
+ 
 @import "ui-variables";
 
-.home-view {
+@main-page-max-width: 1000px;
+
+.home-app {
   display: flex;
-  overflow: auto;
+  height: 100%;
+  overflow-x: auto;
 
   .menu {
     flex: 1.6;
+    height: 100%;
     min-width: 180px;
     max-width: 200px;
     -webkit-user-select: none;
@@ -38,6 +40,7 @@
         white-space: nowrap;
         color: @text-color;
         padding: @component-padding*1.5 @component-padding*2;
+        min-height: (@component-line-height*2)+1;
 
         &:hover {
           color: @text-color-highlight;
@@ -52,40 +55,47 @@
     }
   }
 
-  .section {
-    padding: @component-padding * 4;
-    border-top: 1px solid @base-border-color;
-    &:first-child,
-    &:last-child {
-      padding: @component-padding * 4;
-    }
-    &.section:empty {
-      padding: 0;
-      border-top: none;
-    }
-  }
-
-  .section-container {
-    width: 100%;
-    max-width: 1000px;
-  }
-
-  .panels {
+  .containers {
     flex: 8.4;
     flex-flow: column;
     display: flex;
     position: relative;
-    min-width: 0;
+    height: 100%;
 
-   .panels-item {
-      flex: 1;
-      min-width: 372px;
-      overflow: auto;
+    .topbar-container {
+      padding: @component-padding*1.5 @component-padding*2;
+      min-height: (@component-line-height*2)+1;
+      max-width: @main-page-max-width;
+
+      .nav-control .icon::before {
+        font-size: @font-size*1.6;
+      }
     }
+
+   .main-container {
+      overflow-y: auto;
+      height: 100%;
+      width: 100%;
+      background: -webkit-linear-gradient(lighten(@base-background-color, 1%), @base-background-color);
+      border-top: 1px solid contrast(@base-background-color, darken(@base-background-color, 4%), lighten(@base-background-color, 4%));
+
+      .page-container {
+        overflow: auto;
+        max-width: @main-page-max-width;
+        padding: @component-padding*4;
+      }
+
+      .page-container-fluid {
+        overflow: auto;
+        margin-right: auto;
+        margin-left: auto;
+        padding: @component-padding*4;
+      }
+    }
+
   }
 
-  section .section-heading,
-  .section .section-heading {
+  .section-heading {
     margin-bottom: @component-padding*2;
     color: @text-color-highlight;
     line-height: 1;
@@ -95,28 +105,6 @@
   .section-heading.icon:before {
     margin-right: @component-padding*.8;
     color: @text-color-subtle;
-  }
-
-  /* Breadcrumbs */
-  .breadcrumb {
-    padding: @component-padding @component-padding;
-    margin-bottom: @component-padding*2;
-    list-style: none;
-    border-bottom: 1px solid @base-border-color;
-
-    > li {
-      display: inline-block;
-
-      + li:before {
-        content: "/\00a0"; // Unicode space added since inline-block means non-collapsing white-space
-        padding: 0 5px;
-        color: @text-color-subtle;
-      }
-    }
-
-    > .active {
-      color: @text-color;
-    }
   }
 
   /* Select List */
@@ -160,9 +148,13 @@
 
       &:hover,
       &:focus {
-        background-color: contrast(@inset-panel-background-color, darken(@inset-panel-background-color, 2%), lighten(@background-color-highlight, 2%));
+        background-color: contrast(@inset-panel-background-color, darken(@inset-panel-background-color, 2%), lighten(@inset-panel-background-color, 2%));
       }
     }
+  }
+
+  .input-search:focus {
+    border: 1px solid @button-background-color-selected;
   }
 
   hr {
@@ -170,7 +162,7 @@
     width: 100%;
   }
 
-  .panel-submenu {
+  .page-submenu {
     margin-bottom: @component-padding*2;
   }
 
@@ -219,7 +211,7 @@
   }
 
   /* Home > Welcome */
-  .home-welcome-view {
+  .welcome-page {
 
     .pio-logo-versions {
       .versions {
@@ -242,7 +234,7 @@
   }
 
   /* Home > About */
-  .home-about-view {
+  .about-page {
     text-align: center;
 
     h1 {

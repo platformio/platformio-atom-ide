@@ -1,11 +1,9 @@
 /**
- * Copyright 2016-present PlatformIO Plus <contact@pioplus.com>
+ * Copyright (c) 2016-present, PlatformIO Plus <contact@pioplus.com>
+ * All rights reserved.
  *
- * License: https://pioplus.com/license.html
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * This source code is licensed under the license found in the LICENSE file in
+ * the root directory of this source tree.
  */
 
 @import "ui-variables";
@@ -97,6 +95,15 @@
   }
 
   &.table-hover tbody > tr:hover {
-    background-color: contrast(@inset-panel-background-color, darken(@inset-panel-background-color, 2%), lighten(@background-color-highlight, 2%));
+    background-color: contrast(@inset-panel-background-color, darken(@inset-panel-background-color, 2%), lighten(@inset-panel-background-color, 2%));
+  }
+}
+
+.modal .input-search {
+  font-size: @font-size*1.4;
+  border: 1px solid @button-background-color-selected;
+
+  &:focus {
+    box-shadow: 0 0 0 1px @button-background-color-selected;
   }
 }

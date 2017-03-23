@@ -33,9 +33,10 @@ Please follow to the official documentation [PlatformIO IDE for Atom](http://doc
 
 ## License
 
-Copyright 2016-present PlatformIO Plus <contact@pioplus.com>
+Copyright 2016-present, PlatformIO Plus <contact@pioplus.com>
+All rights reserved.
 
-License: https://pioplus.com/license.html
+LICENSE AGREEMENT: https://pioplus.com/license.html
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of

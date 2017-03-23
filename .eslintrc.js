@@ -5,7 +5,8 @@ module.exports = {
     "node": true,
     "jasmine": true
   },
-  "extends": "eslint:recommended",
+  "plugins": ["react", "redux-saga"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "globals": {
     "atom": true,
   },
@@ -17,12 +18,7 @@ module.exports = {
       "jsx": true
     }
   },
-  "plugins": ["jsx"],
   "rules": {
-    "jsx/uses-factory": ["warn", {"pragma": "jsxDOM"}],
-    "jsx/factory-in-scope": ["warn", {"pragma": "jsxDOM"}],
-    "jsx/mark-used-vars": "warn",
-
     "comma-dangle": [
       "error",
       "only-multiline"
