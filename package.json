@@ -46,7 +46,7 @@
   "consumedServices": {
     "tool-bar": {
       "versions": {
-        "<2.0.0": "consumeToolBar"
+        "<2.0.0": "consumeToolbar"
       }
     },
     "platformioIDETerminal": {
