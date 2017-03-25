@@ -5,7 +5,7 @@
  * This source code is licensed under the license found in the LICENSE file in
  * the root directory of this source tree.
  */
- 
+
 @import "ui-variables";
 
 @main-page-max-width: 1000px;
@@ -177,6 +177,10 @@
     }
   }
 
+  .inline-buttons button {
+    margin-bottom: @component-padding/2;
+  }
+
   /* Items: library, platform, framework */
   .list-item-card {
     padding: @component-padding*1.5;
@@ -203,10 +207,6 @@
 
     .card-actions .btn {
       font-size: @font-size*1.2;
-    }
-
-    .tag-buttons .btn {
-      margin-bottom: @component-padding/2;
     }
   }
 
