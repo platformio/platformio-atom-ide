@@ -11,6 +11,7 @@
   - Asynchronous tasks
   - Compatible with Anaconda
   - Allowed disabling non-required Atom's dependencies
+* Added command/hotkey for PIO Core `program` target ([#154](https://github.com/platformio/platformio-atom-ide/issues/154))
 
 ## 1.7.3 (2017-03-04)
 
