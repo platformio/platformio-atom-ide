@@ -5,47 +5,53 @@ module.exports = {
     "node": true,
     "jasmine": true
   },
-  "extends": "eslint:recommended",
+  "plugins": ["react", "redux-saga"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "globals": {
     "atom": true,
   },
   "parser": "babel-eslint",
   "parserOptions": {
+    "ecmaVersion": 6,
     "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "rules": {
     "comma-dangle": [
-      2,
+      "error",
       "only-multiline"
     ],
     "curly": [
-      1,
+      "warn",
       "all"
     ],
     "indent": [
-      1,
-      2
+      "warn",
+      2,
+      { "SwitchCase": 1 }
     ],
     "linebreak-style": [
-      2,
+      "error",
       "unix"
     ],
     "no-console": [
-      2,
+      "error",
       {"allow": ["warn", "error", "debug"]},
     ],
-    "prefer-const": 2,
+    "prefer-const": "error",
     "quotes": [
-      2,
+      "error",
       "single",
       "avoid-escape"
     ],
     "semi": [
-      2,
+      "error",
       "always"
     ],
     "sort-imports": [
-      1,
+      "warn",
       {
         "ignoreCase": false,
         "ignoreMemberSort": false,

@@ -1,0 +1,109 @@
+/**
+ * Copyright (c) 2016-present, PlatformIO Plus <contact@pioplus.com>
+ * All rights reserved.
+ *
+ * This source code is licensed under the license found in the LICENSE file in
+ * the root directory of this source tree.
+ */
+
+@import "ui-variables";
+
+@-webkit-keyframes button-is-in-progress {
+  100% { background-position: -10px 0px; }
+}
+
+.btn-inprogress {
+  opacity: 1; // override disabled style
+  background-image: linear-gradient(to right, transparent 50%, hsla(0,0%,0%,.15) 50%) !important;
+  background-size: 10px 100% !important;
+  -webkit-animation: button-is-in-progress .5s linear infinite !important;
+}
+
+@-webkit-keyframes flash {
+  0%, 100%, 50% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0%, 100%, 50% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.icon-inprogress::before {
+  -webkit-animation: flash 3s ease infinite;
+  animation: flash 3s ease infinite;
+}
+
+.tree-view .pio-active-directory {
+  @active-directory-border-size: 2px;
+  &.project-root {
+    border-left: @active-directory-border-size solid @background-color-info;
+  }
+
+  /* Matches all selected items (those having lighen background). Note the space between "&" and "." */
+  & .selected::before {
+    margin-left: @component-icon-padding + @active-directory-border-size;
+  }
+
+  /* Matches the root directory only. Note that there are no space between "&" and "." */
+  &.selected::before {
+    border-right: 2 * @active-directory-border-size solid @background-color-info;
+    border-top-right-radius: 2 * @active-directory-border-size;
+    border-bottom-right-radius: 2 * @active-directory-border-size;
+  }
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: @component-padding;
+
+  & > thead > tr > th,
+  & > tbody > tr > th,
+  & > tfoot > tr > th,
+  & > thead > tr > td,
+  & > tbody > tr > td,
+  & > tfoot > tr > td {
+    padding: @component-padding;
+    vertical-align: top;
+    border-top: 1px solid @input-border-color;
+  }
+  & > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid @input-border-color;
+  }
+  & > caption + thead > tr:first-child > th,
+  & > colgroup + thead > tr:first-child > th,
+  & > thead:first-child > tr:first-child > th,
+  & > caption + thead > tr:first-child > td,
+  & > colgroup + thead > tr:first-child > td,
+  & > thead:first-child > tr:first-child > td {
+    border-top: 0;
+  }
+  & > tbody + tbody {
+    border-top: 2px solid @input-border-color;
+  }
+
+  &.table-hover tbody > tr:hover {
+    background-color: contrast(@inset-panel-background-color, darken(@inset-panel-background-color, 2%), lighten(@inset-panel-background-color, 2%));
+  }
+}
+
+.modal .input-search {
+  font-size: @font-size*1.4;
+  border: 1px solid @button-background-color-selected;
+
+  &:focus {
+    box-shadow: 0 0 0 1px @button-background-color-selected;
+  }
+}

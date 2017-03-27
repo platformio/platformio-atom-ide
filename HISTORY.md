@@ -1,5 +1,18 @@
 # Release Notes
 
+## 2.0.0 (2017-??-??)
+
+* Completely rewritten in React
+* PlatformIO Home
+* Library Manager ([#8](https://github.com/platformio/platformio-atom-ide/issues/8), [#85](https://github.com/platformio/platformio-atom-ide/issues/85))    
+* Board Explorer
+* Platform Manager
+* New PlatformIO IDE Installer
+  - Asynchronous tasks
+  - Compatible with Anaconda
+  - Allowed disabling non-required Atom's dependencies
+* Added command/hotkey for PIO Core `program` target ([#154](https://github.com/platformio/platformio-atom-ide/issues/154))
+
 ## 1.7.3 (2017-03-04)
 
 * Notify about outdated Atom

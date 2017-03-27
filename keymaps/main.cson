@@ -1,0 +1,17 @@
+'.platform-darwin':
+  'cmd-alt-b': 'platformio-ide:target:build'
+  'cmd-alt-c': 'platformio-ide:target:clean'
+  'cmd-alt-u': 'platformio-ide:target:upload'
+  'cmd-alt-shift-p': 'platformio-ide:target:program'
+  'cmd-alt-shift-t': 'platformio-ide:target:test'
+  'cmd-shift-t': 'platformio-ide:maintenance.open-terminal'
+  'cmd-shift-m': 'platformio-ide:maintenance.serial-monitor'
+
+'.platform-win32, .platform-linux':
+  'ctrl-alt-b': 'platformio-ide:target:build'
+  'ctrl-alt-c': 'platformio-ide:target:clean'
+  'ctrl-alt-u': 'platformio-ide:target:upload'
+  'ctrl-alt-shift-p': 'platformio-ide:target:program'
+  'ctrl-alt-shift-t': 'platformio-ide:target:test'
+  'alt-shift-t': 'platformio-ide:maintenance.open-terminal'
+  'alt-shift-m': 'platformio-ide:maintenance.serial-monitor'

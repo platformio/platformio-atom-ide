@@ -1,0 +1,54 @@
+/**
+ * Copyright (c) 2016-present, PlatformIO Plus <contact@pioplus.com>
+ * All rights reserved.
+ *
+ * This source code is licensed under the license found in the LICENSE file in
+ * the root directory of this source tree.
+ */
+
+@import "ui-variables";
+
+.reacttable {
+  &.table-hover .reactable-pagination  > tr:hover {
+    background-color: transparent;
+  }
+  th {
+    cursor: pointer;
+    &.reactable-header-sortable::after {
+      content: '\21C5';
+      padding-left: 10px;
+      padding-bottom: 5px;
+      visibility: hidden;
+    }
+    &.reactable-header-sortable:hover:after {
+      visibility: visible;
+    }
+
+    &.reactable-header-sort-desc:after {
+      color: @text-color;
+      content: '\25BC';
+    }
+
+    &.reactable-header-sort-asc:after {
+      color: @text-color;
+      content: '\25B2';
+    }
+  }
+  .reactable-pagination {
+    & tr > td {
+      text-align: center;
+      & > a {
+        padding: @component-padding*1.3;
+      }
+    }
+    .reactable-current-page {
+      font-weight: bold;
+      color: @text-color-selected;
+      border: 1px solid @text-color-subtle;
+      border-radius: 3px;
+      padding: 5px;
+      box-shadow: 0 0 3px @text-color-subtle;
+      text-decoration: none;
+    }
+  }
+}
