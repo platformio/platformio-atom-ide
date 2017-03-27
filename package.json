@@ -61,7 +61,7 @@
     }
   },
   "dependencies": {
-    "atom-select-list": "^0.1.0",
+    "atom-select-list": "^0.2.0",
     "command-join": "^1.0.1",
     "flexboxgrid": "^6.3.1",
     "fs-extra": "^2.1.2",
