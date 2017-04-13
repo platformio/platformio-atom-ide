@@ -31,7 +31,7 @@
   },
   "license": "https://pioplus.com/license.html",
   "engines": {
-    "atom": ">=1.12.2 <2.0.0"
+    "atom": ">=1.13.0 <2.0.0"
   },
   "activationHooks": [
     "core:loaded-shell-environment"
@@ -60,9 +60,9 @@
         "^1.0.0": "consumeBusy"
       }
     },
-    "dbg": {
+    "platformioIDEDebugger": {
       "versions": {
-        "^1.1.0": "consumeDbg"
+        "^1.0.0": "consumeDebugger"
       }
     }
   },

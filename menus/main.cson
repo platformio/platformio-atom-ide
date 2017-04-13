@@ -51,35 +51,44 @@ menu: [
             label: 'Start new debug session'
             command: 'platformio-ide:target:debug'
           }
+          {
+            label: 'Stop'
+            command: 'platformio-ide-debugger:disconnect'
+          }
           { type: 'separator' }
           {
-            label: 'Pause / Continue'
-            command: 'dbg:pause-continue'
+            label: 'Resume'
+            command: 'platformio-ide-debugger:continue'
           }
+          {
+            label: 'Suspend'
+            command: 'platformio-ide-debugger:interrupt'
+          }
+          { type: 'separator' }
           {
             label: 'Step Over'
-            command: 'dbg:step-over'
+            command: 'platformio-ide-debugger:next'
           }
           {
-            label: 'Step in'
-            command: 'dbg:step-in'
+            label: 'Step Into'
+            command: 'platformio-ide-debugger:step'
           }
           {
             label: 'Step Out'
-            command: 'dbg:step-out'
-          }
-          {
-            label: 'Stop debugging'
-            command: 'dbg:stop'
+            command: 'platformio-ide-debugger:finish'
           }
           { type: 'separator' }
           {
             label: 'Toggle breakpoint on current line'
-            command: 'dbg:toggle-breakpoint'
+            command: 'platformio-ide-debugger:toggle-breakpoint'
           }
           {
-            label: 'Clear all breakpoints'
-            command: 'dbg:clear-breakpoints'
+            label: 'Toggle Control Panel'
+            command: 'platformio-ide-debugger:toggle-panel'
+          }
+          {
+            label: 'Toggle GDB Console'
+            command: 'platformio-ide-debugger:toggle-cli'
           }
         ]
       }
