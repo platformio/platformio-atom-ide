@@ -87,7 +87,7 @@ menu: [
             command: 'platformio-ide-debugger:toggle-panel'
           }
           {
-            label: 'Toggle GDB Console'
+            label: 'Toggle Debugger Console'
             command: 'platformio-ide-debugger:toggle-cli'
           }
         ]

@@ -95,7 +95,7 @@
   "devDependencies": {
     "babel-eslint": "^7.2.0",
     "esformatter": "^0.10.0",
-    "esformatter-jsx": "^7.4.0",
+    "esformatter-jsx": "^8.0.0",
     "eslint": "^3.18.0",
     "eslint-plugin-react": "^6.10.0",
     "eslint-plugin-redux-saga": "^0.3.0",

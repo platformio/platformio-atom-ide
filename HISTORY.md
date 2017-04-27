@@ -4,6 +4,7 @@
 
 * Completely rewritten in React
 * PlatformIO Home
+* The Unified Debugger
 * Library Manager ([#8](https://github.com/platformio/platformio-atom-ide/issues/8), [#85](https://github.com/platformio/platformio-atom-ide/issues/85))    
 * Board Explorer
 * Platform Manager
