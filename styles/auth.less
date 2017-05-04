@@ -1,0 +1,70 @@
+@import "ui-variables";
+@import "octicon-mixins";
+@import "octicon-utf-codes";
+
+@pio-auth-padding: @component-padding * 3;
+
+.auth-modal {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: @component-padding * 5 @component-padding * 10;
+  margin: 0 auto;
+
+  .header {
+    padding-bottom: @pio-auth-padding;
+  }
+
+  .username-input::before {
+    .octicon-font();
+    content: @person;
+
+    position: absolute;
+    margin-left: 1em;
+  }
+
+  .password-input::before {
+    .octicon-font();
+    content: @key;
+
+    position: absolute;
+    margin-left: 1em;
+  }
+
+  .forgot-password-link {
+    padding-top: @pio-auth-padding / 2;
+  }
+
+  .register-or-login-link {
+    padding-top: @pio-auth-padding;
+  }
+
+  .skip-button {
+    color: @text-color-subtle;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    label {
+      display: none;
+    }
+    input {
+      padding-left: 2.5em;
+    }
+  }
+
+  .auth-complete-button {
+    width: 100%;
+  }
+
+  .error-block {
+    pre {
+      width: 100%;
+      text-align: left;
+      margin: 1em auto;
+    }
+  }
+}
