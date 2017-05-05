@@ -98,8 +98,20 @@
 
 .account-page {
 
+  .password-page {
+    max-width: 400px;
+  }
+
   .token-page .token-place {
     width: 310px;
+  }
+
+  .account-groups {
+    margin-top: @component-padding * 4;
+
+    dl:not(:last-child) {
+      border-bottom: 1px solid lighten(@base-background-color, 3%);
+    }
   }
 
   .password-page .forgot-password {
