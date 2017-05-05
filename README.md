@@ -9,7 +9,7 @@
     - 20+ development platforms
     - 10+ frameworks
 
-* [PIO Unified Debugger](http://docs.platformio.org/en/latest/plus/debugging.html)
+* [PIO Unified Debugger](http://docs.platformio.org/page/plus/debugging.html)
 * C/C++ Intelligent Code Completion
 * C/C++ Smart Code Linter for rapid professional development
 * Library Manager for the hundreds popular libraries
@@ -28,9 +28,9 @@ TI MSP430 & Tiva, Teensy, Arduino, ARM mbed, libOpenCM3, ESP8266, etc.*
 
 ## How it works
 
-Please follow to the official documentation [PlatformIO IDE for Atom](http://docs.platformio.org/en/stable/ide/atom.html).
+Please follow to the official documentation [PlatformIO IDE for Atom](http://docs.platformio.org/page/ide/atom.html).
 
-![PlatformIO IDE for Atom](http://docs.platformio.org/en/stable/_images/ide-atom-platformio.png "PlatformIO IDE for Atom")
+![PlatformIO IDE for Atom](http://docs.platformio.org/page/_images/ide-atom-platformio.png "PlatformIO IDE for Atom")
 
 ## License
 
