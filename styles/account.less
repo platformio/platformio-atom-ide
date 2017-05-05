@@ -1,8 +1,35 @@
+/**
+ * Copyright (c) 2016-present, PlatformIO Plus <contact@pioplus.com>
+ * All rights reserved.
+ *
+ * This source code is licensed under the license found in the LICENSE file in
+ * the root directory of this source tree.
+ */
+
 @import "ui-variables";
 @import "octicon-mixins";
 @import "octicon-utf-codes";
 
 @pio-auth-padding: @component-padding * 3;
+
+.sparse-flex-row() {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accunt-page {
+  .password-page {
+    .change-password-buttons {
+      .sparse-flex-row();
+
+      .retry-button {
+        padding: @component-padding;
+      }
+    }
+  }
+}
 
 .auth-modal {
   display: flex;
@@ -65,6 +92,32 @@
       width: 100%;
       text-align: left;
       margin: 1em auto;
+    }
+  }
+}
+
+.token-page {
+  .selectable {
+    -webkit-user-select: text;
+    user-select: text;
+  }
+
+  .non-selectable {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .non-selectable:hover {
+    cursor: help;
+  }
+}
+
+.password-request-modal {
+  .password-request-modal-buttons {
+    .sparse-flex-row();
+
+    .cancel-button {
+      padding: @component-padding;
     }
   }
 }
