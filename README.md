@@ -9,6 +9,7 @@
     - 20+ development platforms
     - 10+ frameworks
 
+* [PIO Unified Debugger](http://docs.platformio.org/en/latest/plus/debugging.html)
 * C/C++ Intelligent Code Completion
 * C/C++ Smart Code Linter for rapid professional development
 * Library Manager for the hundreds popular libraries
