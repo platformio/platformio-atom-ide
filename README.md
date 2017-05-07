@@ -19,7 +19,7 @@
 * Built-in Terminal with PlatformIO Core tool (``pio``, ``platformio``)    
 
 [PlatformIO](http://platformio.org/) is an open source ecosystem
-for IoT development. Cross-platform code builder and library manager.
+for IoT development. Cross-platform code builder, unified debugger and library manager.
 Continuous and IDE integration. Arduino and ARM mbed compatible.
 
 *Atmel AVR & SAM, Espressif 8266 & 32, Freescale Kinetis, Intel ARC32, Lattice iCE40,
@@ -30,7 +30,7 @@ TI MSP430 & Tiva, Teensy, Arduino, ARM mbed, libOpenCM3, ESP8266, etc.*
 
 Please follow to the official documentation [PlatformIO IDE for Atom](http://docs.platformio.org/page/ide/atom.html).
 
-![PlatformIO IDE for Atom](http://docs.platformio.org/page/_images/ide-atom-platformio.png "PlatformIO IDE for Atom")
+[![PlatformIO IDE for Atom](http://docs.platformio.org/page/_images/ide-atom-platformio.png)](http://platformio.org/platformio-ide)
 
 ## License
 
