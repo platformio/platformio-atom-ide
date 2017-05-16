@@ -84,6 +84,7 @@
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.4",
     "react-router": "^4.1.1",
+    "react-simple-dropdown": "^3.0.0",
     "reactable": "^0.14.1",
     "redux": "^3.6.0",
     "redux-saga": "^0.15.3",

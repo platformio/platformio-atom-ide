@@ -1,0 +1,7 @@
+# .native-key-bindings does not actually make `tab` and `shift-tab` keystrokes
+# behave natively. Second class is introduced here in order to make this
+# selectore more specific, so that the rules here override the default
+# .native-key-bindings behavior.
+'.pio-native-key-bindings-tab-fix.native-key-bindings':
+  'tab': 'native!'
+  'shift-tab': 'native!'

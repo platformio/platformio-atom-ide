@@ -12,31 +12,9 @@
 
 @pio-auth-padding: @component-padding * 3;
 
-.sparse-flex-row() {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.accunt-page {
-  .password-page {
-    .change-password-buttons {
-      .sparse-flex-row();
-
-      .retry-button {
-        padding: @component-padding;
-      }
-    }
-  }
-}
-
 .auth-modal {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   padding: @component-padding * 5 @component-padding * 10;
-  margin: 0 auto;
 
   .header {
     padding-bottom: @pio-auth-padding;
@@ -114,8 +92,26 @@
     }
   }
 
-  .password-page .forgot-password {
-    margin-top: @component-padding * 7;
+}
+
+.user-status {
+  -webkit-user-select: none;
+  user-select: none;
+  min-width: 150px;
+  text-align: left;
+
+  .arrow-icon {
+    position: relative;
+    top: 2px;
   }
 
+  .dropdown__content {
+    z-index: 2;  // Fixes issue when Quick access links are above the dropdown.
+    padding: @component-padding;
+    margin-top: @component-padding;
+    border: @overlay-border-color 1px solid;
+    border-radius: @component-border-radius;
+    background: @overlay-background-color;
+    text-align: left;
+  }
 }
