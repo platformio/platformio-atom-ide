@@ -19,8 +19,7 @@
 * Built-in Terminal with PlatformIO Core tool (``pio``, ``platformio``)    
 
 [PlatformIO](http://platformio.org/) is an open source ecosystem
-for IoT development. Cross-platform code builder, unified debugger and library manager.
-Continuous and IDE integration. Arduino and ARM mbed compatible.
+for IoT development. Cross-platform IDE and unified debugger. Remote unit testing and firmware updates.
 
 *Atmel AVR & SAM, Espressif 8266 & 32, Freescale Kinetis, Intel ARC32, Lattice iCE40,
 Microchip PIC32, Nordic nRF51, NXP LPC, Silicon Labs EFM32, ST STM32,
