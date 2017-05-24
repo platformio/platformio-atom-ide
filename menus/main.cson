@@ -1,194 +1,242 @@
-'menu': [
+menu: [
   {
-    'label': 'PlatformIO'
-    'submenu': [
+    label: 'PlatformIO'
+    submenu: [
       {
-        'label': 'PlatformIO Home'
-        'command': 'platformio-ide:home'
+        label: 'PlatformIO Home'
+        command: 'platformio-ide:home'
       }
       {
-        'label': 'PlatformIO Plus'
-        'command': 'platformio-ide:piolpus-site'
-      }      
-      {
-        'label': 'Project Examples'
-        'command': 'platformio-ide:project-examples'
-      }
-      {'type': 'separator'}
-      {
-        'label': 'Initialize or Update PlatformIO Project'
-        'command': 'platformio-ide:initialize-new-project'
+        label: 'PlatformIO Plus'
+        command: 'platformio-ide:piolpus-site'
       }
       {
-        'label': 'Import Arduino IDE Project...'
-        'command': 'platformio-ide:import-arduino-ide-project'
+        label: 'Project Examples'
+        command: 'platformio-ide:project-examples'
+      }
+      { type: 'separator' }
+      {
+        label: 'Initialize or Update PlatformIO Project'
+        command: 'platformio-ide:initialize-new-project'
       }
       {
-        'label': 'Open Project folder...'
-        'command': 'application:add-project-folder'
-      }
-      {'type': 'separator'}
-      {
-        'label': 'Build'
-        'command': 'platformio-ide:target:build'
+        label: 'Import Arduino IDE Project...'
+        command: 'platformio-ide:import-arduino-ide-project'
       }
       {
-        'label': 'Upload'
-        'command': 'platformio-ide:target:upload'
+        label: 'Open Project folder...'
+        command: 'application:add-project-folder'
+      }
+      { type: 'separator' }
+      {
+        label: 'Build'
+        command: 'platformio-ide:target:build'
       }
       {
-        'label': 'Clean'
-        'command': 'platformio-ide:target:clean'
+        label: 'Upload'
+        command: 'platformio-ide:target:upload'
       }
       {
-        'label': 'Test (Unit Testing)'
-        'command': 'platformio-ide:target:test'
+        label: 'Clean'
+        command: 'platformio-ide:target:clean'
       }
       {
-        'label': 'Run other target...'
-        'command': 'build:select-active-target'
+        label: 'Test (Unit Testing)'
+        command: 'platformio-ide:target:test'
       }
       {
-        'label': 'Toggle Build Panel'
-        'command': 'build:toggle-panel'
-      }
-      {'type': 'separator'}
-      {
-        'label': 'Terminal'
-        'submenu': [
+        label: 'Debug'
+        submenu: [
           {
-            'label': 'Toggle'
-            'command': 'platformio-ide-terminal:toggle'
-          },
+            label: 'Start new debug session'
+            command: 'platformio-ide:target:debug'
+          }
           {
-            'label': 'New Terminal'
-            'command': 'platformio-ide-terminal:new'
-          },
+            label: 'Stop'
+            command: 'platformio-ide-debugger:disconnect'
+          }
+          { type: 'separator' }
           {
-            'label': 'Previous Terminal'
-            'command': 'platformio-ide-terminal:prev'
-          },
+            label: 'Resume'
+            command: 'platformio-ide-debugger:continue'
+          }
           {
-            'label': 'Next Terminal'
-            'command': 'platformio-ide-terminal:next'
-          },
+            label: 'Suspend'
+            command: 'platformio-ide-debugger:interrupt'
+          }
+          { type: 'separator' }
           {
-            'label': 'Close Terminal'
-            'command': 'platformio-ide-terminal:close'
-          },
+            label: 'Step Over'
+            command: 'platformio-ide-debugger:next'
+          }
           {
-            'label': 'Close All Terminals'
-            'command': 'platformio-ide-terminal:close-all'
+            label: 'Step Into'
+            command: 'platformio-ide-debugger:step'
+          }
+          {
+            label: 'Step Out'
+            command: 'platformio-ide-debugger:finish'
+          }
+          { type: 'separator' }
+          {
+            label: 'Toggle breakpoint on current line'
+            command: 'platformio-ide-debugger:toggle-breakpoint'
+          }
+          {
+            label: 'Toggle Control Panel'
+            command: 'platformio-ide-debugger:toggle-panel'
+          }
+          {
+            label: 'Toggle Debugger Console'
+            command: 'platformio-ide-debugger:toggle-cli'
           }
         ]
       }
       {
-        'label': 'Serial Monitor'
-        'command': 'platformio-ide:maintenance.serial-monitor'
+        label: 'Run other target...'
+        command: 'build:select-active-target'
       }
       {
-        'label': 'List Serial Ports'
-        'command': 'platformio-ide:maintenance.serial-ports'
+        label: 'Toggle Build Panel'
+        command: 'build:toggle-panel'
       }
-      {'type': 'separator'}
+      { type: 'separator' }
       {
-        'label': 'Rebuild C/C++ Project Index (Autocomplete, Linter)'
-        'command': 'platformio-ide:maintenance.rebuild-index'
-      }
-      {
-        'label': 'Install Shell Commands'
-        'command': 'platformio-ide:maintenance.install-commands'
-      }
-      {'type': 'separator'}
-      {
-        'label': 'Update platforms, packages and libraries'
-        'command': 'platformio-ide:maintenance.update-platformio'
-      }
-      {
-        'label': 'Upgrade PlatformIO Core'
-        'command': 'platformio-ide:maintenance.upgrade-platformio'
-      }
-      {
-        'label': 'Update Atom packages'
-        'command': 'settings-view:check-for-package-updates'
-      }
-      {'type': 'separator'}
-      {
-        'label': 'Settings'
-        'submenu': [
+        label: 'Terminal'
+        submenu: [
           {
-            'label': 'PlatformIO IDE'
-            'command': 'platformio-ide:settings:pkg-platformio-ide'
+            label: 'Toggle'
+            command: 'platformio-ide-terminal:toggle'
           }
           {
-            'label': 'PlatformIO IDE Terminal'
-            'command': 'platformio-ide:settings:pkg-platformio-ide-terminal'
+            label: 'New Terminal'
+            command: 'platformio-ide-terminal:new'
           }
           {
-            'label': 'Build'
-            'command': 'platformio-ide:settings:pkg-build'
+            label: 'Previous Terminal'
+            command: 'platformio-ide-terminal:prev'
           }
           {
-            'label': 'File Icons'
-            'command': 'platformio-ide:settings:pkg-file-icons'
+            label: 'Next Terminal'
+            command: 'platformio-ide-terminal:next'
           }
           {
-            'label': 'Linter'
-            'command': 'platformio-ide:settings:pkg-linter'
+            label: 'Close Terminal'
+            command: 'platformio-ide-terminal:close'
           }
           {
-            'label': 'Minimap'
-            'command': 'platformio-ide:settings:pkg-minimap'
-          }
-          {
-            'label': 'Tool Bar'
-            'command': 'platformio-ide:settings:pkg-tool-bar'
-          }
-        ]
-      }
-      {'type': 'separator'}
-      {
-        'label': 'Help'
-        'submenu': [
-          {
-            'label': 'Documentation'
-            'command': 'platformio-ide:help-docs'
-          }
-          {
-            'label': 'Frequently Asked Questions'
-            'command': 'platformio-ide:help-faq'
-          }
-          {
-            'label': 'Ask Community'
-            'command': 'platformio-ide:help.community'
-          }
-          {
-            'label': 'Report a Bug/Feature'
-            'command': 'platformio-ide:help.report-platformio-issue'
-          }
-          {'type': 'separator'}
-          {
-            'label': 'Twitter'
-            'command': 'platformio-ide:help-twitter'
-          }
-          {
-            'label': 'Facebook'
-            'command': 'platformio-ide:help-facebook'
-          }
-          {'type': 'separator'}
-          {
-            'label': 'Donate'
-            'command': 'platformio-ide:donate'
-          }
-          {
-            'label': 'Website'
-            'command': 'platformio-ide:help-website'
+            label: 'Close All Terminals'
+            command: 'platformio-ide-terminal:close-all'
           }
         ]
       }
       {
-        'label': 'About'
-        'command': 'platformio-ide:help-about'
+        label: 'Serial Monitor'
+        command: 'platformio-ide:maintenance.serial-monitor'
+      }
+      {
+        label: 'List Serial Ports'
+        command: 'platformio-ide:maintenance.serial-ports'
+      }
+      { type: 'separator' }
+      {
+        label: 'Rebuild C/C++ Project Index (Autocomplete, Linter)'
+        command: 'platformio-ide:maintenance.rebuild-index'
+      }
+      {
+        label: 'Install Shell Commands'
+        command: 'platformio-ide:maintenance.install-commands'
+      }
+      { type: 'separator' }
+      {
+        label: 'Update platforms, packages and libraries'
+        command: 'platformio-ide:maintenance.update-platformio'
+      }
+      {
+        label: 'Upgrade PlatformIO Core'
+        command: 'platformio-ide:maintenance.upgrade-platformio'
+      }
+      {
+        label: 'Update Atom packages'
+        command: 'settings-view:check-for-package-updates'
+      }
+      { type: 'separator' }
+      {
+        label: 'Settings'
+        submenu: [
+          {
+            label: 'PlatformIO IDE'
+            command: 'platformio-ide:settings:pkg-platformio-ide'
+          }
+          {
+            label: 'PlatformIO IDE Terminal'
+            command: 'platformio-ide:settings:pkg-platformio-ide-terminal'
+          }
+          {
+            label: 'Build'
+            command: 'platformio-ide:settings:pkg-build'
+          }
+          {
+            label: 'File Icons'
+            command: 'platformio-ide:settings:pkg-file-icons'
+          }
+          {
+            label: 'Linter'
+            command: 'platformio-ide:settings:pkg-linter'
+          }
+          {
+            label: 'Minimap'
+            command: 'platformio-ide:settings:pkg-minimap'
+          }
+          {
+            label: 'Tool Bar'
+            command: 'platformio-ide:settings:pkg-tool-bar'
+          }
+        ]
+      }
+      { type: 'separator' }
+      {
+        label: 'Help'
+        submenu: [
+          {
+            label: 'Documentation'
+            command: 'platformio-ide:help-docs'
+          }
+          {
+            label: 'Frequently Asked Questions'
+            command: 'platformio-ide:help-faq'
+          }
+          {
+            label: 'Ask Community'
+            command: 'platformio-ide:help.community'
+          }
+          {
+            label: 'Report a Bug/Feature'
+            command: 'platformio-ide:help.report-platformio-issue'
+          }
+          { type: 'separator' }
+          {
+            label: 'Twitter'
+            command: 'platformio-ide:help-twitter'
+          }
+          {
+            label: 'Facebook'
+            command: 'platformio-ide:help-facebook'
+          }
+          { type: 'separator' }
+          {
+            label: 'Donate'
+            command: 'platformio-ide:donate'
+          }
+          {
+            label: 'Website'
+            command: 'platformio-ide:help-website'
+          }
+        ]
+      }
+      {
+        label: 'About'
+        command: 'platformio-ide:help-about'
       }
     ]
   }

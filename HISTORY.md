@@ -2,7 +2,8 @@
 
 ## 2.0.0 (2017-??-??)
 
-* Completely rewritten in React
+* Switched to Apache License 2.0
+* [PIO Unified Debugger](http://docs.platformio.org/page/plus/debugging.html)
 * PlatformIO Home
 * Library Manager ([#8](https://github.com/platformio/platformio-atom-ide/issues/8), [#85](https://github.com/platformio/platformio-atom-ide/issues/85))    
 * Board Explorer
@@ -12,6 +13,7 @@
   - Compatible with Anaconda
   - Allowed disabling non-required Atom's dependencies
 * Added command/hotkey for PIO Core `program` target ([#154](https://github.com/platformio/platformio-atom-ide/issues/154))
+* Intelligent Code Completion + GoTo Declaration for Windows
 
 ## 1.7.3 (2017-03-04)
 
