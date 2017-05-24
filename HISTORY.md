@@ -2,9 +2,9 @@
 
 ## 2.0.0 (2017-??-??)
 
-* Completely rewritten in React
+* Switched to Apache License 2.0
+* [PIO Unified Debugger](http://docs.platformio.org/page/plus/debugging.html)
 * PlatformIO Home
-* The Unified Debugger
 * Library Manager ([#8](https://github.com/platformio/platformio-atom-ide/issues/8), [#85](https://github.com/platformio/platformio-atom-ide/issues/85))    
 * Board Explorer
 * Platform Manager

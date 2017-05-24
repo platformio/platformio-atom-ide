@@ -1,4 +1,4 @@
-# PlatformIO IDE for Atom [![PlatformIO Plus: Professional solutions for an awesome open source PlatformIO ecosystem](https://img.shields.io/PlatformIO/Plus.png)](https://pioplus.com)
+# PlatformIO IDE for Atom
 
 [PlatformIO IDE](http://platformio.org/platformio-ide) is the next generation integrated development environment for IoT:
 

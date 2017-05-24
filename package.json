@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/platformio/platformio-atom-ide/issues"
   },
-  "license": "https://pioplus.com/license.html",
+  "license": "Apache-2.0",
   "engines": {
     "atom": ">=1.13.0 <2.0.0"
   },
