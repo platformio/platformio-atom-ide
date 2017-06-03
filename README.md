@@ -1,4 +1,4 @@
-# PlatformIO IDE for Atom
+# PlatformIO IDE for Atom [![Build Status](https://travis-ci.org/platformio/platformio-atom-ide.svg?branch=develop)](https://travis-ci.org/platformio/platformio-atom-ide)
 
 [PlatformIO IDE](http://platformio.org/platformio-ide) is the next generation integrated development environment for IoT:
 
