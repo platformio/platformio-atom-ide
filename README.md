@@ -35,7 +35,7 @@ Please follow to the official documentation [PlatformIO IDE for Atom](http://doc
 
 ## License
 
-Copyright (с) 2016-present PlatformIO <contact@platformio.org>
+Copyright (c) 2016-present PlatformIO <contact@platformio.org>
 
 The PlatformIO IDE for Atom is licensed under the permissive Apache 2.0 license,
 so you can use it in both commercial and personal projects with confidence.
