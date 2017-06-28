@@ -27,11 +27,6 @@ module.exports = {
       "warn",
       "all"
     ],
-    "indent": [
-      "warn",
-      2,
-      { "SwitchCase": 1 }
-    ],
     "linebreak-style": [
       "error",
       "unix"
@@ -58,5 +53,8 @@ module.exports = {
         "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
       }
     ],
+    "no-useless-escape": [
+      "off"
+    ]
   },
 };
