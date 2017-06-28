@@ -24,8 +24,9 @@
 for IoT development. Cross-platform IDE and unified debugger. Remote unit testing and firmware updates.
 
 *Atmel AVR & SAM, Espressif 8266 & 32, Freescale Kinetis, Intel ARC32, Lattice iCE40,
-Maxim Integrated MAX32, Microchip PIC32, Nordic nRF51, Nordic nRF52, NXP LPC, Silicon Labs EFM32, ST STM32,
-TI MSP430 & Tiva, Teensy, Arduino, ARM mbed, libOpenCM3, ESP8266, etc.*
+Maxim Integrated MAX32, Microchip PIC32, Nordic nRF51 & nRF52, NXP LPC,
+Silicon Labs EFM32, ST STM32, TI MSP430 & Tiva, WIZNet W7500, Teensy, Arduino,
+ARM mbed, libOpenCM3, ESP8266, etc.*
 
 ## How it works
 
