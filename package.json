@@ -1,7 +1,7 @@
 {
   "name": "platformio-ide",
   "main": "./lib/main",
-  "version": "2.0.0-beta.6.1",
+  "version": "2.0.0-beta.6.2",
   "description": "Official PlatformIO IDE for Atom: The next generation integrated development environment for IoT. Cross-platform build system and unified debugger. Remote unit testing and firmware updates.",
   "keywords": [
     "PlatformIO",
