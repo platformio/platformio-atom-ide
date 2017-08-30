@@ -4,11 +4,11 @@
   <form class="">
     <div class="form-group">
       <label>Port</label>
-      <select class="port-select form-control monitor-option" data-monitor-option="port"></select>
+      <select class="input-select port-select form-control monitor-option" data-monitor-option="port"></select>
     </div>
     <div class="form-group">
       <label>Baudrate</label>
-      <select class="baudrate-input form-control monitor-option" data-monitor-option="baud">
+      <select class="input-select baudrate-input form-control monitor-option" data-monitor-option="baud">
         <option value="300">300</option>
         <option value="600">600</option>
         <option value="1200">1200</option>
@@ -33,10 +33,10 @@
     </div>
 
     <a class="toggle-advanced-settings pull-right" href="#">Toggle advanced settings</a>
-    <div class="advanced-settings">
+    <div class="advanced-settings" style="display: none">
       <div class="form-group">
         <label>Parity</label>
-        <select class="form-control monitor-option" data-monitor-option="parity">
+        <select class="input-select form-control monitor-option" data-monitor-option="parity">
           <option value="N" selected>N</option>
           <option value="E">E</option>
           <option value="O">O</option>
@@ -46,7 +46,7 @@
       </div>
       <div class="form-group">
         <label>Filter</label>
-        <select class="form-control monitor-option" data-monitor-option="filter">
+        <select class="input-select form-control monitor-option" data-monitor-option="filter">
           <option value="colorize">colorize - Apply different colors for received and echo</option>
           <option value="debug">debug - Print what is sent and received</option>
           <option value="default" selected>default - Remove typical terminal control codes from input</option>
@@ -57,7 +57,7 @@
       </div>
       <div class="form-group">
         <label>Encoding</label>
-        <select class="form-control monitor-option" data-monitor-option="encoding">
+        <select class="input-select form-control monitor-option" data-monitor-option="encoding">
           <option value="UTF-8" selected>UTF-8</option>
           <option value="hexlify">hexlify</option>
           <option value="Latin1">Latin1</option>
@@ -65,7 +65,7 @@
       </div>
       <div class="form-group">
         <label>EOL Mode</label>
-        <select class="form-control monitor-option" data-monitor-option="eol">
+        <select class="input-select form-control monitor-option" data-monitor-option="eol">
           <option value="CRLF" selected>CRLF</option>
           <option value="CR">CR</option>
           <option value="LF">LF</option>
@@ -73,7 +73,7 @@
       </div>
       <div class="form-group">
         <label>DTR</label>
-        <select class="form-control monitor-option" data-monitor-option="dtr">
+        <select class="input-select form-control monitor-option" data-monitor-option="dtr">
           <option value="-" selected>-</option>
           <option value="0">off</option>
           <option value="1">on</option>
@@ -81,7 +81,7 @@
       </div>
       <div class="form-group">
         <label>RTS</label>
-        <select class="form-control monitor-option" data-monitor-option="rts">
+        <select class="input-select form-control monitor-option" data-monitor-option="rts">
           <option value="-" selected>-</option>
           <option value="0">off</option>
           <option value="1">on</option>
@@ -89,14 +89,14 @@
       </div>
       <div class="form-group">
         <label>Raw</label>
-        <select class="form-control monitor-option" data-monitor-option="raw">
+        <select class="input-select form-control monitor-option" data-monitor-option="raw">
           <option value="-" selected>No</option>
           <option value="">Yes - Do not apply any encodings/transformations</option>
         </select>
       </div>
       <div class="form-group">
         <label>Local echo</label>
-        <select class="form-control monitor-option" data-monitor-option="echo">
+        <select class="input-select form-control monitor-option" data-monitor-option="echo">
           <option value="-" selected>No</option>
           <option value="">Yes</option>
         </select>

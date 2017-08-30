@@ -6,27 +6,6 @@ menu: [
         label: 'PlatformIO Home'
         command: 'platformio-ide:home'
       }
-      {
-        label: 'PlatformIO Plus'
-        command: 'platformio-ide:piolpus-site'
-      }
-      {
-        label: 'Project Examples'
-        command: 'platformio-ide:project-examples'
-      }
-      { type: 'separator' }
-      {
-        label: 'Initialize or Update PlatformIO Project'
-        command: 'platformio-ide:initialize-new-project'
-      }
-      {
-        label: 'Import Arduino IDE Project...'
-        command: 'platformio-ide:import-arduino-ide-project'
-      }
-      {
-        label: 'Open Project folder...'
-        command: 'application:add-project-folder'
-      }
       { type: 'separator' }
       {
         label: 'Build'
@@ -233,10 +212,6 @@ menu: [
             command: 'platformio-ide:help-website'
           }
         ]
-      }
-      {
-        label: 'About'
-        command: 'platformio-ide:help-about'
       }
     ]
   }

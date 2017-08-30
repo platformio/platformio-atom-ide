@@ -1,60 +1,83 @@
 module.exports = {
-  "env": {
-    "browser": true,
-    "es6": true,
-    "node": true,
-    "jasmine": true
+  'env': {
+    'browser': false,
+    'es6': true,
+    'node': true,
+    'jasmine': true,
   },
-  "plugins": ["react", "redux-saga"],
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "globals": {
-    "atom": true,
+  'globals': {
+    'DOMParser': true,
+    'ErrorEvent': true,
+    'atom': true,
+    'document': true,
+    'localStorage': true,
+    'navigator': true,
+    'window': true,
   },
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module",
-    "ecmaFeatures": {
+  'plugins': [
+    'import',
+    'jsx'
+  ],
+  'extends': [
+    'eslint:recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings'
+  ],
+  'parser': 'babel-eslint',
+  'parserOptions': {
+    'ecmaVersion': 6,
+    'sourceType': 'module',
+    'ecmaFeatures': {
       "jsx": true
     }
   },
-  "rules": {
-    "comma-dangle": [
-      "error",
-      "only-multiline"
+  'settings': {
+    'import/core-modules': [
+      'atom',
+      'shell'
+    ]
+  },
+  'rules': {
+    'jsx/uses-factory': ['warn', {'pragma': 'jsxDOM'}],
+    'jsx/factory-in-scope': ['warn', {'pragma': 'jsxDOM'}],
+    'jsx/mark-used-vars': 'warn',
+    'comma-dangle': [
+      'error',
+      'only-multiline'
     ],
-    "curly": [
-      "warn",
-      "all"
+    'curly': [
+      'warn',
+      'all'
     ],
-    "linebreak-style": [
-      "error",
-      "unix"
+    'linebreak-style': [
+      'error',
+      'unix'
     ],
-    "no-console": [
-      "error",
-      {"allow": ["warn", "error", "debug"]},
+    'no-console': [
+      'error',
+      { 'allow': ['warn', 'error', 'info'] },
     ],
-    "prefer-const": "error",
-    "quotes": [
-      "error",
-      "single",
-      "avoid-escape"
+    'prefer-const': 'error',
+    'quotes': [
+      'error',
+      'single',
+      'avoid-escape'
     ],
-    "semi": [
-      "error",
-      "always"
+    'semi': [
+      'error',
+      'always'
     ],
-    "sort-imports": [
-      "warn",
+    'sort-imports': [
+      'warn',
       {
-        "ignoreCase": false,
-        "ignoreMemberSort": false,
-        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+        'ignoreCase': false,
+        'ignoreMemberSort': false,
+        'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']
       }
     ],
-    "no-useless-escape": [
-      "off"
-    ]
+    'no-useless-escape': [
+      'off'
+    ],
+    'no-empty': [2, { 'allowEmptyCatch': true }]
   },
 };
