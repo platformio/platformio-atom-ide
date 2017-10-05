@@ -59,7 +59,7 @@
         "^1.0.0": "consumePlatformioIDETerminal"
       }
     },
-    "busy": {
+    "busy-signal": {
       "versions": {
         "^1.0.0": "consumeBusy"
       }
