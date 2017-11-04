@@ -1,8 +1,8 @@
 {
   "name": "platformio-ide",
   "main": "./lib/main",
-  "version": "2.0.0-rc.3",
-  "description": "Official PlatformIO IDE for Atom: The next generation integrated development environment for IoT. Cross-platform build system and unified debugger. Remote unit testing and firmware updates.",
+  "version": "2.0.0-rc.4",
+  "description": "Official PlatformIO IDE for IoT, Arduino, ARM mbed, Espressif (ESP8266/ESP32), STM32, PIC32, nRF51/nRF52, FPGA, CMSIS, SPL, AVR, Samsung ARTIK, libOpenCM3",
   "keywords": [
     "PlatformIO",
     "IoT",
