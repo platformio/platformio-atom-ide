@@ -16,11 +16,15 @@ menu: [
         command: 'platformio-ide:target:upload'
       }
       {
+        label: 'Remote Upload'
+        command: 'platformio-ide:target:remote'
+      }
+      {
         label: 'Clean'
         command: 'platformio-ide:target:clean'
       }
       {
-        label: 'Test (Unit Testing)'
+        label: 'Test'
         command: 'platformio-ide:target:test'
       }
       {
