@@ -1,9 +1,17 @@
 # PlatformIO IDE for Atom [![Build Status](https://travis-ci.org/platformio/platformio-atom-ide.svg?branch=develop)](https://travis-ci.org/platformio/platformio-atom-ide)
 
-[PlatformIO IDE](http://platformio.org/platformio-ide) is the next generation integrated development environment for IoT:
+**The next generation integrated development environment for IoT**
 
-* Cross-platform code builder without external dependencies to the system
-  software:
+[PlatformIO](http://platformio.org) is an open source ecosystem for IoT development.
+Cross-platform build system and unified debugger. Remote unit testing and firmware updates.
+
+**Platforms**: Atmel AVR, Atmel SAM, Espressif 32, Espressif 8266, Freescale Kinetis, Intel ARC32, Lattice iCE40, Maxim 32, Microchip PIC32, Nordic nRF51, Nordic nRF52, NXP LPC, Silicon Labs EFM32, ST STM32, Teensy, TI MSP430, TI Tiva, WIZNet W7500
+
+**Frameworks**: Arduino, ARTIK SDK, CMSIS, Energia, ESP-IDF, libOpenCM3, mbed, Pumbaa, Simba, SPL, STM32Cube, WiringPi
+
+## Features
+
+* Cross-platform code builder without external dependencies to a system software:
 
     - 400+ embedded boards
     - 20+ development platforms
@@ -19,14 +27,6 @@
 * Themes support with dark and light colors
 * Serial Port Monitor
 * Built-in Terminal with PlatformIO Core tool (``pio``, ``platformio``)    
-
-[PlatformIO](http://platformio.org/) is an open source ecosystem
-for IoT development. Cross-platform IDE and unified debugger. Remote unit testing and firmware updates.
-
-*Atmel AVR & SAM, Espressif 8266 & 32, Freescale Kinetis, Intel ARC32, Lattice iCE40,
-Maxim Integrated MAX32, Microchip PIC32, Nordic nRF51 & nRF52, NXP LPC,
-Silicon Labs EFM32, ST STM32, TI MSP430 & Tiva, WIZNet W7500, Teensy, Arduino,
-ARM mbed, libOpenCM3, ESP8266, etc.*
 
 ## How it works
 
