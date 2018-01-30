@@ -2,7 +2,7 @@
 
 ## 2.0.1 (2018-01-30)
 
-* Significantly improved startup time of PIO Unified Debugger
+* Significantly improved startup time of [PIO Unified Debugger](http://docs.platformio.org/page/plus/debugging.html)
 
 ## 2.0.0 (2018-01-23)
 
