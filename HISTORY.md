@@ -1,5 +1,10 @@
 # Release Notes
 
+## 2.1.0 (2018-03-03)
+
+* Multi-themes (Dark & Light) for PIO Home
+* Fixed GitHub's "TLSV1_ALERT_PROTOCOL_VERSION" issue with PIO Core installer (issue [#1551](https://github.com/platformio/platformio-atom-ide/issues/1551))
+
 ## 2.0.1 (2018-01-30)
 
 * Significantly improved startup time of [PIO Unified Debugger](http://docs.platformio.org/page/plus/debugging.html)
