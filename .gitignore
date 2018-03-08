@@ -3,3 +3,4 @@ penv
 .cache
 /project-examples
 *.pyc
+yarn.lock
