@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.1.2 (2018-03-08)
+
+* Fixed endless loop with installing PIO Core when `platformio-ide.useDevelopmentPIOCore` is set to `false`
+
 ## 2.1.1 (2018-03-05)
 
 * Fixed "Cannot read property 'theme' of undefined" when opening [PIO Home](http://docs.platformio.org/page/home/index.html)
