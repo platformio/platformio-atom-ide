@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.1.3 (2018-03-13)
+
+* Speed up the loading of [PIO Home](http://docs.platformio.org/page/home/index.html)
+
 ## 2.1.2 (2018-03-08)
 
 * Fixed endless loop with installing PIO Core when `platformio-ide.useDevelopmentPIOCore` is set to `false`
