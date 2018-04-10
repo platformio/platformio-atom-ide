@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.1.4 (2018-04-09)
+
+* Automatically install related packages to PIO Home
+
 ## 2.1.3 (2018-03-13)
 
 * Speed up the loading of [PIO Home](http://docs.platformio.org/page/home/index.html)
