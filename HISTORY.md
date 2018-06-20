@@ -1,5 +1,10 @@
 # Release Notes
 
+## 2.1.5 (2018-06-20)
+
+* Pre-fill GitHub issue template with system data
+* Improved PIO Core installer using `pip` as Python module
+
 ## 2.1.4 (2018-04-09)
 
 * Automatically install related packages to PIO Home
