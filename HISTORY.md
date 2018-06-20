@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.1.6 (2018-06-21)
+
+* Fixed an issue with infinite PIO Core installation [#1925](https://github.com/platformio/platformio-atom-ide/issues/1925))
+
 ## 2.1.5 (2018-06-20)
 
 * Pre-fill GitHub issue template with system data
