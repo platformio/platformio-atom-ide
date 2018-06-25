@@ -1,5 +1,10 @@
 # Release Notes
 
+## 2.1.7 (2018-06-26)
+
+* Handle PIO Home server errors
+* Install `virtualenv` to the global scope if possible
+
 ## 2.1.6 (2018-06-21)
 
 * Fixed an issue with infinite PIO Core installation [#1925](https://github.com/platformio/platformio-atom-ide/issues/1925))
