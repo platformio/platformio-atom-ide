@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.1.8 (2018-07-17)
+
+* Instruction how to manually create [PIO Core Virtual Environment](http://docs.platformio.org/en/latest/installation.html#virtual-environment)
+
 ## 2.1.7 (2018-06-26)
 
 * Handle PIO Home server errors
