@@ -2,7 +2,8 @@
 
 ## 2.1.8 (2018-07-17)
 
-* Instruction how to manually create [PIO Core Virtual Environment](http://docs.platformio.org/en/latest/installation.html#virtual-environment)
+* Instruction how to manually create [PIO Core Virtual Environment](http://docs.platformio.org/page/installation.html#virtual-environment)
+* Deprecate [PIO Unified Debugger](http://docs.platformio.org/page/plus/debugging.html) for Atom
 
 ## 2.1.7 (2018-06-26)
 
