@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.1.11 (2018-07-19)
+
+* Fixed "Cannot find module 'tslib'"
+
 ## 2.1.10 (2018-07-19)
 
 * Fixed broken integration with PIO Home
