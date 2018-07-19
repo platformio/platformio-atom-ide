@@ -2,7 +2,7 @@
 
 ## 2.1.9 (2018-07-19)
 
-* Fixed "PIP: Command "python setup.py egg_info" failed" (issue [#1950](https://github.com/platformio/platformio-vscode-ide/issues/1950))
+* Fixed "PIP: Command "python setup.py egg_info" failed" (issue [#1950](https://github.com/platformio/platformio-atom-ide/issues/1950))
 
 ## 2.1.8 (2018-07-17)
 
