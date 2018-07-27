@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.1.12 (2018-07-27)
+
+* Improved PlatformIO Core installer
+
 ## 2.1.11 (2018-07-19)
 
 * Fixed "Cannot find module 'tslib'"
