@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.1.13 (2018-08-11)
+
+* Fixed double URI encoding when reporting issue to GitHub
+
 ## 2.1.12 (2018-07-27)
 
 * Improved PlatformIO Core installer
