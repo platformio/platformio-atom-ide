@@ -5,7 +5,7 @@
 [PlatformIO](http://platformio.org) is an open source ecosystem for IoT development.
 Cross-platform build system and unified debugger. Remote unit testing and firmware updates.
 
-**Platforms**: Atmel AVR, Atmel SAM, Espressif 32, Espressif 8266, Freescale Kinetis, Intel ARC32, Lattice iCE40, Maxim 32, Microchip PIC32, Nordic nRF51, Nordic nRF52, NXP LPC, Silicon Labs EFM32, ST STM32, Teensy, TI MSP430, TI Tiva, WIZNet W7500
+**Platforms**: Atmel AVR, Atmel SAM, Espressif 32, Espressif 8266, Freescale Kinetis, Infineon XMC, Intel ARC32, Lattice iCE40, Maxim 32, Microchip PIC32, Nordic nRF51, Nordic nRF52, NXP LPC, RISC-V, Samsung ARTIK, Silicon Labs EFM32, ST STM32, Teensy, TI MSP430, TI Tiva, WIZNet W7500
 
 **Frameworks**: Arduino, ARTIK SDK, CMSIS, Energia, ESP-IDF, libOpenCM3, mbed, Pumbaa, Simba, SPL, STM32Cube, WiringPi
 
@@ -13,9 +13,9 @@ Cross-platform build system and unified debugger. Remote unit testing and firmwa
 
 * Cross-platform code builder without external dependencies to a system software:
 
-    - 400+ embedded boards
-    - 20+ development platforms
-    - 10+ frameworks
+    - 500+ embedded boards
+    - 25+ development platforms
+    - 15+ frameworks
 
 * [PIO Remote™](http://docs.platformio.org/page/plus/pio-remote.html)
 * [PIO Unified Debugger](http://docs.platformio.org/page/plus/debugging.html)
