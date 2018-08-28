@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.2.0 (2018-08-??)
+
+* Refactored Project IntelliSense Indexer and Task Manager
+
 ## 2.1.13 (2018-08-11)
 
 * Fixed double URI encoding when reporting issue to GitHub
