@@ -1,6 +1,6 @@
 # Release Notes
 
-## 2.2.0 (2018-08-??)
+## 2.2.0 (2018-08-28)
 
 * Refactored Project IntelliSense Indexer and Task Manager
 
