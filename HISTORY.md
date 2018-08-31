@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.2.1 (2018-08-??)
+
+* Fixed issue with broken Project IntelliSense Indexer
+
 ## 2.2.0 (2018-08-28)
 
 * Refactored Project IntelliSense Indexer and Task Manager
