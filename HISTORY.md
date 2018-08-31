@@ -1,6 +1,6 @@
 # Release Notes
 
-## 2.2.1 (2018-08-??)
+## 2.2.1 (2018-08-31)
 
 * Fixed issue with broken Project IntelliSense Indexer
 
