@@ -1,5 +1,11 @@
 # Release Notes
 
+## 2.2.2 (2018-09-08)
+
+* Improved performance of Project IntelliSense Indexer
+* Fixed PlatformIO Core "ImportError: cannot import name remove_dead_weakref"
+* Fixed PIO Home "[Errno 48] Address already in use"
+
 ## 2.2.1 (2018-08-31)
 
 * Fixed issue with broken Project IntelliSense Indexer
