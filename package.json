@@ -74,7 +74,7 @@
     "command-join": "^1.1.1",
     "etch": "^0.14.0",
     "fs-plus": "^3.0.1",
-    "platformio-node-helpers": "^3.1.1",
+    "platformio-node-helpers": "^3.3.2",
     "semver": "^5.3.0"
   },
   "devDependencies": {
