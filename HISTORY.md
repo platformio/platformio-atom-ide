@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.2.3 (2018-10-26)
+
+* Handle "Error: Could not create PIO Core Virtual Environment" and propose user to file an issue
+
 ## 2.2.2 (2018-09-08)
 
 * Improved performance of Project IntelliSense Indexer
