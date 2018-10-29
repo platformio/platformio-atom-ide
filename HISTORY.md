@@ -1,5 +1,10 @@
 # Release Notes
 
+## 2.2.4 (2018-10-29)
+
+* Removed "Upload and Monitor" project task (fixed "Inappropriate ioctl for device (error 25)")
+  If you need this task, please switch to [PlatformIO IDE for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
+
 ## 2.2.3 (2018-10-26)
 
 * Handle "Error: Could not create PIO Core Virtual Environment" and propose user to file an issue
