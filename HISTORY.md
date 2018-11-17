@@ -1,5 +1,10 @@
 # Release Notes
 
+## 2.2.5 (2018-11-17)
+
+* Added support for upcoming native WebSockets for PIO Home
+* Updated PlatformIO Core installer's `virtualenv` to 16.1.0
+
 ## 2.2.4 (2018-10-29)
 
 * Removed "Upload and Monitor" project task (fixed "Inappropriate ioctl for device (error 25)")
