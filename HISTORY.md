@@ -1,5 +1,11 @@
 # Release Notes
 
+## 2.2.6 (2018-11-23)
+
+* Use actual Python path when creating a virtual environment
+* Shutdown all PIO Home servers when can't start a new one
+* Better explanation about PIP issue on Windows
+
 ## 2.2.5 (2018-11-17)
 
 * Added support for upcoming native WebSockets for PIO Home
