@@ -1,5 +1,13 @@
 # Release Notes
 
+## 2.3.0 (2018-11-30)
+
+* PlatformIO Core Installer:
+    * Drop SockJS, switch to native WebSockets
+    * Catch errors when upgrading PIP (issue [#436](https://github.com/platformio/platformio-vscode-ide/issues/436))
+    * Check for official Python installation on Windows (resolves issue with a static "sys.prefix" and custom Python builds) (issue [#154](https://github.com/platformio/platformio-vscode-ide/issues/154))
+* Updated minimal dependency of PlatformIO Core to >=3.6.2
+
 ## 2.2.6 (2018-11-23)
 
 * Use actual Python path when creating a virtual environment
