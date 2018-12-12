@@ -1,5 +1,10 @@
 # Release Notes
 
+## 2.3.1 (2018-12-12)
+
+* Use stable PlatformIO Core by default
+* Updated minimal dependency of PlatformIO Core to >=3.6.3
+
 ## 2.3.0 (2018-11-30)
 
 * PlatformIO Core Installer:
