@@ -1,6 +1,6 @@
 # Release Notes
 
-## 2.4.0 (2019-07-??)
+## 2.4.0 (2019-07-19)
 
 * Full support for [PlatformIO Core 4.0](https://community.platformio.org/t/platformio-core-4-0-is-finally-released/8587)
 * PlatformIO Core Installer:
