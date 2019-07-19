@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.4.0 (2019-07-??)
+
+- Removed 'showPlatformIOFiles' configuration option, `.pio` folder will shown automatically in project tree
+
 ## 2.3.1 (2018-12-12)
 
 * Use stable PlatformIO Core by default
