@@ -1,6 +1,6 @@
 # Release Notes
 
-## 2.5.0 (2019-10-??)
+## 2.5.0 (2019-10-31)
 
 * Handle "openTextDocument" in VSCode from upcoming PIO Home 3.0 and Project Inspect
 * Use single PIO Home Server instance per multiple windows/sessions
