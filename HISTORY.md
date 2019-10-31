@@ -1,5 +1,11 @@
 # Release Notes
 
+## 2.5.0 (2019-10-??)
+
+* Handle "openTextDocument" in VSCode from upcoming PIO Home 3.0 and Project Inspect
+* Use single PIO Home Server instance per multiple windows/sessions
+* Fixed an issue with broken GCC Linter
+
 ## 2.4.1 (2019-07-19)
 
 * Fixes typos in modal windows
