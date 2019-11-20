@@ -1,5 +1,16 @@
 # Release Notes
 
+## 2.6.0 (2019-11-??)
+
+- Minimal requirements for PlatformIO Core is >=4.1.0
+- Added PIO Check project task
+- Automatically shutdown PIO Home server after 1-hour inactivity
+- Ignore PIO Home from Proxy using `NO_PROXY` environment variable
+- PlatformIO Core Installer:
+    * Updated default Python installer to 3.7.5
+    * Check Python's "urllib" SSL module
+    * Skip Python from msys, mingw, emacs installations
+
 ## 2.5.0 (2019-10-31)
 
 * Handle "openTextDocument" in VSCode from upcoming PIO Home 3.0 and Project Inspect
