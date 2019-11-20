@@ -1,9 +1,14 @@
 # PlatformIO IDE for Atom [![Build Status](https://travis-ci.org/platformio/platformio-atom-ide.svg?branch=develop)](https://travis-ci.org/platformio/platformio-atom-ide)
 
-**The next generation integrated development environment for IoT**
+**A new generation toolset for embedded C/C++ development**
 
-[PlatformIO](http://platformio.org) is an open source ecosystem for IoT development.
-Cross-platform build system and unified debugger. Remote unit testing and firmware updates.
+[PlatformIO](https://platformio.org) is a new generation ecosystem for embedded development.
+
+* Open source, maximum permissive Apache 2.0 license
+* Cross-platform IDE and Unified Debugger
+* Static Code Analyzer and Remote Unit Testing
+* Multi-platform and Multi-architecture Build System
+* Firmware File Explorer and Memory Inspection.
 
 **Platforms**: Atmel AVR, Atmel SAM, Espressif 32, Espressif 8266, Freescale Kinetis, Infineon XMC, Intel ARC32, Lattice iCE40, Maxim 32, Microchip PIC32, Nordic nRF51, Nordic nRF52, NXP LPC, RISC-V, Samsung ARTIK, Silicon Labs EFM32, ST STM32, Teensy, TI MSP430, TI Tiva, WIZNet W7500
 
