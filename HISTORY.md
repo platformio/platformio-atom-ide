@@ -1,5 +1,13 @@
 # Release Notes
 
+## 2.7.0 (2020-06-13)
+
+* New PlatformIO Core Installer
+  - Switched to the cross-platform and portable [get-platformio.py](https://github.com/platformio/platformio-core-installer) installer script
+  - Use built-in portable Python 3 on Windows
+* Added support for ``extends`` option in ``platformio.ini`` project configuration file
+* Reduced startup time (PIO Core verification process)
+
 ## 2.6.0 (2019-11-20)
 
 - Minimal requirements for PlatformIO Core is >=4.1.0
