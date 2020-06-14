@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.7.1 (2020-06-14)
+
+* Fixed an error "ENOENT: no such file or directory, open '~/.platformio/homestate.json'"
+
 ## 2.7.0 (2020-06-13)
 
 * New PlatformIO Core Installer
