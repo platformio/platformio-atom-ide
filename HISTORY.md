@@ -1,5 +1,9 @@
 # Release Notes
 
+# 2.7.2
+
+* Fixed an issue when Atom has become unresponsive (issue [#2444](https://github.com/platformio/platformio-atom-ide/issues/2444))
+
 ## 2.7.1 (2020-06-14)
 
 * Fixed an error "ENOENT: no such file or directory, open '~/.platformio/homestate.json'"
@@ -160,8 +164,8 @@
 ## 2.0.0 (2018-01-23)
 
 * PlatformIO Home
-  - PIO Account  
-  - Library Manager   
+  - PIO Account
+  - Library Manager
   - Board Explorer
   - Platform Manager
 * New PlatformIO IDE Installer
